@@ -1,0 +1,6 @@
+[+] hooked connect
+[+] hooked SSL_write @ 0x7e6932f92480
+[+] hooked SSL_read @ 0x7e6932f92030
+[+] hooked send
+[+] hooked recv
+[*] net_sniff ready

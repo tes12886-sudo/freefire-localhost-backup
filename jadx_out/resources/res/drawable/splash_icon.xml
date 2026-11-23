@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt" android:drawable="@drawable/_splash_icon__0_res_0x7f080000">
+    <target
+        android:name="stroke_front_yellow"
+        android:animation="@drawable/_splash_icon__1_res_0x7f080001"/>
+    <target
+        android:name="stroke_front_purple"
+        android:animation="@drawable/_splash_icon__2_res_0x7f080004"/>
+    <target
+        android:name="stroke_behind_yellow"
+        android:animation="@drawable/_splash_icon__3_res_0x7f080005"/>
+    <target
+        android:name="stroke_behind_purple"
+        android:animation="@drawable/_splash_icon__4_res_0x7f080006"/>
+    <target
+        android:name="group_2"
+        android:animation="@drawable/_splash_icon__5_res_0x7f080007"/>
+    <target
+        android:name="group_1"
+        android:animation="@drawable/_splash_icon__6_res_0x7f080008"/>
+    <target
+        android:name="group"
+        android:animation="@drawable/_splash_icon__7_res_0x7f080009"/>
+    <target
+        android:name="group_3"
+        android:animation="@drawable/_splash_icon__8_res_0x7f08000a"/>
+    <target
+        android:name="fill_front"
+        android:animation="@drawable/_splash_icon__9_res_0x7f08000b"/>
+    <target
+        android:name="fill_behind"
+        android:animation="@drawable/_splash_icon__10_res_0x7f080002"/>
+    <target
+        android:name="group_4"
+        android:animation="@drawable/_splash_icon__11_res_0x7f080003"/>
+</animated-vector>

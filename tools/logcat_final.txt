@@ -1,0 +1,859 @@
+--------- beginning of main
+11-23 10:28:54.373  1340  2145 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 4, widgetFlipperIndex = 0, preWidgetDataIndex = 3, preWidgetFlipperIndex = 1
+11-23 10:28:54.374  1340  2145 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+--------- beginning of system
+11-23 10:28:54.375   770   990 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+11-23 10:28:55.165   770  2121 W ActivityTaskManager: callingPackage for (uid=2000, pid=2429) has no WPC
+11-23 10:28:55.168   770  2121 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@c8d619c1 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-23 10:28:55.168   770  2121 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+11-23 10:28:55.169   770  2121 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+11-23 10:28:55.172   770  2121 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-23 10:28:55.197  1039  1164 V WindowManagerShell: Transition requested (#7): android.os.BinderProxy@c6729fc TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=23 effectiveUid=10066 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=1 lastActiveTime=276400 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@b9fd885} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{2e5e6da com.dtd.freefireth.FFMainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 7 }
+11-23 10:28:55.197  1039  1164 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+11-23 10:28:55.197   770  2121 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+11-23 10:28:55.200   688   688 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-23 10:28:55.207   770   825 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@c8d619c1 does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-23 10:28:55.207  1039  1164 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=102
+11-23 10:28:55.208  1031  1031 W SplitSelectStateCtor: Missing session instanceIds
+11-23 10:28:55.209  1031  1031 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-23 10:28:55.229  1340  1340 W WidgetOperateReceiver: onReceive: intent = Intent { act=com.mumu.LAUNCHER_LIFECYCLE flg=0x30 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver (has extras) } action = com.mumu.LAUNCHER_LIFECYCLE
+11-23 10:28:55.230  1340  1340 W WidgetOperateReceiver: onLauncherLifecycle: launcherLifecycle = ON_PAUSE
+11-23 10:28:55.230  1340  1340 W WidgetManager: updateLauncherLifecycle: launcherLifecycleName = ON_PAUSE
+11-23 10:28:55.236   626   626 D Zygote  : Forked child process 2432
+11-23 10:28:55.260   770   839 W ActivityManager: Slow operation: 53ms so far, now at startProcess: building log message
+11-23 10:28:55.260   770   839 I ActivityManager: Start proc 2432:com.dtd.freefireth/u0a66 for next-top-activity {com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}
+11-23 10:28:55.260   770   839 W ActivityManager: Slow operation: 53ms so far, now at startProcess: starting to update pids map
+11-23 10:28:55.261   770  1633 D CoreBackPreview: Window{5bd1b24 u0 Splash Screen com.dtd.freefireth}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@f36aabc, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:28:55.262   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:28:55.263   770  2379 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+11-23 10:28:55.265   770   839 W ActivityManager: Slow operation: 58ms so far, now at startProcess: done updating pids map
+11-23 10:28:55.269  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:28:55.279  2432  2432 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: No such file or directory
+11-23 10:28:55.279  2432  2432 E Zygote  : pkg name is 0 => com.dtd.freefireth, data dir is /data/user/0/com.dtd.freefireth
+11-23 10:28:55.283  2432  2432 W zygote64: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: nemuhotd
+11-23 10:28:55.288  1039  1208 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: setPresentationRotation 1 for com.dtd.freefireth:23
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: java.lang.Exception
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:638)
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1957)
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:222)
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:28:55.290   770   822 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:28:55.302  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:28:55.308  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 282624
+11-23 10:28:55.320  1039  1065 V WindowManagerShell: onTransitionReady(transaction=3307124818376)
+11-23 10:28:55.320  1039  1164 V WindowManagerShell: onTransitionReady (#7) android.os.BinderProxy@c6729fc: {id=7 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:28:55.320  1039  1164 V WindowManagerShell:         {m=OPEN f=NONE leash=Surface(name=Task=23)/@0x9073c73 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},
+11-23 10:28:55.320  1039  1164 V WindowManagerShell:         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x71f730 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1}
+11-23 10:28:55.320  1039  1164 V WindowManagerShell:     ]}
+11-23 10:28:55.320  1039  1164 V WindowManagerShell: Playing animation for (#7) android.os.BinderProxy@c6729fc@0
+11-23 10:28:55.320  1039  1164 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+11-23 10:28:55.320  1039  1164 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=7 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=23)/@0x9073c73 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x71f730 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1}]}
+11-23 10:28:55.320  1039  1164 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@73808e6, appThread = android.app.IApplicationThread$Stub$Proxy@d760e27, debugName = QuickstepLaunchHome }}
+11-23 10:28:55.320  1039  1164 V WindowManagerShell:  Delegate animation for (#7) to null
+11-23 10:28:55.320  1039  1164 V WindowManagerShell: start default transition animation, info = {id=7 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=23)/@0x9073c73 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x71f730 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1}]}
+11-23 10:28:55.321  1039  1164 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@c33d5b4 animAttr=0x13 type=OPEN isEntrance=false
+11-23 10:28:55.323  1039  1164 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@7129920 animAttr=0x12 type=OPEN isEntrance=true
+11-23 10:28:55.327  1039  1164 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@32b65c3
+11-23 10:28:55.328   770  2121 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:28:55.330  1039  1164 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#7) android.os.BinderProxy@c6729fc@0
+11-23 10:28:55.339  1031  1031 D VRI[LawnchairLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+11-23 10:28:55.341  1039  1164 V WindowManagerShell: Track 0 became idle
+11-23 10:28:55.341  1039  1164 V WindowManagerShell: All active transition animations finished
+11-23 10:28:55.343   770  2121 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:28:55.346   770  2121 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:28:55.349   770   822 V WindowManager: Sent Transition (#7) createdAt=11-23 10:28:55.169 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=23 effectiveUid=10066 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=1 lastActiveTime=276400 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{5137f78 Task{9897dea #23 type=standard A=10066:com.dtd.freefireth}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{6513fbf com.dtd.freefireth.FFMainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 7 }
+11-23 10:28:55.349   770   822 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+11-23 10:28:55.349   770   822 V WindowManager:     info={id=7 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:28:55.349   770   822 V WindowManager:         {WCT{RemoteToken{5137f78 Task{9897dea #23 type=standard A=10066:com.dtd.freefireth}}} m=OPEN f=NONE leash=Surface(name=Task=23)/@0xbd8eecb sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},
+11-23 10:28:55.349   770   822 V WindowManager:         {WCT{RemoteToken{9d01adf Task{b7f0c33 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x96b97a6 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1}
+11-23 10:28:55.349   770   822 V WindowManager:     ]}
+11-23 10:28:55.349   770   822 V WindowManager: Finish Transition (#7): created at 11-23 10:28:55.169 collect-started=0.067ms request-sent=26.628ms started=29.014ms ready=138.177ms sent=148.959ms finished=169.398ms
+11-23 10:28:55.353   770   822 E ActivityManager: Sending non-protected broadcast nemu.intent.action.NEW_TASK from system 770:system/1000 pkg android
+11-23 10:28:55.353   770   822 E ActivityManager: java.lang.Throwable
+11-23 10:28:55.353   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2118)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14410)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at android.app.ContextImpl.sendBroadcastAsUser(ContextImpl.java:1509)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at android.content.ContextWrapper.sendBroadcastAsUser(ContextWrapper.java:603)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils.$r8$lambda$JRBio5N1z1PXvDB9E_DBrd2vjYw(TaskUtils.java:2179)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils$$ExternalSyntheticLambda2.run(R8$$SyntheticClass:0)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:28:55.353   770   822 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:28:55.373  1039  1208 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:28:55.423  2432  2432 I Zygote  : seccomp disabled by setenforce 0
+11-23 10:28:55.440  1039  2437 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 282624
+11-23 10:28:55.452  1039  2437 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 282624
+11-23 10:28:55.453  1039  1195 I Choreographer: Skipped 92 frames!  The application may be doing too much work on its main thread.
+11-23 10:28:55.479  2432  2432 I .dtd.freefireth: Using CollectorTypeCMC GC.
+11-23 10:28:55.498  2432  2432 W .dtd.freefireth: Unexpected CPU variant for x86: x86_64.
+11-23 10:28:55.498  2432  2432 W .dtd.freefireth: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-23 10:28:55.498  2432  2432 V libnb   : enter native_bridge2_initialize /data/user/0/com.dtd.freefireth/code_cache arm64
+11-23 10:28:55.500  2432  2432 E libnb   : The translator implementation library has not been set.
+11-23 10:28:55.573  2432  2432 E libnb   : get_callbacks native_handle 0x2c490b83944e8693: 1 libnb:/system/lib64/libhoudini.so
+11-23 10:28:55.574  2432  2432 I libnb   : Found /system/lib64/libhoudini.so version 7
+11-23 10:28:55.577  2432  2432 I .dtd.freefireth: type=1400 audit(0.0:455): avc:  denied  { write } for  name="property_service" dev="tmpfs" ino=664 scontext=u:r:untrusted_app_30:s0:c66,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1 app=com.dtd.freefireth
+11-23 10:28:55.622  1031  1043 I app.lawnchair: Background concurrent mark compact GC freed 7804KB AllocSpace bytes, 65(1300KB) LOS objects, 49% free, 9759KB/19MB, paused 2.481ms,1.790ms total 392.680ms
+11-23 10:28:55.577  2432  2432 I .dtd.freefireth: type=1400 audit(0.0:456): avc:  denied  { connectto } for  path="/dev/socket/property_service" scontext=u:r:untrusted_app_30:s0:c66,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1 app=com.dtd.freefireth
+11-23 10:28:55.661  2432  2432 I houdini : [2432] Houdini now in android app mode
+11-23 10:28:55.661  2432  2432 I houdini : [2432] Intel Bridge Technology for NetEase Mumu only, Copyright(C) Intel Corp. 2012-now.
+11-23 10:28:55.661  2432  2432 I houdini : [2432] Use permitted only under a valid commercial software license agreement - all other rights reserved.
+11-23 10:28:55.661  2432  2432 I houdini : [2432] Initialize library(version: 15.0.0.Netease_com3.0 RELEASE)... successfully.
+11-23 10:28:55.661  2432  2432 W HP      : x_initialize private_dir:/data/user/0/com.dtd.freefireth/code_cache instruction_set:arm64 getMethodShorty:0x77c01e22c700 ret:1
+11-23 10:28:55.694  2432  2432 E .dtd.freefireth: Not starting debugger since process cannot load the jdwp agent.
+11-23 10:28:55.711  2432  2432 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-23 10:28:55.779   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:28:55.782   770  1633 I BroadcastQueue: BOOT_COMPLETED_BROADCAST_COMPLETION_LATENCY_REPORTED action:android.intent.action.BOOT_COMPLETED dispatchLatency:-276986 completeLatency:1 dispatchRealLatency:-276986 completeRealLatency:1 receiversSize:1 userId:0 userType:android.os.usertype.full.SYSTEM
+11-23 10:28:55.782   770  1633 I BroadcastQueue: BOOT_COMPLETED_BROADCAST_COMPLETION_LATENCY_REPORTED action:android.intent.action.BOOT_COMPLETED dispatchLatency:-276986 completeLatency:1 dispatchRealLatency:-276986 completeRealLatency:1 receiversSize:1 userId:0 userType:android.os.usertype.full.SYSTEM
+11-23 10:28:55.785  2432  2432 D CompatChangeReporter: Compat change id reported: 171979766; UID 10066; state: ENABLED
+11-23 10:28:55.832   770  1633 D CompatChangeReporter: Compat change id reported: 170503758; UID 10066; state: ENABLED
+11-23 10:28:55.841  2432  2432 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:28:55.876  2432  2432 D nativeloader: Configuring clns-7 for other apk /data/app/~~4adoUKlaNnXcoJTHqTxD0g==/com.dtd.freefireth-6OTM5Bdw6slPKJA8Xb3SRw==/base.apk. target_sdk_version=31, uses_libraries=, library_path=/data/app/~~4adoUKlaNnXcoJTHqTxD0g==/com.dtd.freefireth-6OTM5Bdw6slPKJA8Xb3SRw==/lib/arm64:/data/app/~~4adoUKlaNnXcoJTHqTxD0g==/com.dtd.freefireth-6OTM5Bdw6slPKJA8Xb3SRw==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.dtd.freefireth
+11-23 10:28:55.884  2432  2432 I .dtd.freefireth: AssetManager2(0x77c1ffa46b38) locale list changing from [] to [en-US]
+11-23 10:28:55.892  2432  2432 V GraphicsEnvironment: Currently set values for:
+11-23 10:28:55.892  2432  2432 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-23 10:28:55.892  2432  2432 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-23 10:28:55.892  2432  2432 V GraphicsEnvironment: com.dtd.freefireth is not listed in per-application setting
+11-23 10:28:55.893  2432  2432 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-23 10:28:56.005  2457  2457 I init    : type=1400 audit(0.0:457): avc:  denied  { transition } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:28:56.025  2457  2457 I init    : type=1400 audit(0.0:458): avc:  denied  { entrypoint } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:28:56.025  2457  2457 I init    : type=1400 audit(0.0:459): avc:  denied  { noatsecure } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:28:56.025  2457  2457 I serial_console: type=1400 audit(0.0:460): avc:  denied  { rlimitinh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:28:56.025  2457  2457 I serial_console: type=1400 audit(0.0:461): avc:  denied  { siginh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:28:56.433  2432  2432 I MultiDex: VM with version 2.1.0 has multidex support
+11-23 10:28:56.433  2432  2432 I MultiDex: Installing application
+11-23 10:28:56.433  2432  2432 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+11-23 10:28:56.438  2432  2432 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+11-23 10:28:56.442  2432  2432 I FirebaseCrashlytics: Initializing Firebase Crashlytics 18.0.1 for com.dtd.freefireth
+11-23 10:28:56.461  2432  2461 W Settings: Setting adb_enabled has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+11-23 10:28:56.491   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:28:56.505  2432  2432 I FirebaseInitProvider: FirebaseApp initialization successful
+11-23 10:28:56.524  2432  2432 W com.facebook.i0: Please set a value for AutoLogAppEventsEnabled. Set the flag to TRUE if you want to collect app install, app launch and in-app purchase events automatically. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+11-23 10:28:56.524  2432  2432 W com.facebook.i0: You haven't set a value for AdvertiserIDCollectionEnabled. Set the flag to TRUE if you want to collect Advertiser ID for better advertising and analytics results. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+11-23 10:28:56.536  2432  2471 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:28:56.542   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:28:56.545   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:28:56.547  2432  2472 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: setPresentationRotation 1 for com.dtd.freefireth:23
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: java.lang.Exception
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:638)
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1957)
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:222)
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:28:56.548   770   822 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:28:56.551  2432  2474 W com.facebook.internal.c0: Apps that target Android API 30+ (Android 11+) cannot call Facebook native apps unless the package visibility needs are declared. Please follow https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988 to make the declaration.
+11-23 10:28:56.551  2432  2473 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:28:56.557  2432  2467 W .dtd.freefireth: ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[GmsCore.apk*3714305525]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]#PCL[/system/framework/com.android.location.provider.jar*2736664001]#PCL[/system_ext/framework/androidx.window.extensions.jar*596101676]#PCL[/system_ext/framework/androidx.window.sidecar.jar*4027385501]} | DLC[];PCL[])
+11-23 10:28:56.565  2432  2432 I .dtd.freefireth: AssetManager2(0x77c1ffa4b318) locale list changing from [] to [en-US]
+11-23 10:28:56.593  2432  2467 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:51 and remote module com.google.android.gms.measurement.dynamite:193
+11-23 10:28:56.593  2432  2467 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 193
+11-23 10:28:56.593  2432  2467 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+11-23 10:28:56.598  2432  2467 W System  : ClassLoader referenced unknown path: 
+11-23 10:28:56.599  2432  2467 D nativeloader: Configuring clns-8 for other apk . target_sdk_version=37, uses_libraries=, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+11-23 10:28:56.643  2432  2473 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:28:56.662   770  2121 D ActivityManager: sync unfroze 1924 com.google.android.gms for 4
+11-23 10:28:56.662   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:28:56.666   770  1633 W ProcessStats: Tracking association SourceState{5d6371c com.dtd.freefireth/10066 BTop #355} whose proc state 2 is better than process ProcessState{55a260c com.google.android.gms/10025 pkg=com.google.android.gms} proc state 15 (0 skipped)
+11-23 10:28:56.732  2432  2467 I .dtd.freefireth: AssetManager2(0x77c1ffa50a98) locale list changing from [] to [en-US]
+11-23 10:28:56.738  2432  2467 W .dtd.freefireth: ClassLoaderContext classpath element mismatch. expected=GmsCore.apk, found=/data/app/~~4adoUKlaNnXcoJTHqTxD0g==/com.dtd.freefireth-6OTM5Bdw6slPKJA8Xb3SRw==/base.apk (DLC[];PCL[GmsCore.apk*3714305525]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]#PCL[/system/framework/com.android.location.provider.jar*2736664001]#PCL[/system_ext/framework/androidx.window.extensions.jar*596101676]#PCL[/system_ext/framework/androidx.window.sidecar.jar*4027385501]} | DLC[];PCL[/data/app/~~4adoUKlaNnXcoJTHqTxD0g==/com.dtd.freefireth-6OTM5Bdw6slPKJA8Xb3SRw==/base.apk*3975694790]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]})
+11-23 10:28:56.743  2432  2467 I .dtd.freefireth: AssetManager2(0x77c1ffa4f4b8) locale list changing from [] to [en-US]
+11-23 10:28:56.744  2432  2467 I .dtd.freefireth: AssetManager2(0x77c1ffa4a9b8) locale list changing from [] to [en-US]
+11-23 10:28:56.787  1851  1939 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.dtd.freefireth
+11-23 10:28:56.810  2432  2497 I FA      : App measurement disabled via the manifest
+11-23 10:28:56.810  2432  2497 E .dtd.freefireth: No package ID 6a found for resource ID 0x6a0b0013.
+11-23 10:28:56.811  2432  2497 I FA      : App measurement initialized, version: 169000
+11-23 10:28:56.811  2432  2497 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+11-23 10:28:56.811  2432  2497 I FA      : To enable faster debug mode event logging run:
+11-23 10:28:56.811  2432  2497 I FA      :   adb shell setprop debug.firebase.analytics.app com.dtd.freefireth
+11-23 10:28:56.824   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:28:56.829  1924  1924 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:28:56.829  1924  1924 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:28:56.965  2432  2432 D DesktopModeFlagsUtil: Toggle override initialized to: OVERRIDE_OFF
+11-23 10:28:57.040  2432  2432 W HWUI    : Unknown dataspace 0
+11-23 10:28:57.077  2432  2432 D InsetsController: Setting requestedVisibleTypes to -10 (was -9)
+11-23 10:28:57.128  2432  2432 I Choreographer: Skipped 31 frames!  The application may be doing too much work on its main thread.
+11-23 10:28:57.129  2432  2432 D InsetsController: Setting requestedVisibleTypes to -528 (was -10)
+11-23 10:28:57.149   770  2121 D CoreBackPreview: Window{2a3fb81 u0 com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@80bd867, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:28:57.208  2432  2501 E libEGL  : intercept_property_get () for (persist.graphics.egl)
+11-23 10:28:57.234  2432  2501 I EGL_emulation: EGL display initialized (version 1.4, rendererVersion=0x3, configs=6)
+11-23 10:28:57.257  2432  2501 I EGL_emulation: EGL display initialized (version 1.4, rendererVersion=0x3, configs=6)
+11-23 10:28:57.258   450   450 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+11-23 10:28:57.259  2432  2501 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.configstore@1.0::ISurfaceFlingerConfigs instance: default
+11-23 10:28:57.261  2432  2501 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-23 10:28:57.261  2432  2501 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-23 10:28:57.477   688   904 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827820427265280: UNSUPPORTED (8)
+11-23 10:28:57.478  2432  2501 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@2.0::IMapper instance: default
+11-23 10:28:57.480  2432  2501 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@2.0::IAllocator instance: default
+11-23 10:28:57.482  2432  2501 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:28:57.589  2432  2501 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:28:57.605   770   822 W system_server: Failed to determine oat file name for dex location /data/app/~~4adoUKlaNnXcoJTHqTxD0g==/com.dtd.freefireth-6OTM5Bdw6slPKJA8Xb3SRw==/base.apk: Dalvik cache directory does not exist
+11-23 10:28:57.606   770   822 W ziparchive: Unable to open '/data/app/~~4adoUKlaNnXcoJTHqTxD0g==/com.dtd.freefireth-6OTM5Bdw6slPKJA8Xb3SRw==/base.dm': No such file or directory
+11-23 10:28:57.606  2432  2432 I Choreographer: Skipped 225 frames!  The application may be doing too much work on its main thread.
+11-23 10:28:57.611  1031  1031 D BaseDepthController: setSurface:
+11-23 10:28:57.611  1031  1031 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-23 10:28:57.611  1031  1031 D BaseDepthController: 	mSurface: null
+11-23 10:28:57.628   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:28:57.644  1031  1031 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-23 10:28:57.644  1031  1031 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(r8-map-id-fe14f1fe842d35fbeb0a7aeefdc65d4bceb373f1280c0e06d2c6dbbe065e8669:4)
+11-23 10:28:57.644  1031  1031 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(r8-map-id-fe14f1fe842d35fbeb0a7aeefdc65d4bceb373f1280c0e06d2c6dbbe065e8669:1)
+11-23 10:28:57.644  1031  1031 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(r8-map-id-fe14f1fe842d35fbeb0a7aeefdc65d4bceb373f1280c0e06d2c6dbbe065e8669:34)
+11-23 10:28:57.644  1031  1031 D StatsLog: LAUNCHER_ONSTOP
+11-23 10:28:57.671  1924  2514 D AdvertisingIdClient: AdvertisingIdClient already created.
+11-23 10:28:57.671  1924  2514 D AdvertisingIdClient: AdvertisingIdClient is not bounded. Starting to bind it...
+11-23 10:28:57.674   770   912 I ImeTracker: com.dtd.freefireth:defe7174: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-23 10:28:57.687  2432  2432 D InsetsController: hide(ime(), fromIme=false)
+11-23 10:28:57.688  2432  2432 I ImeTracker: com.dtd.freefireth:defe7174: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-23 10:28:57.694  2432  2501 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:28:57.709   770  1191 W WindowManager: Failed looking up window session=Session{3d09e1c 1039:u0a10038} callers=com.android.server.wm.WindowManagerService.removeClientToken:2070 com.android.server.wm.Session.remove:269 android.view.IWindowSession$Stub.onTransact:696 
+11-23 10:28:57.716  2432  2512 I Choreographer: Skipped 44 frames!  The application may be doing too much work on its main thread.
+11-23 10:28:57.725  1924  2514 D AdvertisingIdClient: AdvertisingIdClient is bounded
+11-23 10:28:57.777  1039  1195 I Choreographer: Skipped 41 frames!  The application may be doing too much work on its main thread.
+11-23 10:28:57.790  1924  2514 I AdvertisingIdClient: shouldSendLog 47245
+11-23 10:28:57.803  1924  2514 I AdvertisingIdClient: GetInfoInternal elapse 119ms
+11-23 10:28:57.809   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:28:57.825  1851  2047 I FontLog : (REDACTED) Received query %s, URI %s
+11-23 10:28:57.827  1851  2047 I FontLog : (REDACTED) Query [%s] resolved to %s
+11-23 10:28:57.827   770   822 I ActivityTaskManager: Displayed com.dtd.freefireth/.FFMainActivity for user 0: +2s428ms
+11-23 10:28:57.828   770   822 W Looper  : Slow dispatch took 231ms android.fg h=android.os.Handler c=com.android.server.wm.ActivityMetricsLogger$$ExternalSyntheticLambda0@3a65fdc m=0
+11-23 10:28:57.828   770   822 W Looper  : Slow delivery took 231ms android.fg h=android.os.Handler c=com.android.server.wm.ActivityMetricsLogger$$ExternalSyntheticLambda7@f3408e5 m=0
+11-23 10:28:57.829  1039  1195 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@64d47e
+11-23 10:28:57.839   770  1131 D CoreBackPreview: Window{5bd1b24 u0 Splash Screen com.dtd.freefireth}: Setting back callback null
+11-23 10:28:57.850  1851  2047 I FontLog : (REDACTED) Fetch %s end status %s
+11-23 10:28:57.862  1851  2047 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+11-23 10:28:57.881  1851  2047 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+11-23 10:28:57.918  2432  2512 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.dtd.freefireth
+11-23 10:28:57.940  2432  2499 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES VMH, Cores = 2, Memory = 3932mb
+11-23 10:28:57.940  2432  2499 I Unity   : SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0x3), 0 little (mask: 0x0)
+11-23 10:28:57.940  2432  2499 I Unity   : ApplicationInfo com.dtd.freefireth version 1.98.1 build 9b364ac2-5ff5-4251-a1cb-edeba9236d88
+11-23 10:28:57.941  2432  2499 I Unity   : Built from '' branch, Version '2018.4.11f1 (0)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a'
+11-23 10:28:58.261  2432  2499 D AudioSystem: onNewService: media.audio_policy service obtained 0x77c01fae9ce0
+11-23 10:28:58.263  2432  2499 D AudioSystem: getService: checking for service media.audio_policy: 0x77c01fae9ce0
+11-23 10:28:58.264   684   684 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:28:58.264   684   684 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:28:58.264   684   684 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:28:58.267  2432  2499 D AudioSystem: onNewServiceWithAdapter: media.audio_flinger service obtained 0x77c05fa9eec0
+11-23 10:28:58.274  2432  2499 D AudioSystem: getService: checking for service media.audio_flinger: 0x77c01fae9d80
+11-23 10:28:58.289  2432  2499 D .dtd.freefireth: PlayerBase::PlayerBase()
+11-23 10:28:58.289  2432  2499 D .dtd.freefireth: TrackPlayerBase::TrackPlayerBase()
+11-23 10:28:58.289  2432  2499 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+11-23 10:28:58.293   684   684 E ServiceUtilities: Request requires android.permission.MODIFY_PHONE_STATE or android.permission.WRITE_SECURE_SETTINGS
+11-23 10:28:58.295   684   684 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000104) and output flags (00000006)
+11-23 10:28:58.296   684   684 D AudioFlinger: Client defaulted notificationFrames to 512 for frameCount 2048
+11-23 10:28:58.305  2432  2499 I AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST successful; frameCount 0 -> 2048
+11-23 10:28:58.322   684   694 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:28:58.325   684   694 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-23 10:28:58.337   630  2056 D audio_hw_primary: tunnel_pcm_open called!
+11-23 10:28:58.343  2432  2499 E EGL_emulation: [getAttribValue] Bad attribute index in getAttribValue
+11-23 10:28:58.343  2432  2499 W EGL_emulation: eglGetConfigAttrib: unknown config attribute 0x1
+11-23 10:28:58.343  2432  2499 E EGL_emulation: tid 2499: eglGetConfigAttrib(1044): error 0x3004 (EGL_BAD_ATTRIBUTE)
+11-23 10:28:58.345  2432  2499 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:28:58.588  2432  2499 D Unity   :  GL_EXT_debug_marker GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_ETC1_RGB8_texture GL_KHR_texture_compression_astc_ldr GL_OES_surfaceless_context GL_OES_depth_texture GL_EXT_texture_compression_bptc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_compression_rgtc GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_EXT_draw_buffers_indexed GL_KHR_debug GL_EXT_geometry_shader GL_EXT_tessellation_shader GL_EXT_gpu_shader5 GL_EXT_primitive_bounding_box GL_EXT_texture_border_clamp GL_EXT_texture_cube_map_array GL_EXT_copy_image GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_
+11-23 10:28:58.588  2432  2499 D Unity   : shader_image_atomic GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_shader_io_blocks GL_EXT_shader_io_blocks GL_EXT_texture_sRGB_decode GL_KHR_robustness GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_OES_EGL_image_external_essl3 GL_EXT_robustness
+11-23 10:28:58.701   770  1664 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+11-23 10:28:58.925  2432  2542 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:28:58.930  2432  2542 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:28:59.045   684   802 W AudioFlinger: write blocked for 599 msecs, 3 delayed writes, thread 13
+11-23 10:29:00.145  1039  1050 W ndroid.systemui: Cleared Reference was only reachable from finalizer (only reported once)
+11-23 10:29:00.215  1039  1050 I ndroid.systemui: Background concurrent mark compact GC freed 8496KB AllocSpace bytes, 2(40KB) LOS objects, 49% free, 13MB/26MB, paused 680us,1.783ms total 196.489ms
+11-23 10:29:00.222  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:00.223  1039  1053 W System  : A resource failed to call release. 
+11-23 10:29:01.025  2543  2543 I serial_console: type=1400 audit(0.0:466): avc:  denied  { read write } for  name="ttyS1" dev="tmpfs" ino=675 scontext=u:r:su:s0 tcontext=u:object_r:serial_device:s0 tclass=chr_file permissive=1
+11-23 10:29:01.025  2543  2543 I serial_console: type=1400 audit(0.0:467): avc:  denied  { open } for  path="/dev/ttyS1" dev="tmpfs" ino=675 scontext=u:r:su:s0 tcontext=u:object_r:serial_device:s0 tclass=chr_file permissive=1
+11-23 10:29:01.104   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(4)
+11-23 10:29:02.776   770   837 D OomAdjuster: Not killing cached processes
+11-23 10:29:07.929  1924  1924 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:29:07.930   770  1633 D OomAdjuster: Not killing cached processes
+11-23 10:29:09.135  1496  1501 I NemuSysOpt: pressure relief 6
+11-23 10:29:10.105  2432  2432 I UnityMain: type=1400 audit(0.0:468): avc:  denied  { rename } for  name="il2cpp" dev="sdc3" ino=2883617 scontext=u:r:untrusted_app_30:s0:c66,c256,c512,c768 tcontext=u:object_r:media_userdir_file:s0:c66,c256,c512,c768 tclass=dir permissive=1 app=com.dtd.freefireth
+11-23 10:29:10.475  2432  2499 I Il2CPPSwitch: 0
+11-23 10:29:12.615  2432  2499 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-23 10:29:12.615  2432  2499 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=true, BT route=null
+11-23 10:29:12.710  2432  2542 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:29:13.041  2432  2499 W Unity   : UGCResourceManager.Inited
+11-23 10:29:13.041  2432  2499 W Unity   :  
+11-23 10:29:13.041  2432  2499 W Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:29:13.041  2432  2499 W Unity   : 
+11-23 10:29:13.061  2432  2499 D AppsFlyer_6.4.0: Initializing AppsFlyer SDK: (v6.4.0.119)
+11-23 10:29:13.065  2432  2499 W Unity   : DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+11-23 10:29:13.065  2432  2499 W Unity   :  
+11-23 10:29:13.065  2432  2499 W Unity   : (Filename:  Line: 543)
+11-23 10:29:13.065  2432  2499 W Unity   : 
+11-23 10:29:13.076  2432  2566 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:29:13.085  2432  2566 D nativeloader: Configuring clns-9 for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=37, uses_libraries=ALL, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+11-23 10:29:13.086  2432  2566 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-23 10:29:13.086  2432  2566 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-23 10:29:13.113   770  1633 W SensorService: sensor 00000000 already enabled in connection 0x77c06fad7350 (ignoring)
+11-23 10:29:13.146  2432  2566 D nativeloader: InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libapexsupport.so:libavf.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-i686-android.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvendorsupport.so:libvndksupport.so:libvulkan.so
+11-23 10:29:13.146  2432  2566 D nativeloader: Configuring product-clns-10 for unbundled product apk /system/product/priv-app/GmsCore/GmsCore.apk. target_sdk_version=37, uses_libraries=, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64:/system/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms:/product/lib64:/system/product/lib64
+11-23 10:29:13.174   770   961 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 1]
+11-23 10:29:13.364  2432  2499 I Unity   : obb mainPath != null, load scene
+11-23 10:29:13.432  2432  2448 I .dtd.freefireth: NativeAlloc concurrent mark compact GC freed 5011KB AllocSpace bytes, 29(708KB) LOS objects, 49% free, 4017KB/8034KB, paused 1.069ms,4.151ms total 204.403ms
+11-23 10:29:13.433  2432  2450 W System  : A resource failed to call close. 
+11-23 10:29:13.433  2432  2450 W System  : A resource failed to call close. 
+11-23 10:29:13.472  2432  2566 D nativeloader: InitVndkspLibrariesProduct: VNDK is deprecated with product
+11-23 10:29:13.499   770  1633 D OomAdjuster: Not killing cached processes
+11-23 10:29:13.501   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:29:13.869  2432  2448 I .dtd.freefireth: Background concurrent mark compact GC freed 3600KB AllocSpace bytes, 20(916KB) LOS objects, 49% free, 5090KB/10181KB, paused 277us,1.179ms total 199.211ms
+11-23 10:29:14.143   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:14.144   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:14.144   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:14.342  1496  1500 I NemuSysOpt: pressure unrelief
+11-23 10:29:14.933  2432  2566 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:29:14.933  2432  2566 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-23 10:29:14.933  2432  2566 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-23 10:29:14.935   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:29:15.660   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:15.660   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:15.660   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:15.666  2432  2499 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA103.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:29:15.666  2432  2499 E Unity   :  
+11-23 10:29:15.666  2432  2499 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:29:15.666  2432  2499 E Unity   : 
+11-23 10:29:15.670  2432  2499 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA101.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:29:15.670  2432  2499 E Unity   :  
+11-23 10:29:15.670  2432  2499 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:29:15.670  2432  2499 E Unity   : 
+11-23 10:29:15.672  2432  2499 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA104.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:29:15.672  2432  2499 E Unity   :  
+11-23 10:29:15.672  2432  2499 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:29:15.672  2432  2499 E Unity   : 
+11-23 10:29:15.675  2432  2499 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA102.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:29:15.675  2432  2499 E Unity   :  
+11-23 10:29:15.675  2432  2499 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:29:15.675  2432  2499 E Unity   : 
+11-23 10:29:15.991  2432  2499 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA105.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:29:15.991  2432  2499 E Unity   :  
+11-23 10:29:15.991  2432  2499 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:29:15.991  2432  2499 E Unity   : 
+11-23 10:29:16.125   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(2)
+11-23 10:29:16.679   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:16.679   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:16.680   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:17.220   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(4)
+11-23 10:29:17.685   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:17.686   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:17.686   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:18.710   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:18.710   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:18.710   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:19.491   684   801 D AF::Track: interceptBuffer: took 1206us to intercept 0 tracks
+11-23 10:29:19.717   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:19.718   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:19.718   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:20.132   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(4)
+11-23 10:29:20.279   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(1)
+11-23 10:29:20.426   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(4)
+11-23 10:29:20.625   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(2)
+11-23 10:29:20.726   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:20.726   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:20.727   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:20.763   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(7)
+11-23 10:29:20.886  2432  2567 W Choreographer: Frame time is 0.07898 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:29:21.014   770  1690 D SntpClient: round trip: 3ms, clock offset: 5ms
+11-23 10:29:21.030   770   822 W Looper  : Drained
+11-23 10:29:21.620   770  1690 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:29:21.766   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:21.766   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:21.766   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:22.063   770  1690 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:29:22.812   770  1690 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:29:22.866   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:22.866   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:22.866   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:23.877   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:23.877   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:23.877   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:24.549   770  1690 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:29:24.597   770  1690 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:29:24.906   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:24.906   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:24.906   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:24.953   770   896 D ActivityManager: freezing 1924 com.google.android.gms
+11-23 10:29:25.928   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:25.928   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:25.928   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:26.828   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(2)
+11-23 10:29:26.945   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:26.946   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:26.946   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:27.238   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(2)
+11-23 10:29:27.976   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:27.976   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:27.976   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:28.505  2432  2567 W Choreographer: Frame time is 0.008032 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:29:28.584   770   770 I ResourceTimer: GetResourceValue count=3581 pvalues=1000,5000,6000,120000
+11-23 10:29:28.584   770   770 I ResourceTimer: RetrieveAttributes count=1099 pvalues=1000,2000,3000,6000
+11-23 10:29:28.832  2432  2567 W Choreographer: Frame time is 0.067518 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:29:29.003   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:29.003   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:29.003   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:30.003   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:30.004   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:30.004   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:31.030   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:31.031   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:31.031   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:31.352  2432  2567 W Choreographer: Frame time is 0.153876 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:29:31.827   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(2)
+11-23 10:29:32.040  2432  2567 W Choreographer: Frame time is 0.056322 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:29:32.057   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:32.058   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:32.058   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:32.642  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:32.642  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.642  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.642  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.642  2432  2499 E Unity   :  
+11-23 10:29:32.642  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:32.642  2432  2499 E Unity   : 
+11-23 10:29:32.679  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:32.679  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.679  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.679  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.679  2432  2499 E Unity   :  
+11-23 10:29:32.679  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:32.679  2432  2499 E Unity   : 
+11-23 10:29:32.727  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:32.727  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.727  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.727  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.727  2432  2499 E Unity   :  
+11-23 10:29:32.727  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:32.727  2432  2499 E Unity   : 
+11-23 10:29:32.757  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:32.757  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.757  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.757  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.757  2432  2499 E Unity   :  
+11-23 10:29:32.757  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:32.757  2432  2499 E Unity   : 
+11-23 10:29:32.799  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:32.799  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.799  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.799  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.799  2432  2499 E Unity   :  
+11-23 10:29:32.799  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:32.799  2432  2499 E Unity   : 
+11-23 10:29:32.838  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:32.838  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.838  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.838  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.838  2432  2499 E Unity   :  
+11-23 10:29:32.838  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:32.838  2432  2499 E Unity   : 
+11-23 10:29:32.884  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:32.884  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.884  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.884  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.884  2432  2499 E Unity   :  
+11-23 10:29:32.884  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:32.884  2432  2499 E Unity   : 
+11-23 10:29:32.910  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:32.910  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.910  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.910  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.910  2432  2499 E Unity   :  
+11-23 10:29:32.910  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:32.910  2432  2499 E Unity   : 
+11-23 10:29:32.955  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:32.955  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.955  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.955  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.955  2432  2499 E Unity   :  
+11-23 10:29:32.955  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:32.955  2432  2499 E Unity   : 
+11-23 10:29:32.987  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:32.987  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.987  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.987  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:32.987  2432  2499 E Unity   :  
+11-23 10:29:32.987  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:32.987  2432  2499 E Unity   : 
+11-23 10:29:33.020  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.020  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.020  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.020  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.020  2432  2499 E Unity   :  
+11-23 10:29:33.020  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.020  2432  2499 E Unity   : 
+11-23 10:29:33.077  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.077  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.077  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.077  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.077  2432  2499 E Unity   :  
+11-23 10:29:33.077  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.077  2432  2499 E Unity   : 
+11-23 10:29:33.079   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:33.080   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:33.080   684   684 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:33.108  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.108  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.108  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.108  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.108  2432  2499 E Unity   :  
+11-23 10:29:33.108  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.108  2432  2499 E Unity   : 
+11-23 10:29:33.146  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.146  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.146  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.146  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.146  2432  2499 E Unity   :  
+11-23 10:29:33.146  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.146  2432  2499 E Unity   : 
+11-23 10:29:33.186  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.186  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.186  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.186  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.186  2432  2499 E Unity   :  
+11-23 10:29:33.186  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.186  2432  2499 E Unity   : 
+11-23 10:29:33.228  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.228  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.228  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.228  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.228  2432  2499 E Unity   :  
+11-23 10:29:33.228  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.228  2432  2499 E Unity   : 
+11-23 10:29:33.272  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.272  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.272  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.272  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.272  2432  2499 E Unity   :  
+11-23 10:29:33.272  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.272  2432  2499 E Unity   : 
+11-23 10:29:33.316   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(6)
+11-23 10:29:33.318  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.318  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.318  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.318  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.318  2432  2499 E Unity   :  
+11-23 10:29:33.318  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.318  2432  2499 E Unity   : 
+11-23 10:29:33.351  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.351  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.351  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.351  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.351  2432  2499 E Unity   :  
+11-23 10:29:33.351  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.351  2432  2499 E Unity   : 
+11-23 10:29:33.385  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.385  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.385  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.385  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.385  2432  2499 E Unity   :  
+11-23 10:29:33.385  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.385  2432  2499 E Unity   : 
+11-23 10:29:33.434  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.434  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.434  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.434  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.434  2432  2499 E Unity   :  
+11-23 10:29:33.434  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.434  2432  2499 E Unity   : 
+11-23 10:29:33.477  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.477  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.477  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.477  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.477  2432  2499 E Unity   :  
+11-23 10:29:33.477  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.477  2432  2499 E Unity   : 
+11-23 10:29:33.518  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.518  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.518  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.518  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.518  2432  2499 E Unity   :  
+11-23 10:29:33.518  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.518  2432  2499 E Unity   : 
+11-23 10:29:33.561  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.561  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.561  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.561  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.561  2432  2499 E Unity   :  
+11-23 10:29:33.561  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.561  2432  2499 E Unity   : 
+11-23 10:29:33.597  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.597  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.597  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.597  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.597  2432  2499 E Unity   :  
+11-23 10:29:33.597  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.597  2432  2499 E Unity   : 
+11-23 10:29:33.654  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.654  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.654  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.654  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.654  2432  2499 E Unity   :  
+11-23 10:29:33.654  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.654  2432  2499 E Unity   : 
+11-23 10:29:33.677  2432  2499 E Unity   : NullReferenceException: A null value was found where an object instance was required.
+11-23 10:29:33.677  2432  2499 E Unity   :   at UnityEngine.Transform.get_localPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.677  2432  2499 E Unity   :   at UIWrapContent.WrapContent () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.677  2432  2499 E Unity   :   at SpringPanel.AdvanceTowardsPosition () [0x00000] in <filename unknown>:0 
+11-23 10:29:33.677  2432  2499 E Unity   :  
+11-23 10:29:33.677  2432  2499 E Unity   : (Filename: currently not available on il2cpp Line: -1)
+11-23 10:29:33.677  2432  2499 E Unity   : 
+11-23 10:29:34.099   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:34.099   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:34.100   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:35.122   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:35.122   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:35.122   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:35.405   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(4)
+11-23 10:29:35.669   770  1690 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:29:35.687  2432  2499 E Unity   : ArgumentOutOfRangeException: Argument is out of range.
+11-23 10:29:35.687  2432  2499 E Unity   : Parameter name: index
+11-23 10:29:35.687  2432  2499 E Unity   :   at System.Collections.Generic.List`1[T].get_Item (Int32 index) [0x00000] in <filename unknown>:0 
+11-23 10:29:35.687  2432  2499 E Unity   :   at UICenterOnChild.Recenter () [0x00000] in <filename unknown>:0 
+11-23 10:29:35.687  2432  2499 E Unity   :   at GCommon.UIBaseController.RefreshVisibility () [0x00000] in <filename unknown>:0 
+11-23 10:29:35.687  2432  2499 E Unity   :   at COW.UILauncherPopupMessageController.Show () [0x00000] in <filename unknown>:0 
+11-23 10:29:35.687  2432  2499 E Unity   :   at COW.UILauncherPopupMessageController.ShowMessageBox (System.String info, ELauncherMessageType mbType, System.Action onOK, EButtonStyle buttonStyle, System.String[] urlList, System.String patchNoteUrl, System.Action onRetry, System.String webViewUrl, System.String bgUrl, System.String maxUrl, Boolean allowCompatibleLogin, System.Action onCompatibleLogin) [0x00000] in <filename unknown>:0 
+11-23 10:29:35.687  2432  2499 E Unity   :   at COW.UILauncherController.OnColdUpdate (Single spaceRequiredInGB, Boolean allowCompatibleLogin) [0x00000] in <filename unknown>:0 
+11-23 10:29:35.687  2432  2499 E Unity   :   at COW.UILauncherController.<CheckVersion>m__7 (ResHotUpdateResult result)
+11-23 10:29:35.775  2432  2567 W Choreographer: Frame time is 0.235615 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:29:36.138   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:36.139   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:36.139   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:36.230   770  1690 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:29:36.663   770  1690 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:29:37.067   770  1690 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:29:37.144   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:37.144   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:37.144   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:38.165   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:38.165   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:38.166   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:38.625   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(3)
+11-23 10:29:38.928   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(1)
+11-23 10:29:39.191   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:39.191   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:39.191   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:40.220   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:40.220   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:40.220   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:40.671  2432  2567 W Choreographer: Frame time is 0.240518 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:29:40.907   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(1)
+11-23 10:29:41.113  2606  2606 I init    : type=1400 audit(0.0:469): avc:  denied  { transition } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:29:41.113  2606  2606 I init    : type=1400 audit(0.0:470): avc:  denied  { noatsecure } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:29:41.154   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(3)
+11-23 10:29:41.113  2606  2606 I serial_console: type=1400 audit(0.0:471): avc:  denied  { rlimitinh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:29:41.113  2606  2606 I serial_console: type=1400 audit(0.0:472): avc:  denied  { siginh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:29:41.229   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:41.229   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:41.230   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:41.535   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(3)
+11-23 10:29:41.753   770  1690 D WifiNl80211Manager: Scan result ready event
+11-23 10:29:41.753   770  1690 D WifiNative: Scan result ready event
+11-23 10:29:41.761  1851  2047 I WifiScanner: onFullResults
+11-23 10:29:41.771   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(5)
+11-23 10:29:42.241   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:29:42.241   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:29:42.241   684   694 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:29:42.299  2432  2567 W Choreographer: Frame time is 0.046157 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:29:42.551   770   908 W InputDispatcher: channel '2a3fb81 com.dtd.freefireth/com.dtd.freefireth.FFMainActivity' ~ Consumer closed input channel or an error occurred.  events=0x9
+11-23 10:29:42.551   770   908 E InputDispatcher: channel '2a3fb81 com.dtd.freefireth/com.dtd.freefireth.FFMainActivity' ~ Channel is unrecoverably broken and will be disposed!
+11-23 10:29:42.552   770   908 I WindowManager: WINDOW DIED Window{2a3fb81 u0 com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}
+11-23 10:29:42.557   770  1626 I ImeTracker: com.dtd.freefireth:56d67182: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+11-23 10:29:42.557   770  1626 I ImeTracker: com.dtd.freefireth:56d67182: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-23 10:29:42.566   770  1633 I ActivityManager: Process com.dtd.freefireth (pid 2432) has died: fg  TOP 
+11-23 10:29:42.579   626   626 I Zygote  : Process 2432 exited cleanly (30)
+11-23 10:29:42.591   688   688 E BpTransactionCompletedListener: Failed to transact (-32)
+11-23 10:29:42.591   688   688 E BpTransactionCompletedListener: Failed to transact (-32)
+11-23 10:29:42.603   770  1633 D OomAdjuster: Not killing cached processes
+11-23 10:29:42.624   770  1633 W ActivityTaskManager: Force removing ActivityRecord{6693333 u0 com.dtd.freefireth/.FFMainActivity t23}: app died, no saved state
+11-23 10:29:42.629   684   802 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-23 10:29:42.633   770   823 D DisplayManagerService: Drop pending events for gone uid 10066
+11-23 10:29:42.634   684   756 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:29:42.636   684   756 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:29:42.640   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-23 10:29:42.640   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-23 10:29:42.640   770   961 D InetDiagMessage: Destroyed live tcp sockets for uids={10066} in 3ms
+11-23 10:29:42.641   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-23 10:29:42.641   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-23 10:29:42.641   770   961 D InetDiagMessage: Destroyed live tcp sockets for uids={20066} in 0ms
+11-23 10:29:42.642   770  1633 D CompatChangeReporter: Compat change id reported: 197654537; UID 10066; state: ENABLED
+11-23 10:29:42.643   684   802 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-23 10:29:42.653  1039  1164 V WindowManagerShell: Transition requested (#8): android.os.BinderProxy@3385157 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=23 effectiveUid=10066 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=1 lastActiveTime=277744 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@80d5444} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{df1c92d com.dtd.freefireth.FFMainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 8 }
+11-23 10:29:42.664  1031  1031 D ViewRootImpl: Skipping stats log for color mode
+11-23 10:29:42.666   770   825 W ActivityManager: setHasOverlayUi called on unknown pid: 2432
+11-23 10:29:42.666   770   825 V WindowManager: Unknown focus tokens, dropping reportFocusChanged
+11-23 10:29:42.669   688   688 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-23 10:29:42.671   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:29:42.687  1031  1031 I FEED    : 1
+11-23 10:29:42.688  1031  1031 I FEED    : 2
+11-23 10:29:42.689   770   822 E ActivityManager: Sending non-protected broadcast uu.intent.action.STOP_ACCELERATE from system 770:system/1000 pkg android
+11-23 10:29:42.689   770   822 E ActivityManager: java.lang.Throwable
+11-23 10:29:42.689   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2118)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14410)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at android.app.ContextImpl.sendBroadcastAsUser(ContextImpl.java:1509)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at android.content.ContextWrapper.sendBroadcastAsUser(ContextWrapper.java:603)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils.$r8$lambda$zCiVPiagCM9gvj0qkEpNf1ODT4k(TaskUtils.java:2205)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils$$ExternalSyntheticLambda5.run(R8$$SyntheticClass:0)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:29:42.689   770   822 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:29:42.693   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:29:42.694   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:29:42.697   770  1633 W ActivityManager: Unable to start service Intent { act=com.android.launcher3.WINDOW_OVERLAY dat=app://app.lawnchair:10018/... pkg=com.google.android.googlequicksearchbox } U=0: not found
+11-23 10:29:42.720  1039  1164 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=true, height=102
+11-23 10:29:42.741  1031  1031 I Choreographer: Skipped 36 frames!  The application may be doing too much work on its main thread.
+11-23 10:29:42.780  1340  1340 W WidgetOperateReceiver: onReceive: intent = Intent { act=com.mumu.LAUNCHER_LIFECYCLE flg=0x30 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver (has extras) } action = com.mumu.LAUNCHER_LIFECYCLE
+11-23 10:29:42.780  1340  1340 W WidgetOperateReceiver: onLauncherLifecycle: launcherLifecycle = ON_RESUME
+11-23 10:29:42.781  1340  1340 W WidgetManager: updateLauncherLifecycle: launcherLifecycleName = ON_RESUME
+11-23 10:29:42.792  1031  1331 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:29:42.795  1031  1331 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:29:42.799  1031  1031 D BaseDepthController: setSurface:
+11-23 10:29:42.799  1031  1031 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-23 10:29:42.799  1031  1031 D BaseDepthController: 	mSurface: Surface(name=app.lawnchair/app.lawnchair.LawnchairLauncher)/@0xb9de0f8
+11-23 10:29:42.807  1031  2613 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:29:42.808  1031  2613 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:29:42.819  1340  2144 W AdBannerHover: [J] render-skip has=N src={} => σ╖▓µ╕▓µƒôσê░Σ╜ìΓåÆΦ╖│Φ┐ç
+11-23 10:29:42.828  1031  1031 D RecentsView: onTaskRemoved: 23, not handling task stack changes
+11-23 10:29:42.834  1031  1031 D RecentsView: onTaskRemoved: 23, not handling task stack changes
+11-23 10:29:42.834  1031  1031 D StatsLog: LAUNCHER_ONRESUME
+11-23 10:29:42.848  1039  1785 V WindowManagerShell: onTransitionReady(transaction=3307124818421)
+11-23 10:29:42.848  1039  1164 V WindowManagerShell: onTransitionReady (#8) android.os.BinderProxy@3385157: {id=8 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:29:42.848  1039  1164 V WindowManagerShell:         {m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x10c8e62 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},
+11-23 10:29:42.848  1039  1164 V WindowManagerShell:         {m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{4fd19a5 token=android.os.Binder@91a3b9c})/@0x786abf3 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0}
+11-23 10:29:42.848  1039  1164 V WindowManagerShell:     ]}
+11-23 10:29:42.849   770   822 V WindowManager: Sent Transition (#8) createdAt=11-23 10:29:42.625 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=23 effectiveUid=10066 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=1 lastActiveTime=277744 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{5137f78 Task{9897dea #23 type=standard A=10066:com.dtd.freefireth}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{6513fbf com.dtd.freefireth.FFMainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 8 }
+11-23 10:29:42.849   770   822 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+11-23 10:29:42.850  1031  1031 I Choreographer: Skipped 38 frames!  The application may be doing too much work on its main thread.
+11-23 10:29:42.850   770   822 V WindowManager:     info={id=8 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:29:42.850   770   822 V WindowManager:         {WCT{RemoteToken{9d01adf Task{b7f0c33 #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x96b97a6 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},
+11-23 10:29:42.850   770   822 V WindowManager:         {m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{4fd19a5 token=android.os.Binder@91a3b9c})/@0x9b3a375 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0}
+11-23 10:29:42.850   770   822 V WindowManager:     ]}
+11-23 10:29:42.853  1039  1164 V WindowManagerShell: Playing animation for (#8) android.os.BinderProxy@3385157@0
+11-23 10:29:42.854  1039  1164 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+11-23 10:29:42.854  1039  1164 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=8 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x10c8e62 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},{m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{4fd19a5 token=android.os.Binder@91a3b9c})/@0x786abf3 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0}]}
+11-23 10:29:42.854  1039  1164 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@73808e6, appThread = android.app.IApplicationThread$Stub$Proxy@d760e27, debugName = QuickstepLaunchHome }}
+11-23 10:29:42.854  1039  1164 V WindowManagerShell:  Delegate animation for (#8) to null
+11-23 10:29:42.854  1039  1164 V WindowManagerShell: start default transition animation, info = {id=8 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x10c8e62 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},{m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{4fd19a5 token=android.os.Binder@91a3b9c})/@0x786abf3 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0}]}
+11-23 10:29:42.860  1039  1164 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@5292eae animAttr=0x10 type=CLOSE isEntrance=true
+11-23 10:29:42.866  1039  1164 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@32b65c3
+11-23 10:29:42.870  1039  1164 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#8) android.os.BinderProxy@3385157@0
+11-23 10:29:42.877   770   996 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:29:42.926   770   822 V WindowManager: Finish Transition (#8): created at 11-23 10:29:42.625 collect-started=0.033ms request-sent=17.451ms started=42.233ms ready=42.218ms sent=219.697ms finished=277.083ms
+11-23 10:29:42.941  1039  1164 V WindowManagerShell: Track 0 became idle
+11-23 10:29:42.942  1039  1164 V WindowManagerShell: All active transition animations finished
+11-23 10:29:42.945   770  1633 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:29:42.948   770   912 I ImeTracker: app.lawnchair:7cae0588: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-23 10:29:43.000  1031  1031 D InsetsController: hide(ime(), fromIme=false)
+11-23 10:29:43.000  1031  1031 I ImeTracker: app.lawnchair:7cae0588: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-23 10:29:43.113   770   782 I system_server: Background concurrent mark compact GC freed 12MB AllocSpace bytes, 253(5808KB) LOS objects, 49% free, 18MB/36MB, paused 20.731ms,9.369ms total 402.127ms
+11-23 10:29:43.113   770   783 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-23 10:29:43.118   770   784 W System  : A resource failed to call release. 
+11-23 10:29:43.119   770   784 W System  : A resource failed to call HardwareBuffer.close. 
+11-23 10:29:43.132   770   784 W System  : A resource failed to call release. 
+11-23 10:29:43.149   770   784 W System  : A resource failed to call release. 
+11-23 10:29:43.149   770   784 W System  : A resource failed to call release. 
+11-23 10:29:45.660   770  1664 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+11-23 10:29:46.793  1340  2144 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 0, widgetFlipperIndex = 1, preWidgetDataIndex = 4, preWidgetFlipperIndex = 0
+11-23 10:29:46.797  1340  2144 I com.mumu.store: AssetManager2(0x77c1ffa4acd8) locale list changing from [] to [en-US]
+11-23 10:29:46.799  1340  2144 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+11-23 10:29:46.801   770   990 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+11-23 10:29:46.802  1031  1031 I app.lawnchair: AssetManager2(0x77c1ffa6b078) locale list changing from [] to [en-US]
+11-23 10:29:50.800  1340  2144 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 1, widgetFlipperIndex = 0, preWidgetDataIndex = 0, preWidgetFlipperIndex = 1
+11-23 10:29:50.802  1340  2144 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+11-23 10:29:50.803   770   990 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+11-23 10:29:54.804  1340  2144 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 2, widgetFlipperIndex = 1, preWidgetDataIndex = 1, preWidgetFlipperIndex = 0
+11-23 10:29:54.805  1340  2144 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+11-23 10:29:54.806   770   990 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+11-23 10:29:55.669  2626  2626 I init    : type=1400 audit(0.0:473): avc:  denied  { entrypoint } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: Cannot acquire BluetoothActivityEnergyInfo
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: java.util.concurrent.ExecutionException: java.lang.RuntimeException: error: 9
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:372)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2072)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BluetoothPowerStatsCollector.collectBluetoothActivityInfo(BluetoothPowerStatsCollector.java:181)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BluetoothPowerStatsCollector.collectStats(BluetoothPowerStatsCollector.java:149)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.PowerStatsCollector.collectAndDeliverStats(PowerStatsCollector.java:176)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.PowerStatsCollector$$ExternalSyntheticLambda0.run(R8$$SyntheticClass:0)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at android.os.Handler.handleCallback(Handler.java:991)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: Caused by: java.lang.RuntimeException: error: 9
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BluetoothPowerStatsCollector$1.onBluetoothActivityEnergyInfoError(BluetoothPowerStatsCollector.java:170)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.lambda$onError$2(BluetoothAdapter.java:1063)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothUtils.lambda$executeFromBinder$0(BluetoothUtils.java:343)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothUtils$$ExternalSyntheticLambda1.run(D8$$SyntheticClass:0)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at com.android.server.SystemServerInitThreadPool$$ExternalSyntheticLambda0.execute(R8$$SyntheticClass:0)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothUtils.executeFromBinder(BluetoothUtils.java:343)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter$OnBluetoothActivityEnergyInfoProxy.onError(BluetoothAdapter.java:1062)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at android.bluetooth.BluetoothAdapter.requestControllerActivityEnergyInfo(BluetoothAdapter.java:2769)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BatteryStatsImpl$BluetoothStatsRetrieverImpl.requestControllerActivityEnergyInfo(BatteryStatsImpl.java:401)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	at com.android.server.power.stats.BluetoothPowerStatsCollector.collectBluetoothActivityInfo(BluetoothPowerStatsCollector.java:159)
+11-23 10:29:55.700   770   847 E BluetoothPowerStatsCollector: 	... 8 more
+11-23 10:29:55.673  2626  2626 I serial_console: type=1400 audit(0.0:474): avc:  denied  { map } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:29:55.673  2626  2626 I serial_console: type=1400 audit(0.0:475): avc:  denied  { read execute } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:29:58.015   770   996 D SntpClient: round trip: 4ms, clock offset: 4ms
+11-23 10:29:58.205   770   908 I InputDispatcher: Canceling pointers for device 3 in 5001743 app.lawnchair/app.lawnchair.LawnchairLauncher with event MotionEvent
+11-23 10:29:58.205   770   908 I InputDispatcher: Canceling pointers for device 3 in PointerEventDispatcher0 with event MotionEvent
+11-23 10:29:58.329   770   838 D OomAdjuster: Not killing cached processes
+11-23 10:29:58.330   770   838 D ActivityManager: sync unfroze 1786 com.android.localtransport for 10
+11-23 10:29:58.330   770   838 D ActivityManager: sync unfroze 1689 com.android.keychain for 10
+11-23 10:29:58.807  1340  2144 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 3, widgetFlipperIndex = 0, preWidgetDataIndex = 2, preWidgetFlipperIndex = 1
+11-23 10:29:58.807  1340  2144 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+11-23 10:29:58.808   770   990 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+11-23 10:30:01.743   770   908 W InputDispatcher: Not sending touch gesture to 7c5ec6 ActivityRecordInputSink app.lawnchair/.LawnchairLauncher because it has config NO_INPUT_CHANNEL
+11-23 10:30:02.808  1340  1402 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 4, widgetFlipperIndex = 1, preWidgetDataIndex = 3, preWidgetFlipperIndex = 0
+11-23 10:30:02.809  1340  1402 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+11-23 10:30:02.810   770   990 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+11-23 10:30:06.810  1340  1402 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 0, widgetFlipperIndex = 0, preWidgetDataIndex = 4, preWidgetFlipperIndex = 1
+11-23 10:30:06.811  1340  1402 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+11-23 10:30:06.812   770   990 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+11-23 10:30:07.073   770   908 W InputDispatcher: Not sending touch gesture to 7c5ec6 ActivityRecordInputSink app.lawnchair/.LawnchairLauncher because it has config NO_INPUT_CHANNEL
+11-23 10:30:07.073   770   908 I InputDispatcher: Dropping event because no targets were found: MotionEvent
+11-23 10:30:08.359   770   890 D OomAdjuster: Not killing cached processes
+11-23 10:30:10.787  2679  2679 W screencap: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: SurfaceFlingerAIDL
+11-23 10:30:10.787  2679  2679 W BpBinder: Linking to death on android.gui.ISurfaceComposer but there are no threads (yet?) listening to incoming transactions. See ProcessState::startThreadPool and ProcessState::setThreadPoolMaxThreadCount. Generally you should setup the binder threadpool before other initialization steps.
+11-23 10:30:10.787  2679  2679 W ProcessState: Extra binder thread started, but 0 threads requested. Do not use *startThreadPool when zero threads are requested.
+11-23 10:30:10.794   688   700 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:30:10.816  1340  1402 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 1, widgetFlipperIndex = 1, preWidgetDataIndex = 0, preWidgetFlipperIndex = 0
+11-23 10:30:10.838  1340  1402 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+11-23 10:30:10.813  2680  2680 I serial_console: type=1400 audit(0.0:476): avc:  denied  { read write } for  name="ttyS1" dev="tmpfs" ino=675 scontext=u:r:su:s0 tcontext=u:object_r:serial_device:s0 tclass=chr_file permissive=1
+11-23 10:30:10.844   770   990 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+11-23 10:30:10.813  2680  2680 I serial_console: type=1400 audit(0.0:477): avc:  denied  { open } for  path="/dev/ttyS1" dev="tmpfs" ino=675 scontext=u:r:su:s0 tcontext=u:object_r:serial_device:s0 tclass=chr_file permissive=1
+11-23 10:30:10.865  2679  2681 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@2.0::IMapper instance: default
+11-23 10:30:10.889  2679  2681 W screencap: Cannot open renderer configuration file (nemuhotd pid=467)
+11-23 10:30:14.839  1340  1402 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 2, widgetFlipperIndex = 0, preWidgetDataIndex = 1, preWidgetFlipperIndex = 1
+11-23 10:30:14.840  1340  1402 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+11-23 10:30:14.841   770   990 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2

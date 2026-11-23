@@ -1,0 +1,115 @@
+package com.dts.freefireth;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.content.res.Configuration;
+import android.os.Bundle;
+import android.view.KeyEvent;
+import android.view.MotionEvent;
+import com.unity3d.player.UnityPlayer;
+
+/* JADX INFO: loaded from: classes.dex */
+public class UnityPlayerActivity extends Activity {
+    protected UnityPlayer mUnityPlayer;
+
+    @Override // android.app.Activity, android.view.Window.Callback
+    public boolean dispatchKeyEvent(KeyEvent keyEvent) {
+        return keyEvent.getAction() == 2 ? this.mUnityPlayer.injectEvent(keyEvent) : super.dispatchKeyEvent(keyEvent);
+    }
+
+    @Override // android.app.Activity, android.content.ComponentCallbacks
+    public void onConfigurationChanged(Configuration configuration) {
+        super.onConfigurationChanged(configuration);
+        this.mUnityPlayer.configurationChanged(configuration);
+    }
+
+    @Override // android.app.Activity
+    protected void onCreate(Bundle bundle) {
+        requestWindowFeature(1);
+        super.onCreate(bundle);
+        getIntent().putExtra("unity", updateUnityCommandLineArguments(getIntent().getStringExtra("unity")));
+        UnityPlayer unityPlayer = new UnityPlayer(this);
+        this.mUnityPlayer = unityPlayer;
+        setContentView(unityPlayer);
+        this.mUnityPlayer.requestFocus();
+    }
+
+    @Override // android.app.Activity
+    protected void onDestroy() {
+        this.mUnityPlayer.destroy();
+        super.onDestroy();
+    }
+
+    @Override // android.app.Activity
+    public boolean onGenericMotionEvent(MotionEvent motionEvent) {
+        return this.mUnityPlayer.injectEvent(motionEvent);
+    }
+
+    @Override // android.app.Activity, android.view.KeyEvent.Callback
+    public boolean onKeyDown(int i2, KeyEvent keyEvent) {
+        return this.mUnityPlayer.injectEvent(keyEvent);
+    }
+
+    @Override // android.app.Activity, android.view.KeyEvent.Callback
+    public boolean onKeyUp(int i2, KeyEvent keyEvent) {
+        return this.mUnityPlayer.injectEvent(keyEvent);
+    }
+
+    @Override // android.app.Activity, android.content.ComponentCallbacks
+    public void onLowMemory() {
+        super.onLowMemory();
+        this.mUnityPlayer.lowMemory();
+    }
+
+    @Override // android.app.Activity
+    protected void onNewIntent(Intent intent) {
+        setIntent(intent);
+    }
+
+    @Override // android.app.Activity
+    protected void onPause() {
+        super.onPause();
+        this.mUnityPlayer.pause();
+    }
+
+    @Override // android.app.Activity
+    protected void onResume() {
+        super.onResume();
+        this.mUnityPlayer.resume();
+    }
+
+    @Override // android.app.Activity
+    protected void onStart() {
+        super.onStart();
+        this.mUnityPlayer.start();
+    }
+
+    @Override // android.app.Activity
+    protected void onStop() {
+        super.onStop();
+        this.mUnityPlayer.stop();
+    }
+
+    @Override // android.app.Activity
+    public boolean onTouchEvent(MotionEvent motionEvent) {
+        return this.mUnityPlayer.injectEvent(motionEvent);
+    }
+
+    @Override // android.app.Activity, android.content.ComponentCallbacks2
+    public void onTrimMemory(int i2) {
+        super.onTrimMemory(i2);
+        if (i2 == 15) {
+            this.mUnityPlayer.lowMemory();
+        }
+    }
+
+    @Override // android.app.Activity, android.view.Window.Callback
+    public void onWindowFocusChanged(boolean z) {
+        super.onWindowFocusChanged(z);
+        this.mUnityPlayer.windowFocusChanged(z);
+    }
+
+    protected String updateUnityCommandLineArguments(String str) {
+        return str;
+    }
+}

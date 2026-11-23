@@ -1,0 +1,1406 @@
+{
+  "meta": {
+    "generated": "2026-11-23",
+    "scope": "Source-level verification of endpoint-like strings in Java, IL2CPP C#, native C, manifest and assets.",
+    "method": "Direct file/line inspection; derived indexes (endpoints.json, RINGKASAN.txt) used only as hints, not as evidence.",
+    "note": "Game host addresses (VerAddr/MajorServerAddr/...) are config-driven static fields; literal values arrive at runtime from version/config response."
+  },
+  "game_config_host_fields": {
+    "file": "il2cpp/dumper_out_final/dump.cs",
+    "entries": [
+      {
+        "line": 1008818,
+        "value": "VerAddr",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008819,
+        "value": "CDNAddr",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008820,
+        "value": "ServerAddr",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008821,
+        "value": "MajorServerAddr",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008822,
+        "value": "LogServerAddr",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008823,
+        "value": "NetworkLogServerAddr",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008824,
+        "value": "NetworkDetectionServerAddr",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008834,
+        "value": "AppStoreAddr",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008840,
+        "value": "ClientIP",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008854,
+        "value": "UrgentAnnouncement",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008857,
+        "value": "garenaAppId",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008858,
+        "value": "garenaAppKeySandbox",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008859,
+        "value": "garenaAppKeyProduction",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008861,
+        "value": "_OverrideGOPRootUrl",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008862,
+        "value": "_OverrideGOPNewRootUrl",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008863,
+        "value": "GOP_CHECK_BIND",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008864,
+        "value": "garenaPushAppkeySandbox",
+        "context": "COW.GameConfig static field"
+      },
+      {
+        "line": 1008865,
+        "value": "garenaPushAppkeyProduction",
+        "context": "COW.GameConfig static field"
+      }
+    ]
+  },
+  "il2cpp_string_literals": {
+    "file": "il2cpp/dumper_out_final/stringliteral.json",
+    "game_version_api_cdn": [
+      {
+        "line": 15495,
+        "value": "https://www.gstatic.com/firebase/ssl/roots.pem",
+        "context": "Firebase SSL roots",
+        "address": "0x757CF28"
+      },
+      {
+        "line": 21991,
+        "value": "https://hq1.appsflyer.com/gdpr/opengdpr_requests?api_token=",
+        "context": "AppsFlyer GDPR",
+        "address": "0x75801E8"
+      },
+      {
+        "line": 27179,
+        "value": "https://www.facebook.com/{0}/",
+        "context": "Facebook template",
+        "address": "0x7582A70"
+      },
+      {
+        "line": 28079,
+        "value": "185753624591-3sg2arfuus5i1anc2jcfarepnf6cdlaq.apps.googleusercontent.com",
+        "context": "Google OAuth client",
+        "address": "0x7583178"
+      },
+      {
+        "line": 28095,
+        "value": "https://{0}.connect.garena.com/",
+        "context": "Garena connect root",
+        "address": "0x7583198"
+      },
+      {
+        "line": 28099,
+        "value": "https://testconnect.garena.com/",
+        "context": "Garena test connect",
+        "address": "0x75831A0"
+      },
+      {
+        "line": 28175,
+        "value": "http://play.google.com/store/apps/details?id=com.dts.freefireth",
+        "context": "Play Store app",
+        "address": "0x7583238"
+      },
+      {
+        "line": 28179,
+        "value": "https://bdversion.ggbluefox.com/live/",
+        "context": "Version host",
+        "address": "0x7583240"
+      },
+      {
+        "line": 28195,
+        "value": "http://gametest.webteam.jingle.cn/api/",
+        "context": "Game test API",
+        "address": "0x7583260"
+      },
+      {
+        "line": 28199,
+        "value": "https://version.common.redflamenco.com/live/",
+        "context": "Version host",
+        "address": "0x7583268"
+      },
+      {
+        "line": 28203,
+        "value": "http://www.freefiremobile.com/",
+        "context": "Official site",
+        "address": "0x7583270"
+      },
+      {
+        "line": 39635,
+        "value": "https://freefiremobile-a.akamaihd.net/sbt/ABHotUpdates/",
+        "context": "Hot-update CDN",
+        "address": "0x7588BC0"
+      },
+      {
+        "line": 39639,
+        "value": "http://10.21.248.178/",
+        "context": "Internal/debug IP",
+        "address": "0x7588BC8"
+      },
+      {
+        "line": 39643,
+        "value": "http://10.21.248.113:39001/",
+        "context": "Internal/debug IP:port",
+        "address": "0x7588BD0"
+      },
+      {
+        "line": 42507,
+        "value": "http://10.21.23.15:8811/Debug/FEFileServer/",
+        "context": "Debug file server",
+        "address": "0x758A230"
+      },
+      {
+        "line": 50151,
+        "value": "/ReportReplays/replaysUpload/",
+        "context": "Replay upload path",
+        "address": "0x758DDE8"
+      },
+      {
+        "line": 70027,
+        "value": "ver.php",
+        "context": "Version check fragment",
+        "address": "0x7597930"
+      },
+      {
+        "line": 76315,
+        "value": "get_region_billboard.php",
+        "context": "Region billboard path",
+        "address": "0x759AA50"
+      },
+      {
+        "line": 94051,
+        "value": "/gameassetbundles",
+        "context": "Asset bundle path",
+        "address": "0x75A34E0"
+      },
+      {
+        "line": 94387,
+        "value": "/optionallocres/fileinfo",
+        "context": "Optional resource info",
+        "address": "0x75A3780"
+      },
+      {
+        "line": 94615,
+        "value": "/streaming",
+        "context": "Streaming resource path",
+        "address": "0x75A3948"
+      }
+    ],
+    "deeplink_share_store": [
+      {
+        "line": 39751,
+        "value": "http://www.freefiremobile.com/mobile/ff/deeplink?action=reunion&uid=<FF_ID>&lang=<FF_LANGUAGE>",
+        "context": "Reunion deeplink",
+        "address": "0x7588CA8"
+      },
+      {
+        "line": 39755,
+        "value": "https://ffshare.garena.com/?region={0}&lang={1}&avatar_id={2}",
+        "context": "Share URL",
+        "address": "0x7588CB0"
+      },
+      {
+        "line": 39783,
+        "value": "http://play.google.com/store/account/subscriptions",
+        "context": "Subscriptions",
+        "address": "0x7588CE8"
+      },
+      {
+        "line": 39871,
+        "value": "www.apple.com",
+        "context": "Apple domain",
+        "address": "0x7588D98"
+      },
+      {
+        "line": 39875,
+        "value": "https://dangky.ff.garena.vn/?utm_source=client",
+        "context": "VN registration",
+        "address": "0x7588DA0"
+      },
+      {
+        "line": 39931,
+        "value": "https://ff.garena.com/",
+        "context": "FF Garena site",
+        "address": "0x7588E10"
+      },
+      {
+        "line": 39979,
+        "value": "https://play.google.com/store/account/subscriptions",
+        "context": "Subscriptions",
+        "address": "0x7588E70"
+      },
+      {
+        "line": 69367,
+        "value": "http://www.freefiremobile.com/mobile/ff/deeplink",
+        "context": "Deeplink base",
+        "address": "0x7597408"
+      },
+      {
+        "line": 82155,
+        "value": "      [u]https://www.garena.sg/privacy[u]",
+        "context": "Privacy UI",
+        "address": "0x759D7F0"
+      },
+      {
+        "line": 82159,
+        "value": "https://www.garena.sg/privacy",
+        "context": "Privacy URL",
+        "address": "0x759D7F8"
+      },
+      {
+        "line": 89295,
+        "value": "https://booyah.live/standalone/freefire",
+        "context": "Booyah FF",
+        "address": "0x75A0FB8"
+      },
+      {
+        "line": 89299,
+        "value": "https://test.connect.booyah.live/standalone/freefire",
+        "context": "Booyah test",
+        "address": "0x75A0FC0"
+      },
+      {
+        "line": 95223,
+        "value": "http://play.google.com/store/apps/details?id=com.google.android.webview",
+        "context": "WebView update",
+        "address": "0x75A3E08"
+      }
+    ],
+    "payment_shop_topup": [
+      {
+        "line": 95979,
+        "value": "https://testpay.garena.com",
+        "address": "0x75A43F0"
+      },
+      {
+        "line": 95983,
+        "value": "https://shop.garena.com",
+        "address": "0x75A43F8"
+      },
+      {
+        "line": 95987,
+        "value": "https://testpay.garena.vn/",
+        "address": "0x75A4400"
+      },
+      {
+        "line": 95991,
+        "value": "https://napthe.vn/",
+        "address": "0x75A4408"
+      },
+      {
+        "line": 95999,
+        "value": "https://testpay.garena.in.th/",
+        "address": "0x75A4418"
+      },
+      {
+        "line": 96003,
+        "value": "https://termgame.com/",
+        "address": "0x75A4420"
+      },
+      {
+        "line": 96007,
+        "value": "https://testpay.garena.co.id/",
+        "address": "0x75A4428"
+      },
+      {
+        "line": 96011,
+        "value": "https://kiosgamer.co.id/",
+        "address": "0x75A4430"
+      },
+      {
+        "line": 96019,
+        "value": "https://testpay.garena.tw/",
+        "address": "0x75A4440"
+      },
+      {
+        "line": 96023,
+        "value": "https://shop.garena.tw/",
+        "address": "0x75A4448"
+      },
+      {
+        "line": 96027,
+        "value": "https://testpay.garena.ru/",
+        "address": "0x75A4450"
+      },
+      {
+        "line": 96031,
+        "value": "https://shop.garena.ru/",
+        "address": "0x75A4458"
+      },
+      {
+        "line": 96035,
+        "value": "https://testpay.recargajogo.com.br/",
+        "address": "0x75A4460"
+      },
+      {
+        "line": 96039,
+        "value": "https://recargajogo.com.br/",
+        "address": "0x75A4468"
+      },
+      {
+        "line": 96047,
+        "value": "https://testpay.pagostore.com/",
+        "address": "0x75A4478"
+      },
+      {
+        "line": 96051,
+        "value": "https://pagostore.com/",
+        "address": "0x75A4480"
+      },
+      {
+        "line": 96063,
+        "value": "https://testpay.ggtopup.com/",
+        "address": "0x75A4498"
+      },
+      {
+        "line": 96067,
+        "value": "https://ggtopup.com/",
+        "address": "0x75A44A0"
+      },
+      {
+        "line": 96071,
+        "value": "https://testpay.shop2game.com/",
+        "address": "0x75A44A8"
+      },
+      {
+        "line": 96075,
+        "value": "https://shop2game.com/",
+        "address": "0x75A44B0"
+      },
+      {
+        "line": 96079,
+        "value": "https://testpay.gameskharido.in/",
+        "address": "0x75A44B8"
+      },
+      {
+        "line": 96083,
+        "value": "https://gameskharido.in/",
+        "address": "0x75A44C0"
+      },
+      {
+        "line": 96091,
+        "value": "https://testpay.topup.pk/",
+        "address": "0x75A44D0"
+      },
+      {
+        "line": 96095,
+        "value": "https://topup.pk/",
+        "address": "0x75A44D8"
+      },
+      {
+        "line": 96103,
+        "value": "https://testpay.bdgamesbazar.com/",
+        "address": "0x75A44E8"
+      },
+      {
+        "line": 96107,
+        "value": "https://bdgamesbazar.com/",
+        "address": "0x75A44F0"
+      }
+    ],
+    "static_media_cdn": [
+      {
+        "line": 46515,
+        "value": "https://freefiremobile-a.akamaihd.net/common/OB17/mode/Rank_BG.png",
+        "address": "0x758C180"
+      },
+      {
+        "line": 57891,
+        "value": "https://freefiremobile-a.akamaihd.net/common/OB27/mode/Bomb.jpg",
+        "address": "0x7591A60"
+      },
+      {
+        "line": 57991,
+        "value": "https://www.baidu.com/img/PCtm_d9c8750bed0b3c7d089fa7d55720d6cf.png",
+        "address": "0x7591B28"
+      },
+      {
+        "line": 58003,
+        "value": "https://www.youtube.com/watch?v=TPSFCsz40iU",
+        "address": "0x7591B40"
+      },
+      {
+        "line": 70147,
+        "value": "https://freefiremobile-a.akamaihd.net/common/OB23/version/Patch_Max_Bg_<FF_LANGUAGE>.png",
+        "address": "0x7597A20"
+      },
+      {
+        "line": 70175,
+        "value": "https://freefiremobile-a.akamaihd.net/common/OB12/loading/temproryCDN.jpg",
+        "address": "0x7597A58"
+      },
+      {
+        "line": 70179,
+        "value": "https://freefiremobile-a.akamaihd.net/common/OB23/version/Patch_Bg.png",
+        "address": "0x7597A60"
+      },
+      {
+        "line": 76123,
+        "value": "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577198474734&di=573a3b15a028784962ca274dea3b80cc&imgtype=0&src=http%3A%2F%2Fb-ssl.duitang.com%2Fuploads%2Fitem%2F201701%2F12%2F20170112010016_PiCRU.jpeg",
+        "address": "0x759A8D0"
+      },
+      {
+        "line": 99551,
+        "value": "https://www.youtube.com/watch?v=aqz-KE-bpKQ",
+        "address": "0x75A5FD8"
+      },
+      {
+        "line": 99675,
+        "value": "dl.castle.freefiremobile.com",
+        "address": "0x75A60D0"
+      }
+    ],
+    "php_fragments": [
+      {
+        "line": 24307,
+        "value": "GameVarDef.FixRefreshConfigOrderInRestart from version.php ",
+        "context": "mentions version.php"
+      }
+    ]
+  },
+  "android_app_garena_beetalk_booyah": {
+    "jadx_out/sources/j/a/a.java": [
+      {
+        "line": 99,
+        "value": "http://203.116.180.99/crash/logs/",
+        "context": "static f = crash/log upload URL"
+      },
+      {
+        "line": 100,
+        "value": "crashreporter.beetalkmobile.com",
+        "context": "static f1910g = Host header"
+      },
+      {
+        "line": 245,
+        "value": "new j.a.c(f, \"UTF-8\")",
+        "context": "k(String,String) uploads to f"
+      },
+      {
+        "line": 246,
+        "value": "cVar.b(\"Host\", f1910g)",
+        "context": "sets Host header"
+      },
+      {
+        "line": 247,
+        "value": "cVar.a(\"logfile\", new File(str))",
+        "context": "multipart field"
+      },
+      {
+        "line": 248,
+        "value": "cVar.a(\"attachment\", new File(str2))",
+        "context": "multipart field"
+      }
+    ],
+    "jadx_out/sources/j/c/a/c/a/c.java": [
+      {
+        "line": 5,
+        "value": "beepost-gpns",
+        "context": "public static String a"
+      },
+      {
+        "line": 10,
+        "value": "https://testbeepost.garenanow.com",
+        "context": "test host from a()"
+      },
+      {
+        "line": 10,
+        "value": "https://beepost.garenanow.com",
+        "context": "production host from a()"
+      },
+      {
+        "line": 14,
+        "value": "/api/device/tag/delete",
+        "context": "b() -> a() + path"
+      },
+      {
+        "line": 18,
+        "value": "/api/device/register",
+        "context": "c() -> a() + path"
+      },
+      {
+        "line": 22,
+        "value": "/api/device/tag/set",
+        "context": "d() -> a() + path"
+      }
+    ],
+    "jadx_out/sources/j/c/a/e/i/a.java": [
+      {
+        "line": 23,
+        "value": "gpushsg1.beetalkmobile.com:10086",
+        "context": "b() default for REGIONAL_SERVER_ADDRESS"
+      }
+    ],
+    "jadx_out/sources/j/c/a/e/f/i.java": [
+      {
+        "line": 25,
+        "value": "10086",
+        "context": "a(int) branch i2==2 port"
+      },
+      {
+        "line": 26,
+        "value": "gpushsg1.beetalkmobile.com",
+        "context": "a(int) branch i2==2 host"
+      }
+    ],
+    "jadx_out/sources/com/seagroup/gamesdk/MambetSdkLibrary.java": [
+      {
+        "line": 27,
+        "value": "/reports/gameevents/%d/reports",
+        "context": "EVENT_PATH"
+      },
+      {
+        "line": 33,
+        "value": "/channel/check",
+        "context": "POLLING_PATH"
+      },
+      {
+        "line": 39,
+        "value": "https://booyah.live/api/v3",
+        "context": "SERVER_URL"
+      },
+      {
+        "line": 41,
+        "value": "https://test.connect.booyah.live/api/v3",
+        "context": "TEST_SERVER_URL"
+      },
+      {
+        "line": 187,
+        "value": "getServerUrl() + POLLING_PATH",
+        "context": "updateChannelStatus()"
+      },
+      {
+        "line": 234,
+        "value": "getServerUrl() + String.format(EVENT_PATH, gameId)",
+        "context": "uploadingAsync()"
+      }
+    ],
+    "jadx_out/sources/com/beetalk/sdk/p.java": {
+      "hosts": [
+        {
+          "line": 133,
+          "value": "https://devmsdk.garena.com",
+          "context": "C() test"
+        },
+        {
+          "line": 133,
+          "value": "https://testmsdk.garena.com",
+          "context": "C() test"
+        },
+        {
+          "line": 140,
+          "value": "https://msdk.garena.com",
+          "context": "C() production"
+        },
+        {
+          "line": 140,
+          "value": "https://%s.msdk.garena.com",
+          "context": "C() regional"
+        },
+        {
+          "line": 170,
+          "value": "https://devconnect.garena.com",
+          "context": "I() test"
+        },
+        {
+          "line": 170,
+          "value": "https://testconnect.garena.com",
+          "context": "I() test"
+        },
+        {
+          "line": 177,
+          "value": "https://connect.garena.com",
+          "context": "I() production"
+        },
+        {
+          "line": 177,
+          "value": "https://%s.connect.garena.com",
+          "context": "I() regional"
+        },
+        {
+          "line": 239,
+          "value": "https://testconnect.garenanow.com/app/info/get",
+          "context": "b() test"
+        },
+        {
+          "line": 239,
+          "value": "https://connect.garenanow.com/app/info/get",
+          "context": "b() production"
+        },
+        {
+          "line": 307,
+          "value": "https://connect.garenanow.com/app/feedback",
+          "context": "s()"
+        }
+      ],
+      "api_paths": [
+        {
+          "line": 119,
+          "value": "/oauth/logout",
+          "address": "A()"
+        },
+        {
+          "line": 123,
+          "value": "/api/msdk",
+          "address": "B()"
+        },
+        {
+          "line": 144,
+          "value": "/pay/event/cancel",
+          "address": "D()"
+        },
+        {
+          "line": 148,
+          "value": "/pay/event/init",
+          "address": "E()"
+        },
+        {
+          "line": 152,
+          "value": "/info/rebates",
+          "address": "F()"
+        },
+        {
+          "line": 156,
+          "value": "/rebates/redeem",
+          "address": "G()"
+        },
+        {
+          "line": 160,
+          "value": "/oauth/guest/register",
+          "address": "H()"
+        },
+        {
+          "line": 181,
+          "value": "/game/user/request/send",
+          "address": "J()"
+        },
+        {
+          "line": 185,
+          "value": "/oauth/token/inspect",
+          "address": "K()"
+        },
+        {
+          "line": 189,
+          "value": "/oauth/token/refresh",
+          "address": "L()"
+        },
+        {
+          "line": 193,
+          "value": "/oauth/user/info/get",
+          "address": "M()"
+        },
+        {
+          "line": 243,
+          "value": "/bind/app/platform/create",
+          "address": "c()"
+        },
+        {
+          "line": 247,
+          "value": "/bind/app/platform/info/get",
+          "address": "d()"
+        },
+        {
+          "line": 251,
+          "value": "/oauth/token/facebook/exchange",
+          "address": "e()"
+        },
+        {
+          "line": 255,
+          "value": "/oauth/token/google/exchange",
+          "address": "f()"
+        },
+        {
+          "line": 259,
+          "value": "/oauth/token/line/exchange",
+          "address": "g()"
+        },
+        {
+          "line": 263,
+          "value": "/oauth/token",
+          "address": "h()"
+        },
+        {
+          "line": 267,
+          "value": "/oauth/token/exchange",
+          "address": "i()"
+        },
+        {
+          "line": 271,
+          "value": "/oauth/token/twitter/exchange",
+          "address": "j()"
+        },
+        {
+          "line": 275,
+          "value": "/oauth/token/vk/exchange/v2",
+          "address": "k()"
+        },
+        {
+          "line": 279,
+          "value": "/game/guest/bind",
+          "address": "l()"
+        },
+        {
+          "line": 283,
+          "value": "/info/pricing",
+          "address": "m()"
+        },
+        {
+          "line": 287,
+          "value": "/options/get",
+          "address": "n()"
+        },
+        {
+          "line": 299,
+          "value": "/info/event/config",
+          "address": "q()"
+        },
+        {
+          "line": 303,
+          "value": "/info/event/pricing",
+          "address": "r()"
+        },
+        {
+          "line": 311,
+          "value": "/oauth/garena?",
+          "address": "t()"
+        },
+        {
+          "line": 315,
+          "value": "/oauth/login?",
+          "address": "u()"
+        },
+        {
+          "line": 319,
+          "value": "/pay/google/commit",
+          "address": "v()"
+        },
+        {
+          "line": 323,
+          "value": "/oauth/guest/token/grant",
+          "address": "w()"
+        },
+        {
+          "line": 327,
+          "value": "/oauth/user/friends/get/v2",
+          "address": "x()"
+        },
+        {
+          "line": 331,
+          "value": "/oauth/user/friends/info/get/v2",
+          "address": "y()"
+        },
+        {
+          "line": 335,
+          "value": "/oauth/user/friends/inapp/get/v2",
+          "address": "z()"
+        }
+      ]
+    }
+  },
+  "embedded_sdk_endpoints": {
+    "appsflyer": [
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/ai.java",
+        "line": 104,
+        "value": "https://%sstats.%s/stats",
+        "context": "onInstallConversionFailureNative"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/ai.java",
+        "line": 482,
+        "value": "/androidevent?buildnumber=6.4.0&app_id=",
+        "context": "values"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/ai.java",
+        "line": 484,
+        "value": "https://%sadrevenue.%s/api/v",
+        "context": "onAttributionFailureNative"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/ai.java",
+        "line": 486,
+        "value": "/android?buildnumber=6.4.0&app_id=",
+        "context": "ad revenue"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/ai.java",
+        "line": 490,
+        "value": "/androidevent?app_id=",
+        "context": "common path"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/ai.java",
+        "line": 493,
+        "value": "https://%sconversions.%s/api/v",
+        "context": "onInstallConversionDataLoadedNative"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/ai.java",
+        "line": 496,
+        "value": "https://%slaunches.%s/api/v",
+        "context": "onConversionDataFail"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/ai.java",
+        "line": 499,
+        "value": "https://%sinapps.%s/api/v",
+        "context": "onAttributionFailure"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/ai.java",
+        "line": 502,
+        "value": "https://%sattr.%s/api/v",
+        "context": "onDeepLinking"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/ai.java",
+        "line": 1649,
+        "value": "appsflyer.com",
+        "context": "getHostName() default"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/aj.java",
+        "line": 21,
+        "value": "https://%smonitorsdk.%s/remote-debug?app_id=",
+        "context": "static template"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/am.java",
+        "line": 37,
+        "value": "https://%sonelink.%s/shortlink-sdk/",
+        "context": "static block"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/ar.java",
+        "line": 30,
+        "value": "https://%sdlsdk.%s/v1.0/android/",
+        "context": "onAttributionFailure"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/av.java",
+        "line": 100,
+        "value": "https://ars.appsflyer.com/api/v1/android/validate_subscription",
+        "context": "validate subscription"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/av.java",
+        "line": 198,
+        "value": "https://ars.appsflyer.com/api/v1/android/validate_subscription",
+        "context": "validate subscription (2)"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/bq.java",
+        "line": 27,
+        "value": "https://%sregister.%s/api/v",
+        "context": "endpoint builder"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/bv.java",
+        "line": 23,
+        "value": "https://%sgcdsdk.%s/install_data/v4.0/",
+        "context": "AFInAppEventType"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/co.java",
+        "line": 5,
+        "value": "https://%sapp.%s",
+        "context": "valueOf"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/z.java",
+        "line": 16,
+        "value": "https://%ssdk-services.%s/validate-android-signature",
+        "context": "AFKeystoreWrapper"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/internal/z.java",
+        "line": 28,
+        "value": "https://%svalidate.%s/api/v",
+        "context": "endpoint builder"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/share/CrossPromotionHelper.java",
+        "line": 21,
+        "value": "https://%simpression.%s",
+        "context": "AFKeystoreWrapper"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/share/LinkGenerator.java",
+        "line": 208,
+        "value": "https://%s/%s",
+        "context": "link generation"
+      },
+      {
+        "file": "jadx_out/sources/com/appsflyer/share/LinkGenerator.java",
+        "line": 213,
+        "value": "https://%s/%s",
+        "context": "generic generated link"
+      }
+    ],
+    "google_firebase_crashlytics": [
+      {
+        "file": "jadx_out/sources/com/google/firebase/crashlytics/internal/settings/d.java",
+        "line": 79,
+        "value": "https://firebase-settings.crashlytics.com/spi/v2/platforms/android/gmp/%s/settings",
+        "context": "Crashlytics settings"
+      },
+      {
+        "file": "jadx_out/sources/com/google/firebase/crashlytics/internal/settings/g.java",
+        "line": 18,
+        "value": "https://update.crashlytics.com/spi/v1/platforms/android/apps",
+        "context": "app update"
+      },
+      {
+        "file": "jadx_out/sources/com/google/firebase/crashlytics/internal/settings/g.java",
+        "line": 18,
+        "value": "https://update.crashlytics.com/spi/v1/platforms/android/apps/%s",
+        "context": "app-specific update"
+      },
+      {
+        "file": "jadx_out/sources/com/google/firebase/crashlytics/internal/settings/g.java",
+        "line": 20,
+        "value": "https://reports.crashlytics.com/spi/v1/platforms/android/apps/%s/reports",
+        "context": "report upload"
+      },
+      {
+        "file": "jadx_out/sources/com/google/firebase/crashlytics/internal/settings/g.java",
+        "line": 20,
+        "value": "https://reports.crashlytics.com/sdk-api/v1/platforms/android/apps/%s/minidumps",
+        "context": "native minidump"
+      },
+      {
+        "file": "jadx_out/sources/com/google/firebase/installations/q/c.java",
+        "line": 100,
+        "value": "https://%s/%s/%s (firebaseinstallations.googleapis.com, v1)",
+        "context": "Firebase Installations"
+      },
+      {
+        "file": "jadx_out/sources/com/google/android/gms/auth/api/signin/GoogleSignInOptions.java",
+        "line": 161,
+        "value": "https://www.googleapis.com/auth/games_lite",
+        "context": "scope"
+      },
+      {
+        "file": "jadx_out/sources/com/google/android/gms/auth/api/signin/GoogleSignInOptions.java",
+        "line": 163,
+        "value": "https://www.googleapis.com/auth/games",
+        "context": "scope"
+      },
+      {
+        "file": "jadx_out/sources/com/google/android/gms/auth/api/signin/internal/f.java",
+        "line": 34,
+        "value": "https://accounts.google.com/o/oauth2/revoke?token=",
+        "context": "token revoke"
+      },
+      {
+        "file": "jadx_out/sources/com/google/android/gms/measurement/internal/f3.java",
+        "line": 131,
+        "value": "https://app-measurement.com/a",
+        "context": "measurement.upload.url"
+      },
+      {
+        "file": "jadx_out/sources/com/google/android/gms/measurement/internal/ca.java",
+        "line": 465,
+        "value": "https://www.googleadservices.com/pagead/conversion/app/deeplink?id_type=adid&sdk_version=%s&rdid=%s&bundleid=%s&retry=%s",
+        "context": "ad deeplink conversion"
+      },
+      {
+        "file": "jadx_out/sources/j/d/a/c/a/a/b.java",
+        "line": 25,
+        "value": "https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps",
+        "context": "ad measurement ping"
+      }
+    ],
+    "facebook_line_twitter_vk": [
+      {
+        "file": "jadx_out/sources/com/facebook/login/d.java",
+        "line": 308,
+        "value": "https://facebook.com/device?user_code=%1$s&qr=1",
+        "context": "device login"
+      },
+      {
+        "file": "jadx_out/sources/com/facebook/internal/f0.java",
+        "line": 47,
+        "value": "https://graph.%s",
+        "context": "f() Graph host"
+      },
+      {
+        "file": "jadx_out/sources/com/facebook/internal/f0.java",
+        "line": 54,
+        "value": "https://graph.%s",
+        "context": "g() Graph host"
+      },
+      {
+        "file": "jadx_out/sources/com/facebook/internal/f0.java",
+        "line": 62,
+        "value": "https://graph.%s",
+        "context": "h(String) Graph host"
+      },
+      {
+        "file": "jadx_out/sources/com/facebook/internal/f0.java",
+        "line": 69,
+        "value": "https://graph-video.%s",
+        "context": "i() Graph video"
+      },
+      {
+        "file": "jadx_out/sources/com/facebook/r.java",
+        "line": 63,
+        "value": "facebook.com",
+        "context": "default domain"
+      },
+      {
+        "file": "jadx_out/sources/com/facebook/internal/h0.java",
+        "line": 781,
+        "value": "facebook.com",
+        "context": "domain handling"
+      },
+      {
+        "file": "jadx_out/sources/com/facebook/internal/h0.java",
+        "line": 782,
+        "value": ".facebook.com",
+        "context": "domain handling"
+      },
+      {
+        "file": "jadx_out/sources/com/facebook/internal/h0.java",
+        "line": 783,
+        "value": "https://facebook.com",
+        "context": "domain handling"
+      },
+      {
+        "file": "jadx_out/sources/com/facebook/internal/h0.java",
+        "line": 784,
+        "value": "https://.facebook.com",
+        "context": "domain handling"
+      },
+      {
+        "file": "jadx_out/sources/j/e/b/i/a.java",
+        "line": 51,
+        "value": "https://access.line.me/v2",
+        "context": "LINE auth base"
+      },
+      {
+        "file": "jadx_out/sources/j/e/b/i/a.java",
+        "line": 52,
+        "value": "https://access.line.me/dialog/oauth/weblogin",
+        "context": "LINE web login"
+      },
+      {
+        "file": "jadx_out/sources/j/g/a/a/a/y/g.java",
+        "line": 12,
+        "value": "https://api.twitter.com",
+        "context": "Twitter API default"
+      },
+      {
+        "file": "jadx_out/sources/j/g/a/a/a/y/i/b.java",
+        "line": "19-39",
+        "value": "*.twitter.com",
+        "context": "certificate pinning pattern"
+      },
+      {
+        "file": "jadx_out/sources/com/vk/sdk/k/i/b.java",
+        "line": 264,
+        "value": "http%s://api.vk.com/method/%s",
+        "context": "VK API builder"
+      },
+      {
+        "file": "jadx_out/sources/com/vk/sdk/l/b.java",
+        "line": 87,
+        "value": "https://oauth.vk.com/blank.html",
+        "context": "redirect validation"
+      },
+      {
+        "file": "jadx_out/sources/com/vk/sdk/l/b.java",
+        "line": 170,
+        "value": "https://oauth.vk.com/blank.html",
+        "context": "OAuth redirect"
+      },
+      {
+        "file": "jadx_out/sources/com/vk/sdk/l/b.java",
+        "line": 173,
+        "value": "https://oauth.vk.com/authorize?client_id=%s&scope=%s&redirect_uri=%s&display=mobile&v=%s&response_type=token&revoke=%d",
+        "context": "VK OAuth authorize"
+      },
+      {
+        "file": "jadx_out/sources/com/vk/sdk/k/k/j.java",
+        "line": 76,
+        "value": "http://vk.com/images/s_noalbum.png",
+        "context": "VK image"
+      },
+      {
+        "file": "jadx_out/sources/com/vk/sdk/k/k/j.java",
+        "line": 77,
+        "value": "http://vk.com/images/m_noalbum.png",
+        "context": "VK image"
+      },
+      {
+        "file": "jadx_out/sources/com/vk/sdk/k/k/j.java",
+        "line": 78,
+        "value": "http://vk.com/images/x_noalbum.png",
+        "context": "VK image"
+      }
+    ]
+  },
+  "manifest_and_assets": {
+    "apktool/AndroidManifest.xml": [
+      {
+        "line": 114,
+        "value": "http://122.11.128.69:2205",
+        "context": "meta-data com.beetalklib.ganalytics.report_url"
+      }
+    ],
+    "apktool/assets/google-services.json": {
+      "firebase_url": {
+        "line": 4,
+        "value": "https://free-fire-8cd39.firebaseio.com",
+        "context": "project_info.firebase_url"
+      },
+      "storage_bucket": {
+        "line": 6,
+        "value": "free-fire-8cd39.appspot.com",
+        "context": "project_info.storage_bucket"
+      },
+      "client_ids": [
+        {
+          "line": 18,
+          "value": "185753624591-pif8bds1kuk15mgn7br7npu2cqbpbfp7.apps.googleusercontent.com",
+          "context": "client_id"
+        },
+        {
+          "line": "26,39,70,83,130,143,175,188,219,232,263,276,299,312",
+          "value": "185753624591-3sg2arfuus5i1anc2jcfarepnf6cdlaq.apps.googleusercontent.com",
+          "context": "repeated client_id"
+        },
+        {
+          "line": "43,87,147,192,236,280,316",
+          "value": "185753624591-k08cjo1d24q5pfgg69j91c09dgcetv51.apps.googleusercontent.com",
+          "context": "repeated client_id"
+        },
+        {
+          "line": 62,
+          "value": "185753624591-kmnb3fbqp7upje6knl26q782a5pg6i0f.apps.googleusercontent.com",
+          "context": "client_id"
+        },
+        {
+          "line": 106,
+          "value": "185753624591-6njui4ut2t0k0e8sd5lg0ib45iu523lf.apps.googleusercontent.com",
+          "context": "client_id"
+        },
+        {
+          "line": 114,
+          "value": "185753624591-7jr00d7grt874kdngt8490hc30saanla.apps.googleusercontent.com",
+          "context": "client_id"
+        },
+        {
+          "line": 122,
+          "value": "185753624591-a5gl0o8ba141nbh7kd5islh8v9850961.apps.googleusercontent.com",
+          "context": "client_id"
+        },
+        {
+          "line": 167,
+          "value": "185753624591-r0ocg755h6q6e24uabqsfpa43aq1ut4k.apps.googleusercontent.com",
+          "context": "client_id"
+        },
+        {
+          "line": 211,
+          "value": "185753624591-uavl56vk7f7ep2cudd1je4lh83orj2hh.apps.googleusercontent.com",
+          "context": "client_id"
+        },
+        {
+          "line": 255,
+          "value": "185753624591-bc00q30fo9rd10qrpl1vdvk2ub97o5i3.apps.googleusercontent.com",
+          "context": "client_id"
+        }
+      ]
+    },
+    "apktool/res/values/strings.xml": [
+      {
+        "line": 78,
+        "value": "185753624591-7jr00d7grt874kdngt8490hc30saanla.apps.googleusercontent.com",
+        "context": "default_android_client_id"
+      },
+      {
+        "line": 79,
+        "value": "185753624591-3sg2arfuus5i1anc2jcfarepnf6cdlaq.apps.googleusercontent.com",
+        "context": "default_web_client_id"
+      },
+      {
+        "line": 85,
+        "value": "https://free-fire-8cd39.firebaseio.com",
+        "context": "firebase_database_url"
+      },
+      {
+        "line": 92,
+        "value": "free-fire-8cd39.appspot.com",
+        "context": "google_storage_bucket"
+      }
+    ]
+  },
+  "hardcoded_commands": {
+    "bee-talk_gpns": {
+      "file": "jadx_out/sources/j/c/a/e/l/e.java",
+      "context": "public static String a(int i2) maps packet ID to command string",
+      "entries": [
+        {
+          "line": 10,
+          "value": "AUTH_REQUEST",
+          "address": "i2==1"
+        },
+        {
+          "line": 13,
+          "value": "CONNECTION_REQUEST",
+          "address": "i2==2"
+        },
+        {
+          "line": 16,
+          "value": "PUSH_ACK",
+          "address": "i2==3"
+        },
+        {
+          "line": 19,
+          "value": "PING_REQUEST",
+          "address": "i2==4"
+        },
+        {
+          "line": 22,
+          "value": "REGION_REQUEST",
+          "address": "i2==5"
+        },
+        {
+          "line": 26,
+          "value": "AUTH_RESPONSE",
+          "address": "case 17"
+        },
+        {
+          "line": 28,
+          "value": "PUSH_NOTIFICATION",
+          "address": "case 18"
+        },
+        {
+          "line": 30,
+          "value": "PING_ACK",
+          "address": "case 19"
+        },
+        {
+          "line": 32,
+          "value": "REGION_RESPONSE",
+          "address": "case 20"
+        },
+        {
+          "line": 34,
+          "value": "UNKNOWN",
+          "address": "default"
+        }
+      ]
+    },
+    "il2cpp_http_enum": {
+      "file": "il2cpp/dumper_out_final/dump.cs",
+      "enum": "ServiceMessageTypeHTTP",
+      "lines": "623105-623807",
+      "total_commands": 698,
+      "representative": [
+        {
+          "line": 623109,
+          "value": "None"
+        },
+        {
+          "line": 623110,
+          "value": "LogEvent"
+        },
+        {
+          "line": 623111,
+          "value": "Login"
+        },
+        {
+          "line": 623112,
+          "value": "DebugLogin"
+        },
+        {
+          "line": 623113,
+          "value": "ChooseRegion"
+        },
+        {
+          "line": 623114,
+          "value": "GetPlatformProfile"
+        },
+        {
+          "line": 623115,
+          "value": "AccountMatchStats"
+        },
+        {
+          "line": 623116,
+          "value": "GetWallet"
+        },
+        {
+          "line": 623119,
+          "value": "IAPPurchase"
+        },
+        {
+          "line": 623146,
+          "value": "Purchase"
+        },
+        {
+          "line": 623156,
+          "value": "Logout"
+        },
+        {
+          "line": 623180,
+          "value": "CSVConfig"
+        }
+      ]
+    }
+  },
+  "negative_findings": [
+    "No `majorlogin` literal in the searched Java/native sources (it lives in IL2CPP command enum/string usage).",
+    "No .php/.aspx/.jsp literals in Java sources; .php findings are IL2CPP literals, .aspx hits are Mono framework filenames.",
+    "No confirmed app/game endpoint URLs in native/libanort_decompiled.c or native/decompiled_by_lib (matches were curl/GCC docs, Firebase/Crashlytics strings, generic http checks).",
+    "Excluded as noise: XML namespaces (schemas.android.com, W3C), StackOverflow/help links, Mono .aspx, package/class-name domains, generic http://localhost prefixes."
+  ],
+  "artifact_note": {
+    "native_decompiled_by_lib": "decompiled/native/decompiled_by_lib is a single file, not a directory.",
+    "native_game_endpoints": 0
+  }
+}

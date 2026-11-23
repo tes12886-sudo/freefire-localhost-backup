@@ -1,0 +1,126 @@
+HASIL BONGKAR APK - Free Fire 1.98.1 (com.dts.freefireth)
+============================================================
+
+[1] VERSI
+  versionName : 1.98.1
+  versionCode : 2019116185
+  min/target SDK : 16 / 31
+  Unity : 2018.4.11f1 (IL2CPP)
+
+[2] ARTIFACT
+  original/               : XAPK lengkap (APK + OBB + manifest + icon)
+  apktool/                : 7898 file, 250.0 MB (smali + resources + AndroidManifest)
+  jadx_out/sources/       : 4032 file .java
+  il2cpp/input/           : libil2cpp.so (122.9 MB) + global-metadata.dat (31.8 MB)
+  il2cpp/global-metadata.decrypted.dat     : body metadata hasil dekripsi XOR
+  il2cpp/global-metadata.reconstructed.dat : header plaintext + body (dipakai dumper)
+  il2cpp/input/libil2cpp.patched3.so       : binary IL2CPP hasil patch XOR selektif
+  il2cpp/dumper_out_final/ : dump.cs 45 MB, il2Cpp.h 73 MB, script.json 107 MB,
+                             stringliteral.json 2 MB, DummyDll/ 50 file DLL
+  il2cpp/scripts/         : script rebuild header + patch IL2CPP (reproduksi)
+  native/decompiled_by_lib: 146.7 MB kode C Ghidra untuk semua .so (kecuali libil2cpp)
+  native/libanort_decompiled.c : 1964 fungsi C dari libanort.so
+  ghidra_project/         : project Ghidra (bisa dibuka GUI)
+  tools/Il2CppDumper_patched/ : build v6.7.46 (net8.0) + guard metadata usage
+
+[3] STATUS DEKOMPILASI
+  [OK] AndroidManifest + resources -> apktool
+  [OK] classes.dex -> Java (jadx, 11 error kecil pada class obfuscated)
+  [OK] libanort.so -> 1964 fungsi C (Ghidra)
+  [OK] .so lainnya -> Ghidra headless (termasuk libunity.so 50.000 fungsi)
+  [TUNDA] libil2cpp.so (122.9 MB) analisis penuh Ghidra - butuh RAM > 8 GB
+  [OK] IL2CPP metadata -> dekripsi + rekonstruksi header -> Il2CppDumper:
+       Metadata Version 24.1, CodeRegistration 0x70a1710,
+       MetadataRegistration 0x70a1780, 49 image, dump C# + DummyDll + struct sukses.
+
+[3a] DETAIL BYPASS ENKRIPSI IL2CPP
+  - Body global-metadata.dat: XOR period-8 K=4060b0d813f6fb7e lalu XOR 0xFF
+    pada setiap byte ke-4. Header 68 dword (0x110) direkonstruksi statis.
+  - Koreksi tabel: metadataUsageLists @0x1957048 count 0xBFE98,
+    metadataUsagePairs @0x1A16EE0 count 0x3577A0,
+    stringLiteralSize 0x31390 (25202 entri), fieldRefsSize 0xF98 (499 entri).
+  - Binary libil2cpp: XOR selektif 0xF7F7F7F7 pada
+    genericMethodTable @0x5AE1090 (0x150A2 entri),
+    methodSpecs @0x59DEA1C (0x156F9 entri), dan 31337 objek Il2CppType
+    dari pTypes @0x6BCCFC0 (0x20B05 entri). Original tetap disimpan.
+  - Il2CppDumper stock crash di AddMetadataUsageFieldInfo (fieldRef #366
+    punya fieldDef=-1). Build patched di tools/Il2CppDumper_patched/ melewati
+    entri tersebut sehingga GenerateStruct + GenerateDummyDll selesai.
+  - Warning "ERROR: This file may be protected." bersifat non-blocking.
+
+[4] ENDPOINT HTTPS TERDETEKSI (dari source jadx)
+    3x  https://graph.%s
+    3x  https://app-measurement.com/a
+    2x  https://ars.appsflyer.com/api/v1/android/validate_subscription
+    2x  https://%s/%s
+    2x  https://accounts.google.com/o/oauth2/revoke?token=
+    2x  https://goo.gl/NAOOOI
+    2x  https://oauth.vk.com/blank.html
+    1x  https://%sstats.%s/stats
+    1x  https://%sadrevenue.%s/api/v
+    1x  https://%sconversions.%s/api/v
+    1x  https://%slaunches.%s/api/v
+    1x  https://%sinapps.%s/api/v
+    1x  https://%sattr.%s/api/v
+    1x  https://%smonitorsdk.%s/remote-debug?app_id=
+    1x  https://%sonelink.%s/shortlink-sdk/
+    1x  https://%sdlsdk.%s/v1.0/android/
+    1x  https://%sregister.%s/api/v
+    1x  https://%sgcdsdk.%s/install_data/v4.0/
+    1x  https://%sapp.%s
+    1x  https://%ssdk-services.%s/validate-android-signature
+    1x  https://%svalidate.%s/api/v
+    1x  https://%simpression.%s
+    1x  https://devmsdk.garena.com
+    1x  https://testmsdk.garena.com
+    1x  https://msdk.garena.com
+    1x  https://%s.msdk.garena.com
+    1x  https://devconnect.garena.com
+    1x  https://testconnect.garena.com
+    1x  https://connect.garena.com
+    1x  https://%s.connect.garena.com
+    1x  https://testconnect.garenanow.com/app/info/get
+    1x  https://connect.garenanow.com/app/info/get
+    1x  https://connect.garenanow.com/app/feedback
+    1x  https://graph-video.%s
+    1x  https://facebook.com
+    1x  https://.facebook.com
+    1x  https://facebook.com/device?user_code=%1$s&qr=1
+    1x  https://www.googleapis.com/auth/games_lite
+    1x  https://www.googleapis.com/auth/games
+    1x  https://plus.google.com/
+    1x  https://goo.gl/J1sWQy
+    1x  https://www.google.com
+    1x  https://www.googleadservices.com/pagead/conversion/app/deeplink?id_type=adid&sdk_version=%s&rdid=%s&bundleid=%s&retry=%s
+    1x  https://firebase-settings.crashlytics.com/spi/v2/platforms/android/gmp/%s/settings
+    1x  https://update.crashlytics.com/spi/v1/platforms/android/apps
+    1x  https://update.crashlytics.com/spi/v1/platforms/android/apps/%s
+    1x  https://reports.crashlytics.com/spi/v1/platforms/android/apps/%s/reports
+    1x  https://reports.crashlytics.com/sdk-api/v1/platforms/android/apps/%s/minidumps
+    1x  https://%s/%s/%s
+    1x  https://booyah.live/api/v3
+    1x  https://test.connect.booyah.live/api/v3
+    1x  http://vk.com/images/s_noalbum.png
+    1x  http://vk.com/images/m_noalbum.png
+    1x  http://vk.com/images/x_noalbum.png
+    1x  https://oauth.vk.com/authorize?client_id=%s&scope=%s&redirect_uri=%s&display=mobile&v=%s&response_type=token&revoke=%d
+    1x  http://203.116.180.99/crash/logs/
+    1x  https://testbeepost.garenanow.com
+    1x  https://beepost.garenanow.com
+    1x  https://pagead2.googlesyndication.com/pagead/gen_204?id=gmob-apps
+    1x  https://access.line.me/v2
+    1x  https://access.line.me/dialog/oauth/weblogin
+    1x  https://api.twitter.com
+
+[5] TEMUAN TAMBAHAN
+  - com.ano.gshell.AnoApplication.dec(String) = XOR 0x0A (string obfuscation sederhana)
+  - native initialize() di libanort.so (JNI_OnLoad -> FindClass com/ano/gshell/AnoApplication)
+  - file guard: %s/xx_tmp_guard.dat, %s/ShellFoo.dat
+  - cleartext HTTP diizinkan (network_security_config.xml)
+  - meta-data report_url = http://122.11.128.69:2205
+  - crash log = http://203.116.180.99/crash/logs/
+
+[6] CATATAN
+  Endpoint /live TIDAK ditemukan sebagai path literal. Yang ada: host booyah.live/api/v3
+  dan UI "Live TV" (UIModelLiveTv, LiveScreenManager, ui/uilivetv).
+  Path detail live streaming tidak plaintext (kemungkinan runtime/enkripsi).

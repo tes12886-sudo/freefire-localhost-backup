@@ -1,0 +1,42 @@
+HTTP REQUEST AES (Free Fire 1.98.1 / IL2CPP)
+===========================================
+
+Configured in: GCommon.HttpManager.Init() @ 0x3DB8B50 (libil2cpp.patched3.so)
+
+  Mode    = CBC        (CipherMode 1)   setter call @ 0x3DB8C9C  (vtable +0x258)
+  Padding = PKCS7      (PaddingMode 2)  setter call @ 0x3DB8D34  (vtable +0x278)
+  KeySize = 128 bit                     @ 0x3DB8CC4  (+0x218)
+  BlockSize = 128 bit                   @ 0x3DB8CE8  (+0x198)
+  FeedbackSize = 128 bit                @ 0x3DB8D0C  (+0x1B8)
+
+  Key = 59 67 26 74 63 25 44 45 75 68 36 25 5A 63 5E 38
+        hex   : 5967267463254445756836255a635e38
+        ascii : "Yg&tc%DEuh6%Zc^8"
+        written byte-by-byte 0x3DB8D74..0x3DB8F90, set_Key @ 0x3DB8FB4 (slot +0x1F8)
+
+  IV  = 36 6F 79 5A 44 72 32 32 45 33 79 63 68 6A 4D 25
+        hex   : 366f795a4472323245337963686a4d25
+        ascii : "6oyZDr22E3ychjM%"
+        written byte-by-byte 0x3DB8FEC..0x3DB9204, set_IV @ 0x3DB9238 (slot +0x1D8)
+
+  Note: byte literals 0x3DB8FEC..0x3DB8FFF are XOR-obfuscated with 0xF7F7F7F7;
+        from 0x3DB9000 onward they are stored plain (mixed-region patch).
+
+Encryption call path
+--------------------
+  HttpManager.Encrypt(byte[] data) @ 0x3DBA718
+    -> MemoryStream..ctor
+    -> m_aes.CreateEncryptor()  @ 0x3DBA79C  (no explicit key/IV -> uses the static Key/IV above)
+    -> CryptoStream..ctor (Write mode)
+    -> Write(data) -> FlushFinalBlock -> MemoryStream.ToArray()
+    -> returns byte[] ciphertext (RAW BINARY, no hex/Base64 step)
+
+  Guard: only when per-request bool encrypt == true AND m_EnableEncrypt (offset 0x38,
+         default true in HttpManager..ctor @ 0x3DB899C) is true.
+
+  Request body: reqDataType==1 -> ProtoBuf.Serializer.Serialize (0x3FA8CE0)
+                reqDataType==2 -> LitJson.JsonMapper.ToJson     (0x3FA8D74)
+                then optional AES above, assigned to HttpRequest.Data (byte[]).
+
+  Majorlogin: COW.UIModelLogin.RequestLogin passes encrypt=true (0x4234EC4),
+              cmd = ServiceMessageTypeHTTP.MajorLogin = 0x142.

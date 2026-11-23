@@ -1,0 +1,19 @@
+.class public interface abstract Lcom/gamesafe/ano/AnoSdk$ISendDataToSvr;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/gamesafe/ano/AnoSdk;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "ISendDataToSvr"
+.end annotation
+
+
+# virtual methods
+.method public abstract sendDataToSvr([BI)I
+.end method

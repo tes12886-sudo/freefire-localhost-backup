@@ -1,0 +1,17 @@
+version: 3.0.3
+apkFileName: com.dtd.freefireth.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 16
+  targetSdkVersion: 31
+versionInfo:
+  versionCode: 2019116185
+  versionName: 1.98.1
+resourcesInfo:
+  packageId: 127
+doNotCompress:
+- arsc
+- png
+- wav

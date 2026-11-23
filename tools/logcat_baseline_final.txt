@@ -1,0 +1,864 @@
+--------- beginning of main
+11-23 10:41:07.644   770  3042 I system_server: AssetManager2(0x77c1ffa6cfb8) locale list changing from [] to [en-US]
+11-23 10:41:07.645   770  3042 I system_server: AssetManager2(0x77c1ffa66898) locale list changing from [] to [en-US]
+11-23 10:41:07.655   770  3042 I system_server: AssetManager2(0x77c1ffa620b8) locale list changing from [] to [en-US]
+11-23 10:41:07.655   770  3042 I system_server: AssetManager2(0x77c1ffa63cd8) locale list changing from [] to [en-US]
+11-23 10:41:07.656   770  3042 I system_server: AssetManager2(0x77c1ffa671f8) locale list changing from [] to [en-US]
+11-23 10:41:07.656   770  3042 I system_server: AssetManager2(0x77c1ffa67838) locale list changing from [] to [en-US]
+11-23 10:41:07.657   770  3042 I system_server: AssetManager2(0x77c1ffa66258) locale list changing from [] to [en-US]
+11-23 10:41:07.657   770  3042 I system_server: AssetManager2(0x77c1ffa6ebd8) locale list changing from [] to [en-US]
+11-23 10:41:07.658   770  3042 I system_server: AssetManager2(0x77c1ffa704d8) locale list changing from [] to [en-US]
+11-23 10:41:07.658   770  3042 I system_server: AssetManager2(0x77c1ffa6aa38) locale list changing from [] to [en-US]
+11-23 10:41:07.658   770  3042 I system_server: AssetManager2(0x77c1ffa61d98) locale list changing from [] to [en-US]
+11-23 10:41:07.659   770  3042 I system_server: AssetManager2(0x77c1ffa69db8) locale list changing from [] to [en-US]
+11-23 10:41:07.660   770  3042 I system_server: AssetManager2(0x77c1ffa6e8b8) locale list changing from [] to [en-US]
+11-23 10:41:07.661   770  3042 I system_server: AssetManager2(0x77c1ffa6f538) locale list changing from [] to [en-US]
+11-23 10:41:07.661   770  3042 I system_server: AssetManager2(0x77c1ffa6a0d8) locale list changing from [] to [en-US]
+11-23 10:41:07.662   770  3042 I system_server: AssetManager2(0x77c1ffa6cc98) locale list changing from [] to [en-US]
+11-23 10:41:07.663   770  3042 I system_server: AssetManager2(0x77c1ffa6fe98) locale list changing from [] to [en-US]
+11-23 10:41:07.664   770  3042 I system_server: AssetManager2(0x77c1ffa5c2f8) locale list changing from [] to [en-US]
+11-23 10:41:07.664   770  3042 I system_server: AssetManager2(0x77c1ffa55598) locale list changing from [] to [en-US]
+11-23 10:41:07.664   770  3042 I system_server: AssetManager2(0x77c1ffa5e238) locale list changing from [] to [en-US]
+11-23 10:41:07.665   770  3042 I system_server: AssetManager2(0x77c1ffa4fe18) locale list changing from [] to [en-US]
+11-23 10:41:07.666   770  3042 I system_server: AssetManager2(0x77c1ffa577f8) locale list changing from [] to [en-US]
+11-23 10:41:07.667   770  3042 I system_server: AssetManager2(0x77c1ffa67e78) locale list changing from [] to [en-US]
+11-23 10:41:07.667   770  3042 I system_server: AssetManager2(0x77c1ffa68198) locale list changing from [] to [en-US]
+11-23 10:41:07.667   770  3042 I system_server: AssetManager2(0x77c1ffa58798) locale list changing from [] to [en-US]
+11-23 10:41:07.669   770  3042 I system_server: AssetManager2(0x77c1ffa50138) locale list changing from [] to [en-US]
+11-23 10:41:07.670   770  3042 I system_server: AssetManager2(0x77c1ffa64958) locale list changing from [] to [en-US]
+11-23 10:41:07.672   770  3042 I system_server: AssetManager2(0x77c1ffa66578) locale list changing from [] to [en-US]
+11-23 10:41:07.672   770  3042 I system_server: AssetManager2(0x77c1ffa623d8) locale list changing from [] to [en-US]
+11-23 10:41:07.673   770  3042 I system_server: AssetManager2(0x77c1ffa6b6b8) locale list changing from [] to [en-US]
+11-23 10:41:07.673   770  3042 I system_server: AssetManager2(0x77c1ffa6c018) locale list changing from [] to [en-US]
+11-23 10:41:07.979  5545  5575 I Finsky:background: [36] playLoggingServerUrl: https://play.googleapis.com/play/log
+11-23 10:41:07.979  5545  5575 I Finsky:background: [36] playLoggingServerTimestampUrl: https://play.googleapis.com/play/log/timestamp
+11-23 10:41:07.982  1851  1939 I GetConfigSnapshotOp: (REDACTED) Succeeded but not registered: %s
+11-23 10:41:08.020  4233  4233 W AccMsgReceiver: AccMsgReceiver: onReceive action = uu.intent.action.STOP_ACCELERATE
+--------- beginning of system
+11-23 10:41:08.025   770  3042 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.mumu.acc/.AccService
+11-23 10:41:08.026  4233  4313 W AccServiceManager: onAppClose: packageName = com.dtd.freefireth
+11-23 10:41:09.816   770  3042 W ActivityTaskManager: callingPackage for (uid=2000, pid=5675) has no WPC
+11-23 10:41:09.817   770  3042 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@cc3fcaff does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-23 10:41:09.817   770  3042 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+11-23 10:41:09.817   770  3042 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+11-23 10:41:09.819   770  3042 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-23 10:41:09.828  1039  1164 V WindowManagerShell: Transition requested (#33): android.os.BinderProxy@c0052be TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=33 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=1 lastActiveTime=1011032 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@24d4f1f} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{a00526c com.dtd.freefireth.FFMainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 33 }
+11-23 10:41:09.828  1039  1164 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+11-23 10:41:09.828   770  3042 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=0
+11-23 10:41:09.830  1031  1031 W SplitSelectStateCtor: Missing session instanceIds
+11-23 10:41:09.830  1031  1031 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-23 10:41:09.837  1039  1164 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=102
+11-23 10:41:09.837   688   688 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-23 10:41:09.842   770   825 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@cc3fcaff does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-23 10:41:09.853   770  1503 D CoreBackPreview: Window{88c5439 u0 Splash Screen com.dtd.freefireth}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@b868318, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:41:09.854   770  3867 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+11-23 10:41:09.855  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:09.857   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:09.866  1039  1208 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:41:09.868  1340  1340 W WidgetOperateReceiver: onReceive: intent = Intent { act=com.mumu.LAUNCHER_LIFECYCLE flg=0x30 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver (has extras) } action = com.mumu.LAUNCHER_LIFECYCLE
+11-23 10:41:09.872   626   626 D Zygote  : Forked child process 5678
+11-23 10:41:09.873  1340  1340 W WidgetOperateReceiver: onLauncherLifecycle: launcherLifecycle = ON_PAUSE
+11-23 10:41:09.873  1340  1340 W WidgetManager: updateLauncherLifecycle: launcherLifecycleName = ON_PAUSE
+11-23 10:41:09.879   770   839 I ActivityManager: Start proc 5678:com.dtd.freefireth/u0a68 for next-top-activity {com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}
+11-23 10:41:09.879  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:09.885  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 282624
+11-23 10:41:09.892  1039  1208 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:41:09.895  5678  5678 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: No such file or directory
+11-23 10:41:09.895  5678  5678 E Zygote  : pkg name is 0 => com.dtd.freefireth, data dir is /data/user/0/com.dtd.freefireth
+11-23 10:41:09.895   770   822 V WindowManager: Sent Transition (#33) createdAt=11-23 10:41:09.817 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=33 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=1 lastActiveTime=1011032 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{987ad32 Task{1198294 #33 type=standard A=10068:com.dtd.freefireth}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{ef9e601 com.dtd.freefireth.FFMainActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 33 }
+11-23 10:41:09.895   770   822 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+11-23 10:41:09.895   770   822 V WindowManager:     info={id=33 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:41:09.895   770   822 V WindowManager:         {WCT{RemoteToken{987ad32 Task{1198294 #33 type=standard A=10068:com.dtd.freefireth}}} m=OPEN f=NONE leash=Surface(name=Task=33)/@0x7ecb8c4 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},
+11-23 10:41:09.895   770   822 V WindowManager:         {WCT{RemoteToken{9d01adf Task{b7f0c33 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x96b97a6 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1}
+11-23 10:41:09.895   770   822 V WindowManager:     ]}
+11-23 10:41:09.896  1039  5291 V WindowManagerShell: onTransitionReady(transaction=3307124819617)
+11-23 10:41:09.896  1039  1164 V WindowManagerShell: onTransitionReady (#33) android.os.BinderProxy@c0052be: {id=33 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:41:09.896  1039  1164 V WindowManagerShell:         {m=OPEN f=NONE leash=Surface(name=Task=33)/@0xa1f6eea sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},
+11-23 10:41:09.896  1039  1164 V WindowManagerShell:         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x629b5db sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1}
+11-23 10:41:09.896  1039  1164 V WindowManagerShell:     ]}
+11-23 10:41:09.897  1039  1164 V WindowManagerShell: Playing animation for (#33) android.os.BinderProxy@c0052be@0
+11-23 10:41:09.897  1039  1164 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+11-23 10:41:09.897  1039  1164 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=33 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=33)/@0xa1f6eea sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x629b5db sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1}]}
+11-23 10:41:09.897  1039  1164 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@73808e6, appThread = android.app.IApplicationThread$Stub$Proxy@d760e27, debugName = QuickstepLaunchHome }}
+11-23 10:41:09.897  5678  5678 W zygote64: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: nemuhotd
+11-23 10:41:09.897  1039  1164 V WindowManagerShell:  Delegate animation for (#33) to null
+11-23 10:41:09.897  1039  1164 V WindowManagerShell: start default transition animation, info = {id=33 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=NONE leash=Surface(name=Task=33)/@0xa1f6eea sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},{m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x629b5db sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1}]}
+11-23 10:41:09.898  1039  1164 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@ffd8fb6 animAttr=0x13 type=OPEN isEntrance=false
+11-23 10:41:09.898   770  3867 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:41:09.900  1039  1164 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@2caf142 animAttr=0x12 type=OPEN isEntrance=true
+11-23 10:41:09.904  1039  1164 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@32b65c3
+11-23 10:41:09.906  1039  1164 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#33) android.os.BinderProxy@c0052be@0
+11-23 10:41:09.906   770   822 V WindowManager: Finish Transition (#33): created at 11-23 10:41:09.817 collect-started=0.069ms request-sent=9.212ms started=17.839ms ready=73.236ms sent=76.197ms finished=88.395ms
+11-23 10:41:09.908  1031  1031 D VRI[LawnchairLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+11-23 10:41:09.909   770  1503 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:41:09.909  1039  1164 V WindowManagerShell: Track 0 became idle
+11-23 10:41:09.909  1039  1164 V WindowManagerShell: All active transition animations finished
+11-23 10:41:09.909   770  3867 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:41:09.916  1039  5679 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 282624
+11-23 10:41:09.931  1039  5679 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 282624
+11-23 10:41:09.935  1039  1195 I Choreographer: Skipped 39 frames!  The application may be doing too much work on its main thread.
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: setPresentationRotation 1 for com.dtd.freefireth:33
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: java.lang.Exception
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:638)
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1957)
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:222)
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:41:09.941   770   822 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:41:09.985  5678  5678 I Zygote  : seccomp disabled by setenforce 0
+11-23 10:41:09.993  5678  5678 I .dtd.freefireth: Using CollectorTypeCMC GC.
+11-23 10:41:09.995  5678  5678 W .dtd.freefireth: Unexpected CPU variant for x86: x86_64.
+11-23 10:41:09.995  5678  5678 W .dtd.freefireth: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-23 10:41:09.995  5678  5678 V libnb   : enter native_bridge2_initialize /data/user/0/com.dtd.freefireth/code_cache arm64
+11-23 10:41:09.995  5678  5678 E libnb   : The translator implementation library has not been set.
+11-23 10:41:10.004  5678  5678 E libnb   : get_callbacks native_handle 0xa40c82b66af700a9: 1 libnb:/system/lib64/libhoudini.so
+11-23 10:41:10.004  5678  5678 I libnb   : Found /system/lib64/libhoudini.so version 7
+11-23 10:41:10.040  5678  5678 I houdini : [5678] Houdini now in android app mode
+11-23 10:41:10.040  5678  5678 I houdini : [5678] Intel Bridge Technology for NetEase Mumu only, Copyright(C) Intel Corp. 2012-now.
+11-23 10:41:10.040  5678  5678 I houdini : [5678] Use permitted only under a valid commercial software license agreement - all other rights reserved.
+11-23 10:41:10.040  5678  5678 I houdini : [5678] Initialize library(version: 15.0.0.Netease_com3.0 RELEASE)... successfully.
+11-23 10:41:10.040  5678  5678 W HP      : x_initialize private_dir:/data/user/0/com.dtd.freefireth/code_cache instruction_set:arm64 getMethodShorty:0x77c01e22c700 ret:1
+11-23 10:41:10.041  5678  5678 E .dtd.freefireth: Not starting debugger since process cannot load the jdwp agent.
+11-23 10:41:10.043  5678  5678 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-23 10:41:10.001  5678  5678 I .dtd.freefireth: type=1400 audit(0.0:1443): avc:  denied  { write } for  name="property_service" dev="tmpfs" ino=664 scontext=u:r:untrusted_app_30:s0:c68,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1 app=com.dtd.freefireth
+11-23 10:41:10.058   770   822 W Looper  : Slow dispatch took 133ms android.fg h=com.android.server.mumu.wm.TaskHandler c=null m=1
+11-23 10:41:10.059   770   822 E ActivityManager: Sending non-protected broadcast nemu.intent.action.NEW_TASK from system 770:system/1000 pkg android
+11-23 10:41:10.059   770   822 E ActivityManager: java.lang.Throwable
+11-23 10:41:10.059   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2118)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14410)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at android.app.ContextImpl.sendBroadcastAsUser(ContextImpl.java:1509)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at android.content.ContextWrapper.sendBroadcastAsUser(ContextWrapper.java:603)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils.$r8$lambda$JRBio5N1z1PXvDB9E_DBrd2vjYw(TaskUtils.java:2179)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils$$ExternalSyntheticLambda2.run(R8$$SyntheticClass:0)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:41:10.059   770   822 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:41:10.001  5678  5678 I .dtd.freefireth: type=1400 audit(0.0:1444): avc:  denied  { connectto } for  path="/dev/socket/property_service" scontext=u:r:untrusted_app_30:s0:c68,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1 app=com.dtd.freefireth
+11-23 10:41:10.112   770  3867 I BroadcastQueue: BOOT_COMPLETED_BROADCAST_COMPLETION_LATENCY_REPORTED action:android.intent.action.BOOT_COMPLETED dispatchLatency:-1011317 completeLatency:0 dispatchRealLatency:-1011317 completeRealLatency:0 receiversSize:1 userId:0 userType:android.os.usertype.full.SYSTEM
+11-23 10:41:10.112   770  3867 I BroadcastQueue: BOOT_COMPLETED_BROADCAST_COMPLETION_LATENCY_REPORTED action:android.intent.action.BOOT_COMPLETED dispatchLatency:-1011317 completeLatency:0 dispatchRealLatency:-1011317 completeRealLatency:0 receiversSize:1 userId:0 userType:android.os.usertype.full.SYSTEM
+11-23 10:41:10.113  5678  5678 D CompatChangeReporter: Compat change id reported: 171979766; UID 10068; state: ENABLED
+11-23 10:41:10.114   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:10.118  5678  5678 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:41:10.120  5678  5678 D nativeloader: Configuring clns-7 for other apk /data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk. target_sdk_version=31, uses_libraries=, library_path=/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/lib/arm64:/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.dtd.freefireth
+11-23 10:41:10.123  5678  5678 I .dtd.freefireth: AssetManager2(0x77c1ffa46b38) locale list changing from [] to [en-US]
+11-23 10:41:10.128  5678  5678 V GraphicsEnvironment: Currently set values for:
+11-23 10:41:10.128  5678  5678 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-23 10:41:10.129  5678  5678 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-23 10:41:10.129  5678  5678 V GraphicsEnvironment: com.dtd.freefireth is not listed in per-application setting
+11-23 10:41:10.130  5678  5678 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-23 10:41:10.133   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:41:10.133   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:41:10.134   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:41:10.140   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@3743606
+11-23 10:41:10.141   770   890 E JobScheduler.Concurrency: Error executing JobStatus{734ca0c #u0a24/9024 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 READY}
+11-23 10:41:10.147   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:41:10.150   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@dac92
+11-23 10:41:10.150   770   890 E JobScheduler.Concurrency: Error executing JobStatus{39e1bd1 #u0a24/9025 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 TIME=none:+23h31m40s770ms NET READY}
+11-23 10:41:10.153  5462  5468 W System  : A resource failed to call close. 
+11-23 10:41:10.153  5462  5468 W System  : A resource failed to call close. 
+11-23 10:41:10.154   770   770 E JobServiceContext: Binding died for com.android.vending but no running job on this context
+11-23 10:41:10.196  5462  5493 I Finsky  : [47] Initializing the instant apps module.
+11-23 10:41:10.203  5462  5511 I Finsky  : [60] System was updated or GL extensions were already cached.
+11-23 10:41:10.247  5462  5479 I Finsky  : [33] Triggered update for experiment package com.google.android.finsky.stable.
+11-23 10:41:10.345  5462  5479 I Finsky  : [33] Writing flags config, size 1.
+11-23 10:41:10.346  5462  5479 I Finsky  : [33] Started writing experiment flags into file [8uKij9Tp4PZyjSvh8NyLyFvuCv94NONrKvkkdzEKIoQ].
+11-23 10:41:10.350  5462  5479 I Finsky  : [33] Finished writing experiment flags into file [8uKij9Tp4PZyjSvh8NyLyFvuCv94NONrKvkkdzEKIoQ], numFlags=2388.
+11-23 10:41:10.358  5462  5479 I Finsky  : [33] Successfully applied new configurations for package com.google.android.finsky.stable.
+11-23 10:41:10.359  5462  5479 I Finsky  : [33] [EExp] Exporting experiments for package com.google.android.finsky.stable.
+11-23 10:41:10.359  5462  5479 I Finsky  : [33] [EExp] Exporting experiments for namespace com.google.android.finsky.stable.
+11-23 10:41:10.378  5462  5479 I Finsky  : [33] [EExp] Successfully exported experiments for package com.google.android.finsky.stable.
+11-23 10:41:10.379  5462  5509 I Finsky  : [58] Component class com.google.android.finsky.wearsupport.WearSupportService disabled via PackageManager.
+11-23 10:41:10.379  5462  5509 I Finsky  : [58] Component class com.google.android.finsky.wearsupport.WearChangeListenerService disabled via PackageManager.
+11-23 10:41:10.390  5462  5696 I Finsky  : [94] Triggered update for experiment package com.google.android.finsky.stable_new.
+11-23 10:41:10.398   770   896 D ActivityManager: freezing 5462 com.android.vending
+11-23 10:41:10.561  4233  4233 W AccMsgReceiver: AccMsgReceiver: onReceive action = nemu.intent.action.NEW_TASK
+11-23 10:41:10.568   770  3867 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.mumu.acc/.AccService
+11-23 10:41:10.569  4233  4313 W AccServiceManager: onAppLaunch: packageName = com.dtd.freefireth
+11-23 10:41:10.569  4233  4313 W TranslateGameManager: onAppLaunch: packageName = com.dtd.freefireth, hasPackageLaunchedBefore = false, supportTranslateReally = false, isLocalTranslateEnabled = false
+11-23 10:41:10.650  5678  5678 I MultiDex: VM with version 2.1.0 has multidex support
+11-23 10:41:10.651  5678  5678 I MultiDex: Installing application
+11-23 10:41:10.651  5678  5678 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+11-23 10:41:10.663  5678  5678 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+11-23 10:41:10.692  5678  5678 I FirebaseCrashlytics: Initializing Firebase Crashlytics 18.0.1 for com.dtd.freefireth
+11-23 10:41:10.725   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:10.774  5678  5678 I FirebaseInitProvider: FirebaseApp initialization successful
+11-23 10:41:10.830  5678  5708 W .dtd.freefireth: ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[GmsCore.apk*3714305525]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]#PCL[/system/framework/com.android.location.provider.jar*2736664001]#PCL[/system_ext/framework/androidx.window.extensions.jar*596101676]#PCL[/system_ext/framework/androidx.window.sidecar.jar*4027385501]} | DLC[];PCL[])
+11-23 10:41:10.841  5678  5702 W Settings: Setting adb_enabled has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+11-23 10:41:10.863  5678  5678 W com.facebook.i0: Please set a value for AutoLogAppEventsEnabled. Set the flag to TRUE if you want to collect app install, app launch and in-app purchase events automatically. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+11-23 10:41:10.863  5678  5678 W com.facebook.i0: You haven't set a value for AdvertiserIDCollectionEnabled. Set the flag to TRUE if you want to collect Advertiser ID for better advertising and analytics results. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+11-23 10:41:10.863  5678  5708 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:51 and remote module com.google.android.gms.measurement.dynamite:193
+11-23 10:41:10.864  5678  5708 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 193
+11-23 10:41:10.864  5678  5708 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+11-23 10:41:10.871  5678  5708 W System  : ClassLoader referenced unknown path: 
+11-23 10:41:10.871  5678  5708 D nativeloader: Configuring clns-8 for other apk . target_sdk_version=37, uses_libraries=, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+11-23 10:41:10.874  5678  5719 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:41:10.883   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:10.883   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: setPresentationRotation 1 for com.dtd.freefireth:33
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: java.lang.Exception
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:638)
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1957)
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:222)
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:41:10.884   770   822 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:41:10.886  5678  5678 I .dtd.freefireth: AssetManager2(0x77c1ffa4c8f8) locale list changing from [] to [en-US]
+11-23 10:41:10.903  5678  5708 I .dtd.freefireth: AssetManager2(0x77c1ffa513f8) locale list changing from [] to [en-US]
+11-23 10:41:10.968  5678  5717 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:41:10.969  5678  5721 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:41:10.969  5678  5722 W com.facebook.internal.c0: Apps that target Android API 30+ (Android 11+) cannot call Facebook native apps unless the package visibility needs are declared. Please follow https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988 to make the declaration.
+11-23 10:41:10.990   770   896 D ActivityManager: freezing 5545 com.android.vending:background
+11-23 10:41:10.991   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-23 10:41:10.992   770   961 D InetDiagMessage: Destroyed 1 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-23 10:41:10.992   770   961 D InetDiagMessage: Destroyed live tcp sockets for uids={10024} in 2ms
+11-23 10:41:11.011   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:11.015  5678  5708 W .dtd.freefireth: ClassLoaderContext classpath element mismatch. expected=GmsCore.apk, found=/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk (DLC[];PCL[GmsCore.apk*3714305525]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]#PCL[/system/framework/com.android.location.provider.jar*2736664001]#PCL[/system_ext/framework/androidx.window.extensions.jar*596101676]#PCL[/system_ext/framework/androidx.window.sidecar.jar*4027385501]} | DLC[];PCL[/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk*3975694790]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]})
+11-23 10:41:11.018  5678  5721 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:41:11.027  5678  5708 I .dtd.freefireth: AssetManager2(0x77c1ffa4d578) locale list changing from [] to [en-US]
+11-23 10:41:11.027  5678  5708 I .dtd.freefireth: AssetManager2(0x77c1ffa4d898) locale list changing from [] to [en-US]
+11-23 10:41:11.046  1851  1949 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.dtd.freefireth
+11-23 10:41:11.063  5678  5739 I FA      : App measurement disabled via the manifest
+11-23 10:41:11.063  5678  5739 E .dtd.freefireth: No package ID 6a found for resource ID 0x6a0b0013.
+11-23 10:41:11.064  5678  5739 I FA      : App measurement initialized, version: 169000
+11-23 10:41:11.064  5678  5739 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+11-23 10:41:11.064  5678  5739 I FA      : To enable faster debug mode event logging run:
+11-23 10:41:11.064  5678  5739 I FA      :   adb shell setprop debug.firebase.analytics.app com.dtd.freefireth
+11-23 10:41:11.105  5741  5741 I init    : type=1400 audit(0.0:1445): avc:  denied  { transition } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:41:11.105  5741  5741 I init    : type=1400 audit(0.0:1446): avc:  denied  { entrypoint } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:41:11.105  5741  5741 I init    : type=1400 audit(0.0:1447): avc:  denied  { noatsecure } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:41:11.105  5741  5741 I serial_console: type=1400 audit(0.0:1448): avc:  denied  { rlimitinh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:41:11.105  5741  5741 I serial_console: type=1400 audit(0.0:1449): avc:  denied  { siginh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:41:11.105  5741  5741 I serial_console: type=1400 audit(0.0:1450): avc:  denied  { map } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:41:11.105  5741  5741 I serial_console: type=1400 audit(0.0:1451): avc:  denied  { read execute } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:41:11.105  5741  5741 I serial_console: type=1400 audit(0.0:1452): avc:  denied  { read write } for  name="ttyS1" dev="tmpfs" ino=675 scontext=u:r:su:s0 tcontext=u:object_r:serial_device:s0 tclass=chr_file permissive=1
+11-23 10:41:11.177   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:11.179  1924  1924 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:41:11.179  1924  1924 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:41:11.268  5678  5678 D DesktopModeFlagsUtil: Toggle override initialized to: OVERRIDE_OFF
+11-23 10:41:11.303  5678  5678 W HWUI    : Unknown dataspace 0
+11-23 10:41:11.352  5678  5678 D InsetsController: Setting requestedVisibleTypes to -10 (was -9)
+11-23 10:41:11.352   770  3867 W WindowManager: Failed looking up window session=Session{1476e23 5678:u0a10068} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6325 com.android.server.wm.Session.updateRequestedVisibleTypes:699 android.view.IWindowSession$Stub.onTransact:1023 
+11-23 10:41:11.361   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:11.366   770  3867 D ActivityManager: sync unfroze 5462 com.android.vending for 6
+11-23 10:41:11.367   770  3867 D ActivityManager: sync unfroze 5545 com.android.vending:background for 6
+11-23 10:41:11.367   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:11.367   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:11.367   770  3867 W ProcessStats: Tracking association SourceState{3594211 com.dtd.freefireth/10068 BTop #1230} whose proc state 2 is better than process ProcessState{a1f4258 com.android.vending/10024 pkg=com.android.vending} proc state 14 (21 skipped)
+11-23 10:41:11.373  5462  5753 I Finsky  : [97] registerListener
+11-23 10:41:11.374  5462  5753 I Finsky  : [97] DSC: reviveDownloads()
+11-23 10:41:11.377  5462  5753 I Finsky  : [97] Initialized AssetModuleDownloader.
+11-23 10:41:11.379  5678  5678 D InsetsController: Setting requestedVisibleTypes to -528 (was -10)
+11-23 10:41:11.380  5678  5719 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:41:11.381   770  1626 D CoreBackPreview: Window{a98c97f u0 com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@9487f76, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:41:11.391  5678  5751 E libEGL  : intercept_property_get () for (persist.graphics.egl)
+11-23 10:41:11.415  5678  5751 I EGL_emulation: EGL display initialized (version 1.4, rendererVersion=0x3, configs=6)
+11-23 10:41:11.429  5545  5583 I Finsky:background: [44] DS: reviveDownloads()
+11-23 10:41:11.432  5678  5751 I EGL_emulation: EGL display initialized (version 1.4, rendererVersion=0x3, configs=6)
+11-23 10:41:11.434   450   450 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+11-23 10:41:11.434  5678  5751 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.configstore@1.0::ISurfaceFlingerConfigs instance: default
+11-23 10:41:11.443  5462  5462 I Finsky  : [2] setup::RES: shouldRecoverRestoredPackages: versionCodeSystem 85172130
+11-23 10:41:11.443  5462  5462 I Finsky  : [2] Detected restoreservicev2://recovery not needed, will not run
+11-23 10:41:11.445  5678  5751 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-23 10:41:11.446  5678  5751 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-23 10:41:11.452  5462  5696 I Finsky  : [94] Already at the latest configurations for experiment package com.google.android.finsky.stable_new.
+11-23 10:41:11.452  5462  5479 I Finsky  : [33] Triggered update for experiment package com.google.android.finsky.regular.
+11-23 10:41:11.481  5462  5479 I Finsky  : [33] Regular flags synced
+11-23 10:41:11.482  5462  5479 I Finsky  : [33] Writing flags config, size 1.
+11-23 10:41:11.482  5462  5479 I Finsky  : [33] Started writing experiment flags into file [4dEVOh7DlClE42ly_19Hs7FqnnFOj9O0dm-zzWqGxeo].
+11-23 10:41:11.486  5462  5479 I Finsky  : [33] Finished writing experiment flags into file [4dEVOh7DlClE42ly_19Hs7FqnnFOj9O0dm-zzWqGxeo], numFlags=2019.
+11-23 10:41:11.488   770  3042 D ConnectivityService: requestNetwork for uid/pid:10024/5545 activeRequest: null callbackRequest: 114 [NetworkRequest [ REQUEST id=115, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10024 RequestorUid: 10024 RequestorPkg: com.android.vending UnderlyingNetworks: Null] ]] callback flags: 0 order: 2147483647 isUidTracked: false declaredMethods: ALL
+11-23 10:41:11.490   770   961 D ConnectivityService: NetReassign [115 : null ΓåÆ 100] [c 0] [a 0] [i 1]
+11-23 10:41:11.490   770   935 D WifiNetworkFactory: got request NetworkRequest [ REQUEST id=115, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10024 RequestorUid: 10024 RequestorPkg: com.android.vending UnderlyingNetworks: Null] ]
+11-23 10:41:11.490   770   935 D UntrustedWifiNetworkFactory: got request NetworkRequest [ REQUEST id=115, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10024 RequestorUid: 10024 RequestorPkg: com.android.vending UnderlyingNetworks: Null] ]
+11-23 10:41:11.490   770   935 D OemPaidWifiNetworkFactory: got request NetworkRequest [ REQUEST id=115, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10024 RequestorUid: 10024 RequestorPkg: com.android.vending UnderlyingNetworks: Null] ]
+11-23 10:41:11.490   770   935 D MultiInternetWifiNetworkFactory: got request NetworkRequest [ REQUEST id=115, [ Capabilities: INTERNET&NOT_RESTRICTED&TRUSTED&NOT_VCN_MANAGED&NOT_BANDWIDTH_CONSTRAINED Uid: 10024 RequestorUid: 10024 RequestorPkg: com.android.vending UnderlyingNetworks: Null] ]
+11-23 10:41:11.490  5462  5479 I Finsky  : [33] Successfully applied new configurations for package com.google.android.finsky.regular.
+11-23 10:41:11.493  5462  5479 I Finsky  : [33] [EExp] Exporting experiments for package com.google.android.finsky.regular.
+11-23 10:41:11.493  5462  5479 I Finsky  : [33] [EExp] Exporting experiments for namespace com.google.android.finsky.regular.
+11-23 10:41:11.500  5462  5479 I Finsky  : [33] [EExp] Successfully exported experiments for package com.google.android.finsky.regular.
+11-23 10:41:11.503  5545  5591 I Finsky:background: [49] DS: Network is available [NetworkState{connected=true, wifi=true, metered=false, roaming=false}].
+11-23 10:41:11.503  5545  5591 I Finsky:background: [49] DS: Updating downloads for network change
+11-23 10:41:11.504  5545  5556 I ding:background: Background concurrent mark compact GC freed 12MB AllocSpace bytes, 13(324KB) LOS objects, 49% free, 12MB/24MB, paused 218us,566us total 129.644ms
+11-23 10:41:11.507  5545  5558 W System  : A resource failed to call close. 
+11-23 10:41:11.507  5545  5558 W System  : A resource failed to call close. 
+11-23 10:41:11.507  5545  5761 I Finsky:background: [69] DS: downloadState filtering results: {}
+11-23 10:41:11.662   688   700 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827820427265280: UNSUPPORTED (8)
+11-23 10:41:11.663  5678  5751 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@2.0::IMapper instance: default
+11-23 10:41:11.666  5678  5751 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@2.0::IAllocator instance: default
+11-23 10:41:11.667  5678  5751 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:11.769  5678  5751 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:11.776  1031  1031 D BaseDepthController: setSurface:
+11-23 10:41:11.776  1031  1031 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-23 10:41:11.776  1031  1031 D BaseDepthController: 	mSurface: null
+11-23 10:41:11.777   770   822 W system_server: Failed to determine oat file name for dex location /data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk: Dalvik cache directory does not exist
+11-23 10:41:11.777   770   822 W ziparchive: Unable to open '/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.dm': No such file or directory
+11-23 10:41:11.784  1031  1031 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-23 10:41:11.784  1031  1031 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(r8-map-id-fe14f1fe842d35fbeb0a7aeefdc65d4bceb373f1280c0e06d2c6dbbe065e8669:4)
+11-23 10:41:11.784  1031  1031 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(r8-map-id-fe14f1fe842d35fbeb0a7aeefdc65d4bceb373f1280c0e06d2c6dbbe065e8669:1)
+11-23 10:41:11.784  1031  1031 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(r8-map-id-fe14f1fe842d35fbeb0a7aeefdc65d4bceb373f1280c0e06d2c6dbbe065e8669:34)
+11-23 10:41:11.784  1031  1031 D StatsLog: LAUNCHER_ONSTOP
+11-23 10:41:11.785   770   822 I ActivityTaskManager: Displayed com.dtd.freefireth/.FFMainActivity for user 0: +1s957ms
+11-23 10:41:11.788   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:11.791   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:41:11.791   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:41:11.792   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:41:11.792   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@cadb226
+11-23 10:41:11.792   770   890 E JobScheduler.Concurrency: Error executing JobStatus{734ca0c #u0a24/9024 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 READY}
+11-23 10:41:11.792   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:41:11.792   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@a32cab2
+11-23 10:41:11.792   770   890 E JobScheduler.Concurrency: Error executing JobStatus{39e1bd1 #u0a24/9025 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 TIME=none:+23h31m39s128ms NET READY}
+11-23 10:41:11.793  5678  5678 I Choreographer: Skipped 197 frames!  The application may be doing too much work on its main thread.
+11-23 10:41:11.804  5678  5721 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:41:11.807  1924  5181 D AdvertisingIdClient: AdvertisingIdClient already created.
+11-23 10:41:11.808  1924  5181 I AdvertisingIdClient: shouldSendLog 47245
+11-23 10:41:11.808  1924  5181 I AdvertisingIdClient: GetInfoInternal elapse 0ms
+11-23 10:41:11.810   770   912 I ImeTracker: com.dtd.freefireth:ea7993b: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-23 10:41:11.849  5678  5751 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:11.882  5678  5678 D InsetsController: hide(ime(), fromIme=false)
+11-23 10:41:11.886  5678  5678 I ImeTracker: com.dtd.freefireth:ea7993b: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-23 10:41:11.886  5678  5678 I Choreographer: Skipped 32 frames!  The application may be doing too much work on its main thread.
+11-23 10:41:11.908  1851  2047 I FontLog : (REDACTED) Received query %s, URI %s
+11-23 10:41:11.908  1851  2047 I FontLog : (REDACTED) Query [%s] resolved to %s
+11-23 10:41:11.912   770  3042 W WindowManager: Failed looking up window session=Session{3d09e1c 1039:u0a10038} callers=com.android.server.wm.WindowManagerService.removeClientToken:2070 com.android.server.wm.Session.remove:269 android.view.IWindowSession$Stub.onTransact:696 
+11-23 10:41:11.913  1039  1195 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@eb4cb70
+11-23 10:41:11.914   770  3042 D CoreBackPreview: Window{88c5439 u0 Splash Screen com.dtd.freefireth}: Setting back callback null
+11-23 10:41:11.922  1851  2047 I FontLog : (REDACTED) Fetch %s end status %s
+11-23 10:41:11.948  1851  2047 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+11-23 10:41:11.958  1851  2047 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+11-23 10:41:11.990  5678  5769 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.dtd.freefireth
+11-23 10:41:11.998  5678  5746 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES VMH, Cores = 2, Memory = 3932mb
+11-23 10:41:11.998  5678  5746 I Unity   : SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0x3), 0 little (mask: 0x0)
+11-23 10:41:11.999  5678  5746 I Unity   : ApplicationInfo com.dtd.freefireth version 1.98.1 build 9b364ac2-5ff5-4251-a1cb-edeba9236d88
+11-23 10:41:11.999  5678  5746 I Unity   : Built from '' branch, Version '2018.4.11f1 (0)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a'
+11-23 10:41:12.378  5678  5746 D AudioSystem: onNewService: media.audio_policy service obtained 0x77c01fabecc0
+11-23 10:41:12.379  5678  5746 D AudioSystem: getService: checking for service media.audio_policy: 0x77c01fabecc0
+11-23 10:41:12.379   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:41:12.380   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:41:12.380   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:41:12.380  5678  5746 D AudioSystem: onNewServiceWithAdapter: media.audio_flinger service obtained 0x77c05faa41a0
+11-23 10:41:12.382  5678  5746 D AudioSystem: getService: checking for service media.audio_flinger: 0x77c01fabdd70
+11-23 10:41:12.388  5678  5746 D .dtd.freefireth: PlayerBase::PlayerBase()
+11-23 10:41:12.388  5678  5746 D .dtd.freefireth: TrackPlayerBase::TrackPlayerBase()
+11-23 10:41:12.388  5678  5746 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+11-23 10:41:12.389   684  5302 E ServiceUtilities: Request requires android.permission.MODIFY_PHONE_STATE or android.permission.WRITE_SECURE_SETTINGS
+11-23 10:41:12.390   684  5302 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000104) and output flags (00000006)
+11-23 10:41:12.390   684  5302 D AudioFlinger: Client defaulted notificationFrames to 512 for frameCount 2048
+11-23 10:41:12.392  5678  5746 I AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST successful; frameCount 0 -> 2048
+11-23 10:41:12.400   684  5302 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:41:12.400   684  5302 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-23 10:41:12.403   630  2056 D audio_hw_primary: tunnel_pcm_open called!
+11-23 10:41:12.422  5678  5746 E EGL_emulation: [getAttribValue] Bad attribute index in getAttribValue
+11-23 10:41:12.422  5678  5746 W EGL_emulation: eglGetConfigAttrib: unknown config attribute 0x1
+11-23 10:41:12.422  5678  5746 E EGL_emulation: tid 5746: eglGetConfigAttrib(1044): error 0x3004 (EGL_BAD_ATTRIBUTE)
+11-23 10:41:12.433  5678  5746 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:12.652  5678  5746 D Unity   :  GL_EXT_debug_marker GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_ETC1_RGB8_texture GL_KHR_texture_compression_astc_ldr GL_OES_surfaceless_context GL_OES_depth_texture GL_EXT_texture_compression_bptc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_compression_rgtc GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_EXT_draw_buffers_indexed GL_KHR_debug GL_EXT_geometry_shader GL_EXT_tessellation_shader GL_EXT_gpu_shader5 GL_EXT_primitive_bounding_box GL_EXT_texture_border_clamp GL_EXT_texture_cube_map_array GL_EXT_copy_image GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_
+11-23 10:41:12.652  5678  5746 D Unity   : shader_image_atomic GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_shader_io_blocks GL_EXT_shader_io_blocks GL_EXT_texture_sRGB_decode GL_KHR_robustness GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_OES_EGL_image_external_essl3 GL_EXT_robustness
+11-23 10:41:12.829   770  1664 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+11-23 10:41:12.998  5678  5800 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:13.016  5678  5800 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:13.171   684   802 W AudioFlinger: write blocked for 670 msecs, 14 delayed writes, thread 13
+11-23 10:41:15.309  5678  5746 I Il2CPPSwitch: 0
+11-23 10:41:17.151  5678  5746 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-23 10:41:17.152  5678  5746 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=true, BT route=null
+11-23 10:41:17.196  5678  5800 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:17.550  5678  5746 W Unity   : UGCResourceManager.Inited
+11-23 10:41:17.550  5678  5746 W Unity   :  
+11-23 10:41:17.550  5678  5746 W Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:41:17.550  5678  5746 W Unity   : 
+11-23 10:41:17.564  5678  5746 D AppsFlyer_6.4.0: Initializing AppsFlyer SDK: (v6.4.0.119)
+11-23 10:41:17.566  5678  5746 W Unity   : DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+11-23 10:41:17.566  5678  5746 W Unity   :  
+11-23 10:41:17.566  5678  5746 W Unity   : (Filename:  Line: 543)
+11-23 10:41:17.566  5678  5746 W Unity   : 
+11-23 10:41:17.579  5678  5808 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:41:17.581  5678  5808 D nativeloader: Configuring clns-9 for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=37, uses_libraries=ALL, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+11-23 10:41:17.582  5678  5808 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-23 10:41:17.582  5678  5808 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-23 10:41:17.595   770  3042 W SensorService: sensor 00000000 already enabled in connection 0x77c06fa5e770 (ignoring)
+11-23 10:41:17.610  5678  5808 D nativeloader: InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libapexsupport.so:libavf.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-i686-android.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvendorsupport.so:libvndksupport.so:libvulkan.so
+11-23 10:41:17.610  5678  5808 D nativeloader: Configuring product-clns-10 for unbundled product apk /system/product/priv-app/GmsCore/GmsCore.apk. target_sdk_version=37, uses_libraries=, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64:/system/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms:/product/lib64:/system/product/lib64
+11-23 10:41:17.628  5678  5808 D nativeloader: InitVndkspLibrariesProduct: VNDK is deprecated with product
+11-23 10:41:17.628  5678  5808 I .dtd.freefireth: Waiting for a blocking GC ClassLinker
+11-23 10:41:17.641  5678  5808 I .dtd.freefireth: WaitForGcToComplete blocked ClassLinker on NativeAlloc for 13.101ms
+11-23 10:41:17.644  5678  5689 W System  : A resource failed to call close. 
+11-23 10:41:17.644  5678  5689 W System  : A resource failed to call close. 
+11-23 10:41:17.663   770   961 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 1]
+11-23 10:41:17.839   770  3042 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@cc3fcaff does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-23 10:41:17.839   770  3042 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+11-23 10:41:17.840   770  3042 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+11-23 10:41:17.840   770  3042 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-23 10:41:17.841   770  3042 D CompatChangeReporter: Compat change id reported: 197654537; UID 10068; state: ENABLED
+11-23 10:41:17.843   770  3042 I ActivityTaskManager: START u0 {flg=0x10000 cmp=com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity (has extras)} with LAUNCH_MULTIPLE from uid 10068 (sr=190449383) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+11-23 10:41:17.844  1039  1164 V WindowManagerShell: Transition requested (#34): android.os.BinderProxy@1867f45 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=33 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=2 lastActiveTime=1019048 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@569669a} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{3fcbcb com.unity3d.plugin.downloader.UnityDownloaderActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 34 }
+11-23 10:41:17.846  1039  1164 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+11-23 10:41:17.847   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:41:17.848   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:41:17.849   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:41:17.852   688   688 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-23 10:41:17.865  5678  5746 D .dtd.freefireth: PlayerBase::stop() from IPlayer
+11-23 10:41:17.865  5678  5746 D AudioTrack: stop(22): called with 230400 frames delivered
+11-23 10:41:17.869   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:17.870   770  3042 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+11-23 10:41:17.875   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:17.875   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:17.880  5678  5678 D CompatChangeReporter: Compat change id reported: 160794467; UID 10068; state: ENABLED
+11-23 10:41:17.919  5678  5678 D LVLDL   : Service Bound
+11-23 10:41:17.922   770  3042 D CoreBackPreview: Window{6437a40 u0 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@993babe, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:41:17.930  5678  5751 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:17.944  5678  5821 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:17.947  5678  5821 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:17.948  5678  5821 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:17.972   684   756 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:41:17.973   684   756 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:41:17.973   684   802 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-23 10:41:18.005  5678  5808 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:41:18.006  5678  5808 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-23 10:41:18.006  5678  5808 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-23 10:41:18.115   470  5660 I keystore2: system/security/keystore2/watchdog/src/lib.rs:356 - Watchdog thread idle -> terminating. Have a great day.
+11-23 10:41:18.229   770  1626 E NotificationService: No Channel found for pkg=com.dtd.freefireth, channelId=null, id=-908767821, tag=null, opPkg=com.dtd.freefireth, callingUid=10068, userId=0, incomingUserId=0, notificationUid=10068, notification=Notification(channel=null shortcut=null contentView=null vibrate=null sound=null tick defaults=0 flags=ONGOING_EVENT color=0x00000000 vis=PRIVATE)
+11-23 10:41:18.232  1039  5291 V WindowManagerShell: onTransitionReady(transaction=3307124819663)
+11-23 10:41:18.232  1039  1164 V WindowManagerShell: onTransitionReady (#34) android.os.BinderProxy@1867f45: {id=34 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:41:18.232  1039  1164 V WindowManagerShell:         {m=OPEN f=FILLS_TASK|NO_ANIMATION leash=Surface(name=ActivityRecord{166351813 u0 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity)/@0x543cfa8 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=-1->0 r=-1->1:-1 bc=ffeceef4 component=com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity opt={t=FROM_STYLE mUserId=0}},
+11-23 10:41:18.232  1039  1164 V WindowManagerShell:         {m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{190449383 u0 com.dtd.freefireth/.FFMainActivity)/@0xb14cac1 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 bc=ffeceef4 component=com.dtd.freefireth/.FFMainActivity opt={t=FROM_STYLE mUserId=0}}
+11-23 10:41:18.232  1039  1164 V WindowManagerShell:     ]}
+11-23 10:41:18.232  1039  1164 V WindowManagerShell: Playing animation for (#34) android.os.BinderProxy@1867f45@0
+11-23 10:41:18.232  1039  1164 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+11-23 10:41:18.232  1039  1164 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=34 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=FILLS_TASK|NO_ANIMATION leash=Surface(name=ActivityRecord{166351813 u0 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity)/@0x543cfa8 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=-1->0 r=-1->1:-1 bc=ffeceef4 component=com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity opt={t=FROM_STYLE mUserId=0}},{m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{190449383 u0 com.dtd.freefireth/.FFMainActivity)/@0xb14cac1 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 bc=ffeceef4 component=com.dtd.freefireth/.FFMainActivity opt={t=FROM_STYLE mUserId=0}}]}
+11-23 10:41:18.232  1039  1164 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@73808e6, appThread = android.app.IApplicationThread$Stub$Proxy@d760e27, debugName = QuickstepLaunchHome }}
+11-23 10:41:18.232  1039  1164 V WindowManagerShell:  Delegate animation for (#34) to null
+11-23 10:41:18.232  1039  1164 V WindowManagerShell: start default transition animation, info = {id=34 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=FILLS_TASK|NO_ANIMATION leash=Surface(name=ActivityRecord{166351813 u0 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity)/@0x543cfa8 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=-1->0 r=-1->1:-1 bc=ffeceef4 component=com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity opt={t=FROM_STYLE mUserId=0}},{m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{190449383 u0 com.dtd.freefireth/.FFMainActivity)/@0xb14cac1 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 bc=ffeceef4 component=com.dtd.freefireth/.FFMainActivity opt={t=FROM_STYLE mUserId=0}}]}
+11-23 10:41:18.233  1039  1164 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#34) android.os.BinderProxy@1867f45@0
+11-23 10:41:18.235  1039  1164 V WindowManagerShell: Track 0 became idle
+11-23 10:41:18.235  1039  1164 V WindowManagerShell: All active transition animations finished
+11-23 10:41:18.235   770   822 I ActivityTaskManager: Displayed com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity for user 0: +389ms
+11-23 10:41:18.235  1039  1164 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@32b65c3
+11-23 10:41:18.235  1039  1164 V WindowManagerShell: Track 0 became idle
+11-23 10:41:18.235  1039  1164 V WindowManagerShell: All active transition animations finished
+11-23 10:41:18.235   770   822 V WindowManager: Sent Transition (#34) createdAt=11-23 10:41:17.840 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=33 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=2 lastActiveTime=1019048 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{987ad32 Task{1198294 #33 type=standard A=10068:com.dtd.freefireth}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{9b0442f com.unity3d.plugin.downloader.UnityDownloaderActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 34 }
+11-23 10:41:18.235   770   822 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+11-23 10:41:18.236   770   822 V WindowManager:     info={id=34 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:41:18.236   770   822 V WindowManager:         {m=OPEN f=FILLS_TASK|NO_ANIMATION leash=Surface(name=ActivityRecord{166351813 u0 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity)/@0x771a2b1 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=-1->0 r=-1->1:-1 bc=ffeceef4 component=com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity opt={t=FROM_STYLE mUserId=0}},
+11-23 10:41:18.236   770   822 V WindowManager:         {m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{190449383 u0 com.dtd.freefireth/.FFMainActivity)/@0xc8e5158 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 bc=ffeceef4 component=com.dtd.freefireth/.FFMainActivity opt={t=FROM_STYLE mUserId=0}}
+11-23 10:41:18.236   770   822 V WindowManager:     ]}
+11-23 10:41:18.236   770   822 V WindowManager: Finish Transition (#34): created at 11-23 10:41:17.840 collect-started=0.034ms request-sent=2.66ms started=10.387ms ready=32.008ms sent=390.962ms finished=393.38ms
+11-23 10:41:18.237   770  1626 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:41:18.237   770  4140 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:41:18.239   770  3042 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:41:18.241  5678  5678 I LicenseChecker: Binding to licensing service.
+11-23 10:41:18.242   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:18.244  5678  5678 I Choreographer: Skipped 154 frames!  The application may be doing too much work on its main thread.
+11-23 10:41:18.249  5678  5678 D VRI[FFMainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-23 10:41:18.272  5678  5678 E Surface : freeAllBuffers: 1 buffers were freed while being dequeued!
+11-23 10:41:18.286   770   912 I ImeTracker: com.dtd.freefireth:795f3087: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-23 10:41:18.287  5678  5678 I LicenseChecker: Calling checkLicense on service for com.dtd.freefireth
+11-23 10:41:18.287  5678  5678 I LicenseChecker: Start monitoring timeout.
+11-23 10:41:18.291  5678  5823 I LicenseChecker: Received response.
+11-23 10:41:18.291  5678  5823 I LicenseChecker: Clearing timeout.
+11-23 10:41:18.293   770  4140 E NotificationService: No Channel found for pkg=com.dtd.freefireth, channelId=null, id=-908767821, tag=null, opPkg=com.dtd.freefireth, callingUid=10068, userId=0, incomingUserId=0, notificationUid=10068, notification=Notification(channel=null shortcut=null contentView=null vibrate=null sound=null tick defaults=0 flags=AUTO_CANCEL color=0x00000000 vis=PRIVATE)
+11-23 10:41:18.318  5678  5678 D InsetsController: hide(ime(), fromIme=false)
+11-23 10:41:18.318  5678  5678 I ImeTracker: com.dtd.freefireth:795f3087: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-23 10:41:18.319   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:18.321  5678  5678 W AnimatedVectorDrawable: Duration for the animation is too long :2000, the animation will subsample the keyframe or path data.
+11-23 10:41:18.321  5678  5678 W AnimatedVectorDrawable: Duration for the animation is too long :2000, the animation will subsample the keyframe or path data.
+11-23 10:41:18.321  5678  5678 W AnimatedVectorDrawable: Duration for the animation is too long :2000, the animation will subsample the keyframe or path data.
+11-23 10:41:18.321  5678  5678 W AnimatedVectorDrawable: Duration for the animation is too long :2000, the animation will subsample the keyframe or path data.
+11-23 10:41:18.411  5678  5678 I Choreographer: Skipped 37 frames!  The application may be doing too much work on its main thread.
+11-23 10:41:20.845   770  1664 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+11-23 10:41:21.796  1924  1969 I gle.android.gms: Explicit concurrent mark compact GC freed 1820KB AllocSpace bytes, 0(0B) LOS objects, 49% free, 8304KB/16MB, paused 133us,945us total 34.248ms
+11-23 10:41:22.512   770  1622 D SntpClient: round trip: 3ms, clock offset: 3ms
+11-23 10:41:26.137  5848  5848 I serial_console: type=1400 audit(0.0:1454): avc:  denied  { rlimitinh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:41:26.141  5848  5848 I serial_console: type=1400 audit(0.0:1455): avc:  denied  { siginh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:41:27.927  1924  1924 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:41:31.137  5857  5857 I init    : type=1400 audit(0.0:1456): avc:  denied  { transition } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:41:31.145  5857  5857 I init    : type=1400 audit(0.0:1457): avc:  denied  { noatsecure } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:41:54.706   770   908 W InputDispatcher: channel '6437a40 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity' ~ Consumer closed input channel or an error occurred.  events=0x9
+11-23 10:41:54.706   770   908 E InputDispatcher: channel '6437a40 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity' ~ Channel is unrecoverably broken and will be disposed!
+11-23 10:41:54.706   770   908 I WindowManager: WINDOW DIED Window{6437a40 u0 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity}
+11-23 10:41:54.738   770  5651 I ImeTracker: com.dtd.freefireth:e030a347: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+11-23 10:41:54.738   770  5651 I ImeTracker: com.dtd.freefireth:e030a347: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-23 10:41:54.739   770  3867 I ActivityManager: Process com.dtd.freefireth (pid 5678) has died: fg  TOP 
+11-23 10:41:54.740   770  1622 I WindowManager: WIN DEATH: Window{a98c97f u0 com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}
+11-23 10:41:54.741   684  2393 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-23 10:41:54.744   688   688 E BpTransactionCompletedListener: Failed to transact (-32)
+11-23 10:41:54.745   770  3867 W ActivityTaskManager: Force removing ActivityRecord{166351813 u0 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity t33}: app died, no saved state
+11-23 10:41:54.748  1039  1164 V WindowManagerShell: Transition requested (#35): android.os.BinderProxy@17d59a7 TransitionRequestInfo { type = CLOSE, triggerTask = null, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 35 }
+11-23 10:41:54.751  5462  5462 I Finsky  : [2] Memory trim requested to level 40
+11-23 10:41:54.751  5462  5462 I Finsky  : [2] Flushing in-memory image cache
+11-23 10:41:54.752   688   688 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-23 10:41:54.756   770   823 D DisplayManagerService: Drop pending events for gone uid 10068
+11-23 10:41:54.759   626   626 I Zygote  : Process 5678 exited cleanly (30)
+11-23 10:41:54.763   770   825 W ActivityManager: setHasOverlayUi called on unknown pid: 5678
+11-23 10:41:54.763  5545  5545 I Finsky:background: [2] Memory trim requested to level 40
+11-23 10:41:54.766   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:54.770   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:41:54.770   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:41:54.770   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-23 10:41:54.771   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-23 10:41:54.771   770   961 D InetDiagMessage: Destroyed live tcp sockets for uids={10068} in 6ms
+11-23 10:41:54.771   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-23 10:41:54.771   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-23 10:41:54.771   770   961 D InetDiagMessage: Destroyed live tcp sockets for uids={20068} in 0ms
+11-23 10:41:54.771   770   825 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@cc3fcaff does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-23 10:41:54.773   770   825 V WindowManager: Unknown focus tokens, dropping reportFocusChanged
+11-23 10:41:54.778   626   626 D Zygote  : Forked child process 5873
+11-23 10:41:54.780   770   889 W UsageStatsService: Unexpected activity event reported! (com.dtd.freefireth/com.dtd.freefireth.FFMainActivity event : 23 instanceId : 1958205)
+11-23 10:41:54.780   770  1503 D CoreBackPreview: Window{8f364f6 u0 Splash Screen com.dtd.freefireth}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@55d31cd, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:41:54.781   770   839 I ActivityManager: Start proc 5873:com.dtd.freefireth/u0a68 for top-activity {com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}
+11-23 10:41:54.783   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:41:54.783   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@393e9d0
+11-23 10:41:54.783   770   890 E JobScheduler.Concurrency: Error executing JobStatus{734ca0c #u0a24/9024 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 READY}
+11-23 10:41:54.785   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:41:54.785   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@f15d2fc
+11-23 10:41:54.785   770   890 E JobScheduler.Concurrency: Error executing JobStatus{39e1bd1 #u0a24/9025 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 TIME=none:+23h30m56s135ms NET READY}
+11-23 10:41:54.785   770   770 E JobServiceContext: Binding died for com.android.vending but no running job on this context
+11-23 10:41:54.799  5873  5873 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: No such file or directory
+11-23 10:41:54.799  5873  5873 E Zygote  : pkg name is 0 => com.dtd.freefireth, data dir is /data/user/0/com.dtd.freefireth
+11-23 10:41:54.799  5873  5873 W zygote64: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: nemuhotd
+11-23 10:41:54.839  5873  5873 I Zygote  : seccomp disabled by setenforce 0
+11-23 10:41:54.846  5873  5873 I .dtd.freefireth: Using CollectorTypeCMC GC.
+11-23 10:41:54.846  5873  5873 W .dtd.freefireth: Unexpected CPU variant for x86: x86_64.
+11-23 10:41:54.846  5873  5873 W .dtd.freefireth: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-23 10:41:54.846  5873  5873 V libnb   : enter native_bridge2_initialize /data/user/0/com.dtd.freefireth/code_cache arm64
+11-23 10:41:54.847  5873  5873 E libnb   : The translator implementation library has not been set.
+11-23 10:41:54.855  5873  5873 E libnb   : get_callbacks native_handle 0xc3d4e73b96907c7d: 1 libnb:/system/lib64/libhoudini.so
+11-23 10:41:54.855  5873  5873 I libnb   : Found /system/lib64/libhoudini.so version 7
+11-23 10:41:54.857  5873  5873 I houdini : [5873] Houdini now in android app mode
+11-23 10:41:54.857  5873  5873 I houdini : [5873] Intel Bridge Technology for NetEase Mumu only, Copyright(C) Intel Corp. 2012-now.
+11-23 10:41:54.857  5873  5873 I houdini : [5873] Use permitted only under a valid commercial software license agreement - all other rights reserved.
+11-23 10:41:54.857  5873  5873 I houdini : [5873] Initialize library(version: 15.0.0.Netease_com3.0 RELEASE)... successfully.
+11-23 10:41:54.857  5873  5873 W HP      : x_initialize private_dir:/data/user/0/com.dtd.freefireth/code_cache instruction_set:arm64 getMethodShorty:0x77c01e22c700 ret:1
+11-23 10:41:54.858  5873  5873 E .dtd.freefireth: Not starting debugger since process cannot load the jdwp agent.
+11-23 10:41:54.859  5873  5873 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-23 10:41:54.853  5873  5873 I .dtd.freefireth: type=1400 audit(0.0:1458): avc:  denied  { write } for  name="property_service" dev="tmpfs" ino=664 scontext=u:r:untrusted_app_30:s0:c68,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1 app=com.dtd.freefireth
+11-23 10:41:54.853  5873  5873 I .dtd.freefireth: type=1400 audit(0.0:1459): avc:  denied  { connectto } for  path="/dev/socket/property_service" scontext=u:r:untrusted_app_30:s0:c68,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1 app=com.dtd.freefireth
+11-23 10:41:54.906   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:54.906   770  2886 I BroadcastQueue: BOOT_COMPLETED_BROADCAST_COMPLETION_LATENCY_REPORTED action:android.intent.action.BOOT_COMPLETED dispatchLatency:-1056111 completeLatency:0 dispatchRealLatency:-1056111 completeRealLatency:0 receiversSize:1 userId:0 userType:android.os.usertype.full.SYSTEM
+11-23 10:41:54.906   770  2886 I BroadcastQueue: BOOT_COMPLETED_BROADCAST_COMPLETION_LATENCY_REPORTED action:android.intent.action.BOOT_COMPLETED dispatchLatency:-1056111 completeLatency:0 dispatchRealLatency:-1056111 completeRealLatency:0 receiversSize:1 userId:0 userType:android.os.usertype.full.SYSTEM
+11-23 10:41:54.908   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:41:54.908   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:41:54.908  5873  5873 D CompatChangeReporter: Compat change id reported: 171979766; UID 10068; state: ENABLED
+11-23 10:41:54.910   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:41:54.911   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@fae35e7
+11-23 10:41:54.911   770   890 E JobScheduler.Concurrency: Error executing JobStatus{734ca0c #u0a24/9024 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 READY}
+11-23 10:41:54.911   770  1503 D CompatChangeReporter: Compat change id reported: 170503758; UID 10068; state: ENABLED
+11-23 10:41:54.911   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:41:54.911   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@31e4983
+11-23 10:41:54.911   770   890 E JobScheduler.Concurrency: Error executing JobStatus{39e1bd1 #u0a24/9025 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 TIME=none:+23h30m56s8ms NET READY}
+11-23 10:41:54.912   770   770 E JobServiceContext: Binding died for com.android.vending but no running job on this context
+11-23 10:41:54.912  5873  5873 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:41:54.916  5873  5873 D nativeloader: Configuring clns-7 for other apk /data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk. target_sdk_version=31, uses_libraries=, library_path=/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/lib/arm64:/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.dtd.freefireth
+11-23 10:41:54.917  5873  5873 I .dtd.freefireth: AssetManager2(0x77c1ffa46b38) locale list changing from [] to [en-US]
+11-23 10:41:54.919  5873  5873 V GraphicsEnvironment: Currently set values for:
+11-23 10:41:54.919  5873  5873 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-23 10:41:54.919  5873  5873 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-23 10:41:54.919  5873  5873 V GraphicsEnvironment: com.dtd.freefireth is not listed in per-application setting
+11-23 10:41:54.919  5873  5873 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-23 10:41:55.072  5873  5873 I MultiDex: VM with version 2.1.0 has multidex support
+11-23 10:41:55.072  5873  5873 I MultiDex: Installing application
+11-23 10:41:55.072  5873  5873 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+11-23 10:41:55.075  5873  5873 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+11-23 10:41:55.079  5873  5873 I FirebaseCrashlytics: Initializing Firebase Crashlytics 18.0.1 for com.dtd.freefireth
+11-23 10:41:55.087  5873  5889 W Settings: Setting adb_enabled has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+11-23 10:41:55.091   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:55.095  5873  5894 W .dtd.freefireth: ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[GmsCore.apk*3714305525]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]#PCL[/system/framework/com.android.location.provider.jar*2736664001]#PCL[/system_ext/framework/androidx.window.extensions.jar*596101676]#PCL[/system_ext/framework/androidx.window.sidecar.jar*4027385501]} | DLC[];PCL[])
+11-23 10:41:55.097  5873  5894 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:51 and remote module com.google.android.gms.measurement.dynamite:193
+11-23 10:41:55.097  5873  5894 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 193
+11-23 10:41:55.097  5873  5894 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+11-23 10:41:55.100  5873  5894 W System  : ClassLoader referenced unknown path: 
+11-23 10:41:55.100  5873  5894 D nativeloader: Configuring clns-8 for other apk . target_sdk_version=37, uses_libraries=, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+11-23 10:41:55.103  5873  5894 I .dtd.freefireth: AssetManager2(0x77c1ffa510d8) locale list changing from [] to [en-US]
+11-23 10:41:55.105  5873  5894 W .dtd.freefireth: ClassLoaderContext classpath element mismatch. expected=GmsCore.apk, found=/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk (DLC[];PCL[GmsCore.apk*3714305525]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]#PCL[/system/framework/com.android.location.provider.jar*2736664001]#PCL[/system_ext/framework/androidx.window.extensions.jar*596101676]#PCL[/system_ext/framework/androidx.window.sidecar.jar*4027385501]} | DLC[];PCL[/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk*3975694790]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]})
+11-23 10:41:55.107  5873  5873 I FirebaseInitProvider: FirebaseApp initialization successful
+11-23 10:41:55.108  5873  5894 I .dtd.freefireth: AssetManager2(0x77c1ffa4a058) locale list changing from [] to [en-US]
+11-23 10:41:55.109  5873  5894 I .dtd.freefireth: AssetManager2(0x77c1ffa51718) locale list changing from [] to [en-US]
+11-23 10:41:55.115  5873  5873 W com.facebook.i0: Please set a value for AutoLogAppEventsEnabled. Set the flag to TRUE if you want to collect app install, app launch and in-app purchase events automatically. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+11-23 10:41:55.115  5873  5873 W com.facebook.i0: You haven't set a value for AdvertiserIDCollectionEnabled. Set the flag to TRUE if you want to collect Advertiser ID for better advertising and analytics results. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+11-23 10:41:55.118  5873  5902 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:41:55.121  1039  1195 D VRI[freefireth]: visibilityChanged oldVisibility=false newVisibility=true
+11-23 10:41:55.121   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:55.121   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: setPresentationRotation 1 for com.dtd.freefireth:33
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: java.lang.Exception
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:638)
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1957)
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:222)
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:41:55.122   770   822 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:41:55.143  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:55.146  5873  5903 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:41:55.158  1039  1208 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:41:55.164  1039  5915 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:55.165  1039  5915 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:55.174  1039  1459 V WindowManagerShell: onTransitionReady(transaction=3307124819692)
+11-23 10:41:55.174  1039  1164 V WindowManagerShell: onTransitionReady (#35) android.os.BinderProxy@17d59a7: {id=35 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:41:55.174  1039  1164 V WindowManagerShell:         {m=TO_FRONT f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{190449383 u0 com.dtd.freefireth/.FFMainActivity)/@0xeb8aa4a sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 bc=ffeceef4 component=com.dtd.freefireth/.FFMainActivity}
+11-23 10:41:55.174  1039  1164 V WindowManagerShell:     ]}
+11-23 10:41:55.174  1039  1164 V WindowManagerShell: Playing animation for (#35) android.os.BinderProxy@17d59a7@0
+11-23 10:41:55.174   770   822 V WindowManager: Sent Transition (#35) createdAt=11-23 10:41:54.748 via request=TransitionRequestInfo { type = CLOSE, triggerTask = null, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 35 }
+11-23 10:41:55.174   770   822 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+11-23 10:41:55.174  1039  1164 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+11-23 10:41:55.174   770   822 V WindowManager:     info={id=35 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:41:55.174   770   822 V WindowManager:         {m=TO_FRONT f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{190449383 u0 com.dtd.freefireth/.FFMainActivity)/@0xc8e5158 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 bc=ffeceef4 component=com.dtd.freefireth/.FFMainActivity}
+11-23 10:41:55.174   770   822 V WindowManager:     ]}
+11-23 10:41:55.174  1039  1164 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=35 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=TO_FRONT f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{190449383 u0 com.dtd.freefireth/.FFMainActivity)/@0xeb8aa4a sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 bc=ffeceef4 component=com.dtd.freefireth/.FFMainActivity}]}
+11-23 10:41:55.174  1039  1164 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@73808e6, appThread = android.app.IApplicationThread$Stub$Proxy@d760e27, debugName = QuickstepLaunchHome }}
+11-23 10:41:55.175  1039  1164 V WindowManagerShell:  Delegate animation for (#35) to null
+11-23 10:41:55.175  1039  1164 V WindowManagerShell: start default transition animation, info = {id=35 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=TO_FRONT f=FILLS_TASK|IS_BEHIND_STARTING_WINDOW leash=Surface(name=ActivityRecord{190449383 u0 com.dtd.freefireth/.FFMainActivity)/@0xeb8aa4a sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 bc=ffeceef4 component=com.dtd.freefireth/.FFMainActivity}]}
+11-23 10:41:55.176  5873  5873 I .dtd.freefireth: AssetManager2(0x77c1ffa4bf98) locale list changing from [] to [en-US]
+11-23 10:41:55.176  1039  1164 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@6df2116 animAttr=0x6 type=CLOSE isEntrance=true
+11-23 10:41:55.179   770  2886 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:41:55.184   688   700 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 4096
+11-23 10:41:55.200  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 286720
+11-23 10:41:55.203  1039  1208 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:41:55.209  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 286720
+11-23 10:41:55.212  5873  5905 W com.facebook.internal.c0: Apps that target Android API 30+ (Android 11+) cannot call Facebook native apps unless the package visibility needs are declared. Please follow https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988 to make the declaration.
+11-23 10:41:55.214  1039  1164 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@32b65c3
+11-23 10:41:55.243  1851  1949 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.dtd.freefireth
+11-23 10:41:55.246  5873  5904 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:41:55.347  5873  5901 I FA      : App measurement disabled via the manifest
+11-23 10:41:55.347  5873  5901 E .dtd.freefireth: No package ID 6a found for resource ID 0x6a0b0013.
+11-23 10:41:55.347  5873  5901 I FA      : App measurement initialized, version: 169000
+11-23 10:41:55.348  5873  5901 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+11-23 10:41:55.348  5873  5901 I FA      : To enable faster debug mode event logging run:
+11-23 10:41:55.348  5873  5901 I FA      :   adb shell setprop debug.firebase.analytics.app com.dtd.freefireth
+11-23 10:41:55.352   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:55.352   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:55.354  1924  1924 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:41:55.354  1924  1924 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:41:55.397  5873  5904 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:41:55.430   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:55.440  1039  1164 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#35) android.os.BinderProxy@17d59a7@0
+11-23 10:41:55.443   770   822 V WindowManager: Finish Transition (#35): created at 11-23 10:41:54.748 collect-started=0.031ms request-sent=0.05ms started=2.521ms ready=373.601ms sent=425.048ms finished=694.631ms
+11-23 10:41:55.444  1039  1164 V WindowManagerShell: Track 0 became idle
+11-23 10:41:55.444  1039  1164 V WindowManagerShell: All active transition animations finished
+11-23 10:41:55.453   770  5872 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:41:55.564  5873  5873 D DesktopModeFlagsUtil: Toggle override initialized to: OVERRIDE_OFF
+11-23 10:41:55.589  5873  5873 W HWUI    : Unknown dataspace 0
+11-23 10:41:55.592  5873  5873 D InsetsController: Setting requestedVisibleTypes to -10 (was -9)
+11-23 10:41:55.592   770  2886 W WindowManager: Failed looking up window session=Session{7afe690 5873:u0a10068} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6325 com.android.server.wm.Session.updateRequestedVisibleTypes:699 android.view.IWindowSession$Stub.onTransact:1023 
+11-23 10:41:55.604  5873  5873 D InsetsController: Setting requestedVisibleTypes to -528 (was -10)
+11-23 10:41:55.605   770  5872 D CoreBackPreview: Window{3d4dbbc u0 com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@7514e9a, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:41:55.620  5873  5931 E libEGL  : intercept_property_get () for (persist.graphics.egl)
+11-23 10:41:55.630  5873  5931 I EGL_emulation: EGL display initialized (version 1.4, rendererVersion=0x3, configs=6)
+11-23 10:41:55.640  5873  5931 I EGL_emulation: EGL display initialized (version 1.4, rendererVersion=0x3, configs=6)
+11-23 10:41:55.641   450   450 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+11-23 10:41:55.641  5873  5931 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.configstore@1.0::ISurfaceFlingerConfigs instance: default
+11-23 10:41:55.642  5873  5931 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-23 10:41:55.642  5873  5931 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-23 10:41:55.852   688   700 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827820427265280: UNSUPPORTED (8)
+11-23 10:41:55.853  5873  5931 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@2.0::IMapper instance: default
+11-23 10:41:55.854  5873  5931 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@2.0::IAllocator instance: default
+11-23 10:41:55.854  5873  5931 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:55.961  5873  5931 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:55.971  5873  5873 I Choreographer: Skipped 175 frames!  The application may be doing too much work on its main thread.
+11-23 10:41:56.019   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:41:56.026   770   912 I ImeTracker: com.dtd.freefireth:59c1f53: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-23 10:41:56.030  1924  5943 D AdvertisingIdClient: AdvertisingIdClient already created.
+11-23 10:41:56.030  1924  5943 D AdvertisingIdClient: AdvertisingIdClient is not bounded. Starting to bind it...
+11-23 10:41:56.038  5873  5873 D InsetsController: hide(ime(), fromIme=false)
+11-23 10:41:56.038  5873  5873 I ImeTracker: com.dtd.freefireth:59c1f53: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-23 10:41:56.040  1924  5943 D AdvertisingIdClient: AdvertisingIdClient is bounded
+11-23 10:41:56.040  1924  5943 I AdvertisingIdClient: shouldSendLog 47245
+11-23 10:41:56.040  1924  5943 I AdvertisingIdClient: GetInfoInternal elapse 9ms
+11-23 10:41:56.076  1851  1973 I FontLog : (REDACTED) Received query %s, URI %s
+11-23 10:41:56.076  1851  1973 I FontLog : (REDACTED) Query [%s] resolved to %s
+11-23 10:41:56.077  1851  1973 I FontLog : (REDACTED) Fetch %s end status %s
+11-23 10:41:56.078  1851  1973 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+11-23 10:41:56.082  1851  1973 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+11-23 10:41:56.147  5873  5929 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES VMH, Cores = 2, Memory = 3932mb
+11-23 10:41:56.147  5873  5929 I Unity   : SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0x3), 0 little (mask: 0x0)
+11-23 10:41:56.148  5873  5929 I Unity   : ApplicationInfo com.dtd.freefireth version 1.98.1 build 9b364ac2-5ff5-4251-a1cb-edeba9236d88
+11-23 10:41:56.149  5873  5929 I Unity   : Built from '' branch, Version '2018.4.11f1 (0)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a'
+11-23 10:41:56.160  5873  5931 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:56.178  5873  5942 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.dtd.freefireth
+11-23 10:41:56.205  5965  5965 I init    : type=1400 audit(0.0:1460): avc:  denied  { transition } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:41:56.221  5965  5965 I init    : type=1400 audit(0.0:1461): avc:  denied  { entrypoint } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:41:56.221  5965  5965 I init    : type=1400 audit(0.0:1462): avc:  denied  { noatsecure } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:41:56.293  1039  1195 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@b1be943
+11-23 10:41:56.295   770  1622 D CoreBackPreview: Window{8f364f6 u0 Splash Screen com.dtd.freefireth EXITING}: Setting back callback null
+11-23 10:41:56.221  5965  5965 I serial_console: type=1400 audit(0.0:1463): avc:  denied  { rlimitinh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:41:56.229  5965  5965 I serial_console: type=1400 audit(0.0:1464): avc:  denied  { siginh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:41:56.229  5965  5965 I serial_console: type=1400 audit(0.0:1465): avc:  denied  { map } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:41:56.229  5965  5965 I serial_console: type=1400 audit(0.0:1466): avc:  denied  { read execute } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:41:56.579  5873  5929 D AudioSystem: onNewService: media.audio_policy service obtained 0x77c01faea3c0
+11-23 10:41:56.580  5873  5929 D AudioSystem: getService: checking for service media.audio_policy: 0x77c01faea3c0
+11-23 10:41:56.580   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:41:56.580   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:41:56.580   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:41:56.581  5873  5929 D AudioSystem: onNewServiceWithAdapter: media.audio_flinger service obtained 0x77c05fa9ba10
+11-23 10:41:56.582  5873  5929 D AudioSystem: getService: checking for service media.audio_flinger: 0x77c01fae9970
+11-23 10:41:56.585  5873  5929 D .dtd.freefireth: PlayerBase::PlayerBase()
+11-23 10:41:56.585  5873  5929 D .dtd.freefireth: TrackPlayerBase::TrackPlayerBase()
+11-23 10:41:56.585  5873  5929 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+11-23 10:41:56.586   684   693 E ServiceUtilities: Request requires android.permission.MODIFY_PHONE_STATE or android.permission.WRITE_SECURE_SETTINGS
+11-23 10:41:56.586   684   693 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000104) and output flags (00000006)
+11-23 10:41:56.586   684   693 D AudioFlinger: Client defaulted notificationFrames to 512 for frameCount 2048
+11-23 10:41:56.588  5873  5929 I AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST successful; frameCount 0 -> 2048
+11-23 10:41:56.590   684   693 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:41:56.590   684   693 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-23 10:41:56.593   630  2056 D audio_hw_primary: tunnel_pcm_open called!
+11-23 10:41:56.604  5873  5929 E EGL_emulation: [getAttribValue] Bad attribute index in getAttribValue
+11-23 10:41:56.604  5873  5929 W EGL_emulation: eglGetConfigAttrib: unknown config attribute 0x1
+11-23 10:41:56.605  5873  5929 E EGL_emulation: tid 5929: eglGetConfigAttrib(1044): error 0x3004 (EGL_BAD_ATTRIBUTE)
+11-23 10:41:56.607  5873  5929 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:56.825  5873  5929 D Unity   :  GL_EXT_debug_marker GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_ETC1_RGB8_texture GL_KHR_texture_compression_astc_ldr GL_OES_surfaceless_context GL_OES_depth_texture GL_EXT_texture_compression_bptc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_compression_rgtc GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_EXT_draw_buffers_indexed GL_KHR_debug GL_EXT_geometry_shader GL_EXT_tessellation_shader GL_EXT_gpu_shader5 GL_EXT_primitive_bounding_box GL_EXT_texture_border_clamp GL_EXT_texture_cube_map_array GL_EXT_copy_image GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_
+11-23 10:41:56.825  5873  5929 D Unity   : shader_image_atomic GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_shader_io_blocks GL_EXT_shader_io_blocks GL_EXT_texture_sRGB_decode GL_KHR_robustness GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_OES_EGL_image_external_essl3 GL_EXT_robustness
+11-23 10:41:57.161  5873  5975 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:57.176  5873  5975 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:41:57.304   684   802 W AudioFlinger: write blocked for 598 msecs, 15 delayed writes, thread 13
+11-23 10:41:57.752   770  1664 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+11-23 10:41:59.225  5873  5873 I UnityMain: type=1400 audit(0.0:1467): avc:  denied  { rename } for  name="il2cpp" dev="sdc3" ino=2883625 scontext=u:r:untrusted_app_30:s0:c68,c256,c512,c768 tcontext=u:object_r:media_userdir_file:s0:c68,c256,c512,c768 tclass=dir permissive=1 app=com.dtd.freefireth
+11-23 10:41:59.272   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(4)
+11-23 10:41:59.294  5462  5476 I Finsky  : [30] Stats for Executor: BlockingExecutor vzk@a443044[Running, pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 30]
+11-23 10:41:59.296  5462  5476 I Finsky  : [30] Stats for Executor: LightweightExecutor vzk@e55752d[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 157]
+11-23 10:41:59.447  5873  5929 I Il2CPPSwitch: 0
+11-23 10:41:59.556  5462  5476 I Finsky  : [30] Stats for Executor: bgExecutor vzk@1e4ca62[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 129]
+11-23 10:42:00.921  5545  5569 I Finsky:background: [30] Stats for Executor: bgExecutor vzk@daea24d[Running, pool size = 4, active threads = 0, queued tasks = 0, completed tasks = 17]
+11-23 10:42:00.937  5545  5569 I Finsky:background: [30] Stats for Executor: LightweightExecutor vzk@d5cc102[Running, pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 12]
+11-23 10:42:00.988  5545  5569 I Finsky:background: [30] Stats for Executor: BlockingExecutor vzk@cd8fa13[Running, pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0]
+11-23 10:42:01.158  5873  5929 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-23 10:42:01.158  5873  5929 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=true, BT route=null
+11-23 10:42:01.189  5873  5975 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:42:01.629  5873  5929 W Unity   : UGCResourceManager.Inited
+11-23 10:42:01.629  5873  5929 W Unity   :  
+11-23 10:42:01.629  5873  5929 W Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:42:01.629  5873  5929 W Unity   : 
+11-23 10:42:01.643  5873  5929 D AppsFlyer_6.4.0: Initializing AppsFlyer SDK: (v6.4.0.119)
+11-23 10:42:01.644  5873  5929 W Unity   : DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+11-23 10:42:01.644  5873  5929 W Unity   :  
+11-23 10:42:01.644  5873  5929 W Unity   : (Filename:  Line: 543)
+11-23 10:42:01.644  5873  5929 W Unity   : 
+11-23 10:42:01.646  5873  5983 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:42:01.649  5873  5983 D nativeloader: Configuring clns-9 for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=37, uses_libraries=ALL, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+11-23 10:42:01.649  5873  5983 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-23 10:42:01.650  5873  5983 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-23 10:42:01.657  5873  5983 D nativeloader: InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libapexsupport.so:libavf.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-i686-android.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvendorsupport.so:libvndksupport.so:libvulkan.so
+11-23 10:42:01.657  5873  5983 D nativeloader: Configuring product-clns-10 for unbundled product apk /system/product/priv-app/GmsCore/GmsCore.apk. target_sdk_version=37, uses_libraries=, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64:/system/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms:/product/lib64:/system/product/lib64
+11-23 10:42:01.677   770  5872 W SensorService: sensor 00000000 already enabled in connection 0x77c06fa6f4f0 (ignoring)
+11-23 10:42:01.716   770   961 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 0]
+11-23 10:42:01.722  5873  5983 D nativeloader: InitVndkspLibrariesProduct: VNDK is deprecated with product
+11-23 10:42:01.775  5873  5879 W System  : A resource failed to call close. 
+11-23 10:42:01.775  5873  5879 W System  : A resource failed to call close. 
+11-23 10:42:01.884   770  5872 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@cc3fcaff does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-23 10:42:01.885   770  5872 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+11-23 10:42:01.885   770  5872 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+11-23 10:42:01.885   770  5872 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-23 10:42:01.889  1039  1164 V WindowManagerShell: Transition requested (#36): android.os.BinderProxy@173a081 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=33 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=2 lastActiveTime=1063093 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@de8d526} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{e788567 com.unity3d.plugin.downloader.UnityDownloaderActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 36 }
+11-23 10:42:01.889  1039  1164 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+11-23 10:42:01.890   770  5872 I ActivityTaskManager: START u0 {flg=0x10000 cmp=com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity (has extras)} with LAUNCH_MULTIPLE from uid 10068 (sr=190449383) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+11-23 10:42:01.893   688   688 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-23 10:42:01.895   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:42:01.896   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:42:01.896   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:42:01.915  5873  5929 D .dtd.freefireth: PlayerBase::stop() from IPlayer
+11-23 10:42:01.915  5873  5929 D AudioTrack: stop(23): called with 227328 frames delivered
+11-23 10:42:01.921   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:42:01.921   770  5872 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+11-23 10:42:01.925   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:42:01.925   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:42:01.929  5873  5873 D CompatChangeReporter: Compat change id reported: 160794467; UID 10068; state: ENABLED
+11-23 10:42:01.953  5873  5879 W System  : A resource failed to call AbstractCursor.close. 
+11-23 10:42:01.956  5873  5873 D LVLDL   : Service Bound
+11-23 10:42:01.958   770  5872 D CoreBackPreview: Window{6c86538 u0 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@6614a76, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:42:01.963  5873  5931 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:42:01.983  5873  5996 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:42:01.985  5873  5996 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:42:01.987  5873  5996 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:42:02.034   684   802 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-23 10:42:02.034   684   756 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:42:02.035   684   756 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:42:02.149  5873  5983 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:42:02.149  5873  5983 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-23 10:42:02.149  5873  5983 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-23 10:42:02.245   770  3867 E NotificationService: No Channel found for pkg=com.dtd.freefireth, channelId=null, id=-908767821, tag=null, opPkg=com.dtd.freefireth, callingUid=10068, userId=0, incomingUserId=0, notificationUid=10068, notification=Notification(channel=null shortcut=null contentView=null vibrate=null sound=null tick defaults=0 flags=ONGOING_EVENT color=0x00000000 vis=PRIVATE)
+11-23 10:42:02.248  1039  5291 V WindowManagerShell: onTransitionReady(transaction=3307124819750)
+11-23 10:42:02.248  1039  1164 V WindowManagerShell: onTransitionReady (#36) android.os.BinderProxy@173a081: {id=36 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:42:02.248  1039  1164 V WindowManagerShell:         {m=OPEN f=FILLS_TASK|NO_ANIMATION leash=Surface(name=ActivityRecord{245401561 u0 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity)/@0x6a05f14 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=-1->0 r=-1->1:-1 bc=ffeceef4 component=com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity opt={t=FROM_STYLE mUserId=0}},
+11-23 10:42:02.248  1039  1164 V WindowManagerShell:         {m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{190449383 u0 com.dtd.freefireth/.FFMainActivity)/@0xcb8c3bd sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 bc=ffeceef4 component=com.dtd.freefireth/.FFMainActivity opt={t=FROM_STYLE mUserId=0}}
+11-23 10:42:02.248  1039  1164 V WindowManagerShell:     ]}
+11-23 10:42:02.249  1039  1164 V WindowManagerShell: Playing animation for (#36) android.os.BinderProxy@173a081@0
+11-23 10:42:02.249  1039  1164 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+11-23 10:42:02.249  1039  1164 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=36 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=FILLS_TASK|NO_ANIMATION leash=Surface(name=ActivityRecord{245401561 u0 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity)/@0x6a05f14 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=-1->0 r=-1->1:-1 bc=ffeceef4 component=com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity opt={t=FROM_STYLE mUserId=0}},{m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{190449383 u0 com.dtd.freefireth/.FFMainActivity)/@0xcb8c3bd sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 bc=ffeceef4 component=com.dtd.freefireth/.FFMainActivity opt={t=FROM_STYLE mUserId=0}}]}
+11-23 10:42:02.249  1039  1164 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@73808e6, appThread = android.app.IApplicationThread$Stub$Proxy@d760e27, debugName = QuickstepLaunchHome }}
+11-23 10:42:02.249  1039  1164 V WindowManagerShell:  Delegate animation for (#36) to null
+11-23 10:42:02.249  1039  1164 V WindowManagerShell: start default transition animation, info = {id=36 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=OPEN f=FILLS_TASK|NO_ANIMATION leash=Surface(name=ActivityRecord{245401561 u0 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity)/@0x6a05f14 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=-1->0 r=-1->1:-1 bc=ffeceef4 component=com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity opt={t=FROM_STYLE mUserId=0}},{m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{190449383 u0 com.dtd.freefireth/.FFMainActivity)/@0xcb8c3bd sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 bc=ffeceef4 component=com.dtd.freefireth/.FFMainActivity opt={t=FROM_STYLE mUserId=0}}]}
+11-23 10:42:02.249  1039  1164 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#36) android.os.BinderProxy@173a081@0
+11-23 10:42:02.250   770   822 I ActivityTaskManager: Displayed com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity for user 0: +362ms
+11-23 10:42:02.250   770   822 V WindowManager: Sent Transition (#36) createdAt=11-23 10:42:01.885 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=33 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=2 lastActiveTime=1063093 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{987ad32 Task{1198294 #33 type=standard A=10068:com.dtd.freefireth}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{ce20d23 com.unity3d.plugin.downloader.UnityDownloaderActivity} launchCookies=[] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 36 }
+11-23 10:42:02.250   770   822 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+11-23 10:42:02.250   770   822 V WindowManager:     info={id=36 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:42:02.250   770   822 V WindowManager:         {m=OPEN f=FILLS_TASK|NO_ANIMATION leash=Surface(name=ActivityRecord{245401561 u0 com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity)/@0x6008513 sb=Rect(0, 0 - 0, 0) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=-1->0 r=-1->1:-1 bc=ffeceef4 component=com.dtd.freefireth/com.unity3d.plugin.downloader.UnityDownloaderActivity opt={t=FROM_STYLE mUserId=0}},
+11-23 10:42:02.250   770   822 V WindowManager:         {m=TO_BACK f=FILLS_TASK leash=Surface(name=ActivityRecord{190449383 u0 com.dtd.freefireth/.FFMainActivity)/@0xc8e5158 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 bc=ffeceef4 component=com.dtd.freefireth/.FFMainActivity opt={t=FROM_STYLE mUserId=0}}
+11-23 10:42:02.250   770   822 V WindowManager:     ]}
+11-23 10:42:02.252   770   822 V WindowManager: Finish Transition (#36): created at 11-23 10:42:01.885 collect-started=0.067ms request-sent=4.288ms started=6.849ms ready=38.344ms sent=363.11ms finished=366.479ms
+11-23 10:42:02.252   770  3867 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:42:02.253  1039  1164 V WindowManagerShell: Track 0 became idle
+11-23 10:42:02.253  1039  1164 V WindowManagerShell: All active transition animations finished
+11-23 10:42:02.253  1039  1164 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@32b65c3
+11-23 10:42:02.253  1039  1164 V WindowManagerShell: Track 0 became idle
+11-23 10:42:02.253  1039  1164 V WindowManagerShell: All active transition animations finished
+11-23 10:42:02.254   770  5872 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:42:02.254   770  2379 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:42:02.256  5873  5873 I LicenseChecker: Binding to licensing service.
+11-23 10:42:02.258   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:42:02.258   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:42:02.258   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:42:02.260  5873  5873 I Choreographer: Skipped 144 frames!  The application may be doing too much work on its main thread.
+11-23 10:42:02.263  5873  5873 D VRI[FFMainActivity]: visibilityChanged oldVisibility=true newVisibility=false
+11-23 10:42:02.277  5873  5873 E Surface : freeAllBuffers: 1 buffers were freed while being dequeued!
+11-23 10:42:02.304   770   912 I ImeTracker: com.dtd.freefireth:51cdc91e: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-23 10:42:02.323  5873  5873 I LicenseChecker: Calling checkLicense on service for com.dtd.freefireth
+11-23 10:42:02.324  5873  5873 I LicenseChecker: Start monitoring timeout.
+11-23 10:42:02.324  5873  5873 D InsetsController: hide(ime(), fromIme=false)
+11-23 10:42:02.324  5873  5873 I ImeTracker: com.dtd.freefireth:51cdc91e: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-23 10:42:02.331   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:42:02.331  5873  5997 I LicenseChecker: Received response.
+11-23 10:42:02.332  5873  5997 I LicenseChecker: Clearing timeout.
+11-23 10:42:02.337  5873  5873 W AnimatedVectorDrawable: Duration for the animation is too long :2000, the animation will subsample the keyframe or path data.
+11-23 10:42:02.337  5873  5873 W AnimatedVectorDrawable: Duration for the animation is too long :2000, the animation will subsample the keyframe or path data.
+11-23 10:42:02.337  5873  5873 W AnimatedVectorDrawable: Duration for the animation is too long :2000, the animation will subsample the keyframe or path data.
+11-23 10:42:02.337  5873  5873 W AnimatedVectorDrawable: Duration for the animation is too long :2000, the animation will subsample the keyframe or path data.
+11-23 10:42:02.339   770  2379 E NotificationService: No Channel found for pkg=com.dtd.freefireth, channelId=null, id=-908767821, tag=null, opPkg=com.dtd.freefireth, callingUid=10068, userId=0, incomingUserId=0, notificationUid=10068, notification=Notification(channel=null shortcut=null contentView=null vibrate=null sound=null tick defaults=0 flags=AUTO_CANCEL color=0x00000000 vis=PRIVATE)
+11-23 10:42:02.359  5545  5545 I Finsky:background: [2] Memory trim requested to level 40
+11-23 10:42:02.359  5462  5462 I Finsky  : [2] Memory trim requested to level 40
+11-23 10:42:02.359  5462  5462 I Finsky  : [2] Flushing in-memory image cache
+11-23 10:42:02.429  5873  5873 I Choreographer: Skipped 38 frames!  The application may be doing too much work on its main thread.
+11-23 10:42:04.889   770  1664 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+11-23 10:42:08.070  5545  5670 I PlayCommon: [65] Preparing logs for uploading
+11-23 10:42:08.075  5545  5670 I PlayCommon: [65] Connecting to server for timestamp: https://play.googleapis.com/play/log/timestamp
+11-23 10:42:08.076  5545  5670 E JKHelper: Suspend VM API is unavailable.
+11-23 10:42:08.104  5545  5670 W JavaPatchEntry: URL: + https://play.googleapis.com/play/log/timestamp
+11-23 10:42:08.127  5545  5670 W JavaPatchEntry: URL: + https://play.googleapis.com/play/log/timestamp
+11-23 10:42:08.129  5545  5670 W PlayCommon: [65] No account for auth token provided
+11-23 10:42:08.129  5545  5670 I PlayCommon: [65] Connecting to server: https://play.googleapis.com/play/log?format=raw&proto_v2=true
+11-23 10:42:08.131  5545  5670 W JavaPatchEntry: URL: + https://play.googleapis.com/play/log?format=raw&proto_v2=true
+11-23 10:42:08.152  5545  5670 I PlayCommon: [65] Successfully uploaded logs.
+11-23 10:42:08.152  5545  5670 W JavaPatchEntry: URL: + https://play.googleapis.com/play/log?format=raw&proto_v2=true
+11-23 10:42:11.972  1924  1924 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:42:12.384   770   896 D ActivityManager: freezing 5462 com.android.vending
+11-23 10:42:12.385   770   896 D ActivityManager: freezing 5545 com.android.vending:background
+11-23 10:42:12.386   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-23 10:42:12.386   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-23 10:42:12.386   770   961 D InetDiagMessage: Destroyed live tcp sockets for uids={10024} in 0ms

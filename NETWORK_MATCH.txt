@@ -1,0 +1,47 @@
+IN-GAME MATCH NETWORK (Free Fire 1.98.1 / IL2CPP)
+==================================================
+
+Kesimpulan: match pakai UDP, tapi bukan UDP polos — reliable UDP custom
+(Garena "MUDP"/RUDP) dengan fallback UDP/TCP.
+
+Bukti utama (dump.cs):
+- GCommon.MatchGameClient : NetworkClient (line 1059533)
+    field INetworkSession m_UDPSession  (0x20)
+    field bool m_UseMUDP                (0x5C)
+    handler S2C_C2S_RUDP_SPLITTED_DATAGRAM (line 1059574)
+- GCommon.MultiNetworkSession (line 1059945)
+    Dictionary<ENetworkType, MUDPSession> m_Sessions
+    UDPReliableTracking m_ReliableTracking
+    bool m_UseMUDP, m_TryToUseDefaultUDP
+    ENetworkType = Wifi / Cellular / None -> multi-session (dual-path)
+- GCommon.MUDPSession : NetworkSession, IUDPSession (line 1059661)
+    static bool UseTCPMode
+    CreateAndConnectSocket, ForceToUseDefaultUDP, ForceToRecconnect
+    m_PacketToResend, m_SessionKey, m_NextTrackingID, keepalive thread
+    TEA encrypt buffers + GZip stream
+- GCommon.UDPSession (line ~1065050) -> SocketClient
+    UdpClient m_UDPClient + TcpClient m_TCPClient + bool useUDP
+- NetworkCryptologyUtil (line 1060827): TeaEncrypt/TeaDecrypt, SALT_LEN,
+  ZERO_LEN, DELTA, ROUNDS -> TEA/XXTEA, bukan AES (AES cuma HTTP login)
+- UDPMessageIDReserved (line 1064645):
+  UDP_HELLO, UDP_ACK, UDP_PING, UDP_BYEBYE, MUDP_CONNECT_ACK,
+  RUDP_SPLITTED_DATAGRAM
+
+Log/string literal:
+- "@pyf[MultiSession] MatchGameClient init UseMUDP:"  @0x75A2498
+- "@pyf[MultiSession] ForceToRecconnect with VPN ON Try DefaultUDPSession :" @0x75A2520
+- "MUDPConnectionTracking resend cmd: " @0x75A2200
+- "[MatchResult] receive S2C_RUDP_MatchEnd_Res from GS" @0x7585EE8
+- banyak C2S_RUDP_* / S2C_RUDP_* (skill, radar, pickup, pause, dll)
+
+Pemilihan mode (MatchGameClient..ctor @ 0x3B38740):
+  0x3B3897C  call GameSettingData$$IsNetworkOptimizeMultiSessionAvailable
+  0x3B38980  eor w8, IsVPN, #1
+  0x3B38984  and w8, w0, w8
+  0x3B38988  strb w8, [x19, #0x5C]   ; m_UseMUDP = optimize && !VPN
+
+Artinya:
+- Normal: MUDP multi-session (Wifi+Cellular) di atas UDP + ACK/resend/split
+- VPN / optimasi mati: UDPSession biasa (masih UDP), bisa fallback TCP
+- Payload: protobuf -> TEA -> GZip (tergantung flag) -> datagram UDP
+- HTTP (majorlogin) jalur terpisah: AES-128-CBC, bukan ini.

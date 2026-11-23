@@ -1,0 +1,17 @@
+package com.google.firebase.messaging;
+
+import com.google.android.gms.tasks.Continuation;
+import com.google.android.gms.tasks.Task;
+
+/* JADX INFO: loaded from: classes.dex */
+final /* synthetic */ class l implements Continuation {
+    static final Continuation a = new l();
+
+    private l() {
+    }
+
+    @Override // com.google.android.gms.tasks.Continuation
+    public Object a(Task task) {
+        return o.c(task);
+    }
+}

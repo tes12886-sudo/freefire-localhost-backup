@@ -1,0 +1,9 @@
+
+[2026-11-23 10:42:25] GET /live/ver.php?version=1.98.1&lang=en&device=android&channel=android&appstore=googleplay&region=DEFAULT len=0 body=b''
+[2026-11-23 10:42:25] 127.0.0.1 - "GET /live/ver.php?version=1.98.1&lang=en&device=android&channel=android&appstore=googleplay&region=DEFAULT HTTP/1.1" 200 -
+[2026-11-23 10:42:53] GET /live/ver.php?probe=1 len=0 body=b''
+[2026-11-23 10:42:53] 127.0.0.1 - "GET /live/ver.php?probe=1 HTTP/1.1" 200 -
+[2026-11-23 10:43:50] GET /live/ver.php?version=1.98.1&lang=en&device=android&channel=android&appstore=googleplay&region=DEFAULT len=0 body=b''
+[2026-11-23 10:43:50] 127.0.0.1 - "GET /live/ver.php?version=1.98.1&lang=en&device=android&channel=android&appstore=googleplay&region=DEFAULT HTTP/1.1" 200 -
+[2026-11-23 10:44:54] GET /live/ver.php?version=1.98.1&lang=en&device=android&channel=android&appstore=googleplay&region=DEFAULT len=0 body=b''
+[2026-11-23 10:44:54] 127.0.0.1 - "GET /live/ver.php?version=1.98.1&lang=en&device=android&channel=android&appstore=googleplay&region=DEFAULT HTTP/1.1" 200 -

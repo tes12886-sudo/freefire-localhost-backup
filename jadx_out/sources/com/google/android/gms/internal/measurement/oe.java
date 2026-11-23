@@ -1,0 +1,22 @@
+package com.google.android.gms.internal.measurement;
+
+/* JADX INFO: loaded from: classes.dex */
+public final class oe implements ne {
+    public static final p6<Boolean> a;
+
+    static {
+        n6 n6Var = new n6(g6.a("com.google.android.gms.measurement"));
+        a = n6Var.b("measurement.config.persist_last_modified", true);
+        n6Var.a("measurement.id.config.persist_last_modified", 0L);
+    }
+
+    @Override // com.google.android.gms.internal.measurement.ne
+    public final boolean zza() {
+        return true;
+    }
+
+    @Override // com.google.android.gms.internal.measurement.ne
+    public final boolean zzb() {
+        return a.e().booleanValue();
+    }
+}

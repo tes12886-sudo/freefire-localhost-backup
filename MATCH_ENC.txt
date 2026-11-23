@@ -1,0 +1,25 @@
+IN-GAME MATCH ENCRYPTION (Free Fire 1.98.1)
+============================================
+
+Ada dua jalur berbeda:
+
+1) Gameplay sync (IL2CPP / MUDP-RUDP, UDP)
+   - Algoritma: Tencent TEA (varian TEA/XXTEA)
+     Konstanta: DELTA=0x9E3779B9, ROUNDS=16, LOG_ROUNDS=4,
+                SALT_LEN=2, ZERO_LEN=7 (NetworkCryptologyUtil..cctor @0x3B42B60)
+   - Dipakai di: UDPMsgPacket.Serialize/Unserialize (@0x43DED.../@0x43DEA...)
+   - Tambahan: GZip compression (m_ZipWorkingBuffer/m_ZipOutputBuffer)
+   - Key: pKey yang diteruskan (session key dari login), bukan AES login.
+
+2) Native channel libanogs.so (TCP, CS channel)
+   - Algoritma: AES-128-CBC
+   - Key: MD5 dari string "0_0_<ukuran_paket>" (16 byte), hasil FUN_004b04cc (MD5)
+   - IV awal: key yang sama (disalin ke buffer IV di FUN_004b24cc)
+   - Mode: param_5==1 encrypt (CBC), ==2 decrypt (CBC), else ECB
+   - Entry: FUN_001ad674 -> FUN_004b24cc (key setup) -> FUN_004b357c (encrypt/decrypt)
+
+3) HTTP login/majorlogin (terpisah)
+   - AES-128-CBC + PKCS7, key/IV statik (lihat AES_DETAILS.txt)
+
+Catatan: native channel memakai TCP (socket SOCK_STREAM/IPPROTO_TCP),
+bukan UDP; UDP di native hanya untuk emulator discovery & reachability check.

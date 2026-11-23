@@ -1,0 +1,44 @@
+.class public final Lm/h0/l/i/g$b;
+.super Ljava/lang/Object;
+.source ""
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lm/h0/l/i/g;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "b"
+.end annotation
+
+
+# direct methods
+.method private constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public synthetic constructor <init>(Ll/y/c/f;)V
+    .locals 0
+
+    invoke-direct {p0}, Lm/h0/l/i/g$b;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Lm/h0/l/i/j$a;
+    .locals 1
+
+    invoke-static {}, Lm/h0/l/i/g;->e()Lm/h0/l/i/j$a;
+
+    move-result-object v0
+
+    return-object v0
+.end method

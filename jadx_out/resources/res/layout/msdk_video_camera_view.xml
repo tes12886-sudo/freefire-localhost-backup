@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/com_garena_android_msdk_self_camera_view_size"
+    android:layout_height="@dimen/com_garena_android_msdk_self_camera_view_size">
+    <TextureView
+        android:id="@+id/camera_view"
+        android:layout_width="@dimen/com_garena_android_msdk_self_camera_view_size"
+        android:layout_height="@dimen/com_garena_android_msdk_self_camera_view_size"
+        android:layout_centerInParent="true"/>
+</RelativeLayout>

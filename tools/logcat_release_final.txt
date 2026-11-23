@@ -1,0 +1,1314 @@
+--------- beginning of main
+11-23 10:43:33.627  1340  5284 W AdBannerHover: [J] render-skip has=N src={} => σ╖▓µ╕▓µƒôσê░Σ╜ìΓåÆΦ╖│Φ┐ç
+11-23 10:43:33.634   770   822 E ActivityManager: Sending non-protected broadcast uu.intent.action.STOP_ACCELERATE from system 770:system/1000 pkg android
+11-23 10:43:33.634   770   822 E ActivityManager: java.lang.Throwable
+11-23 10:43:33.634   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2118)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14410)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at android.app.ContextImpl.sendBroadcastAsUser(ContextImpl.java:1509)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at android.content.ContextWrapper.sendBroadcastAsUser(ContextWrapper.java:603)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils.$r8$lambda$zCiVPiagCM9gvj0qkEpNf1ODT4k(TaskUtils.java:2205)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils$$ExternalSyntheticLambda5.run(R8$$SyntheticClass:0)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:43:33.634   770   822 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:43:33.635   770   912 I ImeTracker: app.lawnchair:cab77026: onRequestHide at ORIGIN_SERVER reason HIDE_SAME_WINDOW_FOCUSED_WITHOUT_EDITOR fromUser false
+11-23 10:43:33.635  1031  1031 D InsetsController: hide(ime(), fromIme=false)
+11-23 10:43:33.635  1031  1031 I ImeTracker: app.lawnchair:cab77026: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+--------- beginning of system
+11-23 10:43:33.657   770  2886 W WindowManager: Failed looking up window session=Session{3d09e1c 1039:u0a10038} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6325 com.android.server.wm.WindowManagerService.relayoutWindow:2315 com.android.server.wm.Session.relayout:282 
+11-23 10:43:33.657  1039  1195 V Configuration: Updating configuration, locales updated from [] to [en_US]
+11-23 10:43:33.657  1039  1195 V Configuration: Updating configuration, locales updated from [] to [en_US]
+11-23 10:43:33.658  1039  1195 V Configuration: Updating configuration, locales updated from [] to [en_US]
+11-23 10:43:33.658  1039  1195 V Configuration: Updating configuration, locales updated from [] to [en_US]
+11-23 10:43:33.658  1039  1195 V Configuration: Updating configuration, locales updated from [] to [en_US]
+11-23 10:43:33.658  1039  1195 V Configuration: Updating configuration, locales updated from [] to [en_US]
+11-23 10:43:33.659  1039  1195 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@48e1aa6
+11-23 10:43:33.659   770  1503 W WindowManager: Failed looking up window session=Session{3d09e1c 1039:u0a10038} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6325 com.android.server.wm.Session.setOnBackInvokedCallbackInfo:982 android.view.IWindowSession$Stub.onTransact:1144 
+11-23 10:43:33.659   770  1503 I WindowManager: setOnBackInvokedCallback(): No window state for package:com.android.systemui
+11-23 10:43:33.660  1031  1031 D RecentsView: onTaskRemoved: 34, not handling task stack changes
+11-23 10:43:33.660  1031  1031 D RecentsView: onTaskRemoved: 34, not handling task stack changes
+11-23 10:43:33.667   770  1503 W WindowManager: Failed looking up window session=Session{3d09e1c 1039:u0a10038} callers=com.android.server.wm.WindowManagerService.removeClientToken:2070 com.android.server.wm.Session.remove:269 android.view.IWindowSession$Stub.onTransact:696 
+11-23 10:43:33.667   770  6046 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:43:33.668   770  6046 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:43:33.669   770  6046 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:43:33.670   770  1135 W WindowManager: Failed looking up window session=Session{3d09e1c 1039:u0a10038} callers=com.android.server.wm.WindowManagerService.removeClientToken:2070 com.android.server.wm.Session.remove:269 android.view.IWindowSession$Stub.onTransact:696 
+11-23 10:43:33.674   770  3042 I system_server: AssetManager2(0x77c1ffa6b078) locale list changing from [] to [en-US]
+11-23 10:43:33.675   770  3042 I system_server: AssetManager2(0x77c1ffa6b398) locale list changing from [] to [en-US]
+11-23 10:43:33.678   770  3042 I system_server: AssetManager2(0x77c1ffa5bcb8) locale list changing from [] to [en-US]
+11-23 10:43:33.682   770  3042 I system_server: AssetManager2(0x77c1ffa63058) locale list changing from [] to [en-US]
+11-23 10:43:33.685   770  3042 I system_server: AssetManager2(0x77c1ffa5a6d8) locale list changing from [] to [en-US]
+11-23 10:43:33.685   770  3042 I system_server: AssetManager2(0x77c1ffa67518) locale list changing from [] to [en-US]
+11-23 10:43:33.686   770  3042 I system_server: AssetManager2(0x77c1ffa687d8) locale list changing from [] to [en-US]
+11-23 10:43:33.687   770  3042 I system_server: AssetManager2(0x77c1ffa626f8) locale list changing from [] to [en-US]
+11-23 10:43:33.687   770  3042 I system_server: AssetManager2(0x77c1ffa6f218) locale list changing from [] to [en-US]
+11-23 10:43:33.687   770  3042 I system_server: AssetManager2(0x77c1ffa68198) locale list changing from [] to [en-US]
+11-23 10:43:33.688   770  3042 I system_server: AssetManager2(0x77c1ffa67e78) locale list changing from [] to [en-US]
+11-23 10:43:33.694   770  3042 I system_server: AssetManager2(0x77c1ffa577f8) locale list changing from [] to [en-US]
+11-23 10:43:33.696   770  3042 I system_server: AssetManager2(0x77c1ffa4c5d8) locale list changing from [] to [en-US]
+11-23 10:43:33.698   770  3042 I system_server: AssetManager2(0x77c1ffa5e238) locale list changing from [] to [en-US]
+11-23 10:43:33.699   770  3042 I system_server: AssetManager2(0x77c1ffa55598) locale list changing from [] to [en-US]
+11-23 10:43:33.699   770  3042 I system_server: AssetManager2(0x77c1ffa5d5b8) locale list changing from [] to [en-US]
+11-23 10:43:33.700   770  3042 I system_server: AssetManager2(0x77c1ffa5c2f8) locale list changing from [] to [en-US]
+11-23 10:43:33.702   770  3042 I system_server: AssetManager2(0x77c1ffa6fe98) locale list changing from [] to [en-US]
+11-23 10:43:33.702   770  3042 I system_server: AssetManager2(0x77c1ffa6d918) locale list changing from [] to [en-US]
+11-23 10:43:33.703   770  3042 I system_server: AssetManager2(0x77c1ffa6a0d8) locale list changing from [] to [en-US]
+11-23 10:43:33.703   770  3042 I system_server: AssetManager2(0x77c1ffa6f538) locale list changing from [] to [en-US]
+11-23 10:43:33.704   770  3042 I system_server: AssetManager2(0x77c1ffa6d2d8) locale list changing from [] to [en-US]
+11-23 10:43:33.704   770  3042 I system_server: AssetManager2(0x77c1ffa6f858) locale list changing from [] to [en-US]
+11-23 10:43:33.705   770  3042 I system_server: AssetManager2(0x77c1ffa6e8b8) locale list changing from [] to [en-US]
+11-23 10:43:33.706   770  3042 I system_server: AssetManager2(0x77c1ffa5a9f8) locale list changing from [] to [en-US]
+11-23 10:43:33.707   770  3042 I system_server: AssetManager2(0x77c1ffa6eef8) locale list changing from [] to [en-US]
+11-23 10:43:33.707   770  3042 I system_server: AssetManager2(0x77c1ffa6aa38) locale list changing from [] to [en-US]
+11-23 10:43:33.708   770  3042 I system_server: AssetManager2(0x77c1ffa6ebd8) locale list changing from [] to [en-US]
+11-23 10:43:33.708   770  3042 I system_server: AssetManager2(0x77c1ffa66258) locale list changing from [] to [en-US]
+11-23 10:43:33.711   770  3042 I system_server: AssetManager2(0x77c1ffa61a78) locale list changing from [] to [en-US]
+11-23 10:43:33.712   770  3042 I system_server: AssetManager2(0x77c1ffa64638) locale list changing from [] to [en-US]
+11-23 10:43:33.712   770  3042 I system_server: AssetManager2(0x77c1ffa68e18) locale list changing from [] to [en-US]
+11-23 10:43:33.712   770  3042 I system_server: AssetManager2(0x77c1ffa61438) locale list changing from [] to [en-US]
+11-23 10:43:33.713   770  3042 I system_server: AssetManager2(0x77c1ffa66898) locale list changing from [] to [en-US]
+11-23 10:43:33.714   770  3042 I system_server: AssetManager2(0x77c1ffa6cfb8) locale list changing from [] to [en-US]
+11-23 10:43:33.715   770  3042 I system_server: AssetManager2(0x77c1ffa707f8) locale list changing from [] to [en-US]
+11-23 10:43:33.715   770  3042 I system_server: AssetManager2(0x77c1ffa526b8) locale list changing from [] to [en-US]
+11-23 10:43:33.715   770  3042 I system_server: AssetManager2(0x77c1ffa6a718) locale list changing from [] to [en-US]
+11-23 10:43:33.716   770  3042 I system_server: AssetManager2(0x77c1ffa69a98) locale list changing from [] to [en-US]
+11-23 10:43:33.717   770  3042 I system_server: AssetManager2(0x77c1ffa6c978) locale list changing from [] to [en-US]
+11-23 10:43:33.717   770  3042 I system_server: AssetManager2(0x77c1ffa53018) locale list changing from [] to [en-US]
+11-23 10:43:33.718   770  3042 I system_server: AssetManager2(0x77c1ffa61758) locale list changing from [] to [en-US]
+11-23 10:43:33.718   770  3042 I system_server: AssetManager2(0x77c1ffa54918) locale list changing from [] to [en-US]
+11-23 10:43:33.719   770  3042 I system_server: AssetManager2(0x77c1ffa64f98) locale list changing from [] to [en-US]
+11-23 10:43:33.719   770  3042 I system_server: AssetManager2(0x77c1ffa55278) locale list changing from [] to [en-US]
+11-23 10:43:33.720   770  3042 I system_server: AssetManager2(0x77c1ffa4d578) locale list changing from [] to [en-US]
+11-23 10:43:33.720   770  3042 I system_server: AssetManager2(0x77c1ffa6df58) locale list changing from [] to [en-US]
+11-23 10:43:33.720   770  3042 I system_server: AssetManager2(0x77c1ffa5b998) locale list changing from [] to [en-US]
+11-23 10:43:33.721   770  3042 I system_server: AssetManager2(0x77c1ffa4f7d8) locale list changing from [] to [en-US]
+11-23 10:43:33.722   770  3042 I system_server: AssetManager2(0x77c1ffa513f8) locale list changing from [] to [en-US]
+11-23 10:43:33.722   770  3042 I system_server: AssetManager2(0x77c1ffa5d8d8) locale list changing from [] to [en-US]
+11-23 10:43:33.722   770  3042 I system_server: AssetManager2(0x77c1ffa50a98) locale list changing from [] to [en-US]
+11-23 10:43:33.725   770  3042 I system_server: AssetManager2(0x77c1ffa4cf38) locale list changing from [] to [en-US]
+11-23 10:43:33.726   770  3042 I system_server: AssetManager2(0x77c1ffa66ed8) locale list changing from [] to [en-US]
+11-23 10:43:33.730   770  3042 I system_server: AssetManager2(0x77c1ffa66bb8) locale list changing from [] to [en-US]
+11-23 10:43:33.731   770  3042 I system_server: AssetManager2(0x77c1ffa652b8) locale list changing from [] to [en-US]
+11-23 10:43:33.731   770  3042 I system_server: AssetManager2(0x77c1ffa50db8) locale list changing from [] to [en-US]
+11-23 10:43:33.732   770  3042 I system_server: AssetManager2(0x77c1ffa5fb38) locale list changing from [] to [en-US]
+11-23 10:43:34.135  4233  4233 W AccMsgReceiver: AccMsgReceiver: onReceive action = uu.intent.action.STOP_ACCELERATE
+11-23 10:43:34.137   770  3042 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.mumu.acc/.AccService
+11-23 10:43:34.137  4233  4313 W AccServiceManager: onAppClose: packageName = com.dtd.freefireth
+11-23 10:43:34.641   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=3
+11-23 10:43:34.656   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=4
+11-23 10:43:34.668   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=5
+11-23 10:43:34.677   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=6
+11-23 10:43:34.693   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=7
+11-23 10:43:34.703   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=8
+11-23 10:43:34.719   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=9
+11-23 10:43:34.731   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=10
+11-23 10:43:34.745   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=11
+11-23 10:43:34.753   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=12
+11-23 10:43:34.768   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=13
+11-23 10:43:34.781   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=14
+11-23 10:43:34.791   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=15
+11-23 10:43:34.802   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=16
+11-23 10:43:34.814   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=17
+11-23 10:43:34.958   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=18
+11-23 10:43:34.971   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=19
+11-23 10:43:34.986   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=20
+11-23 10:43:34.997   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=21
+11-23 10:43:35.010   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=22
+11-23 10:43:35.023   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=23
+11-23 10:43:35.034   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=24
+11-23 10:43:35.047   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=25
+11-23 10:43:35.058   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=26
+11-23 10:43:35.070   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=27
+11-23 10:43:35.083   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=28
+11-23 10:43:35.095   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=29
+11-23 10:43:35.106   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=30
+11-23 10:43:35.119   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=31
+11-23 10:43:35.127   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=32
+11-23 10:43:35.610   770  1664 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+11-23 10:43:35.624   770   908 I InputDispatcher: Canceling pointers for device 3 in 5001743 app.lawnchair/app.lawnchair.LawnchairLauncher with event MotionEvent
+11-23 10:43:35.624   770   908 I InputDispatcher: Canceling pointers for device 3 in PointerEventDispatcher0 with event MotionEvent
+11-23 10:43:35.635   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=33
+11-23 10:43:35.646  1031  1338 W HWUI    : Image decoding logging dropped!
+11-23 10:43:35.646   770  1135 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@cc3fcaff does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-23 10:43:35.646   770  1135 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+11-23 10:43:35.646   770  1135 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+11-23 10:43:35.647  1031  1338 W HWUI    : Image decoding logging dropped!
+11-23 10:43:35.647   770  1135 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-23 10:43:35.656   770  1135 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dtd.freefireth/.FFMainActivity bnds=[663,165][785,247]} with LAUNCH_SINGLE_TASK from uid 10018 (sr=240099666) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+11-23 10:43:35.657  1031  1031 D StatsLog: LAUNCHER_APP_LAUNCH_TAP
+11-23 10:43:35.658  1039  1164 V WindowManagerShell: Transition requested (#41): android.os.BinderProxy@5ea6811 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=35 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=1 lastActiveTime=1156861 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@ea9ad76} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{5cff77 com.dtd.freefireth.FFMainActivity} launchCookies=[android.os.BinderProxy@a7937e4] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@2fc744d, appThread = android.app.IApplicationThread$Stub$Proxy@17b2b02, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 41 }
+11-23 10:43:35.658  1039  1164 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+11-23 10:43:35.658  1039  1164 V WindowManagerShell: RemoteTransition directly requested for (#41) android.os.BinderProxy@5ea6811: RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@2fc744d, appThread = android.app.IApplicationThread$Stub$Proxy@17b2b02, debugName = QuickstepLaunch }
+11-23 10:43:35.665   688   688 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-23 10:43:35.667   770  2886 D CoreBackPreview: Window{fae0eba u0 Splash Screen com.dtd.freefireth}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@e9e5c86, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:43:35.674   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=34
+11-23 10:43:35.676  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:43:35.679  1039  1164 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=102
+11-23 10:43:35.679  1031  1031 W SplitSelectStateCtor: Missing session instanceIds
+11-23 10:43:35.691  1039  1208 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:43:35.695   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=35
+11-23 10:43:35.696  1031  1031 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-23 10:43:35.698   770   825 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@cc3fcaff does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-23 10:43:35.700  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:43:35.709  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 282624
+11-23 10:43:35.717  1340  1340 W WidgetOperateReceiver: onReceive: intent = Intent { act=com.mumu.LAUNCHER_LIFECYCLE flg=0x30 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver (has extras) } action = com.mumu.LAUNCHER_LIFECYCLE
+11-23 10:43:35.717  1340  1340 W WidgetOperateReceiver: onLauncherLifecycle: launcherLifecycle = ON_PAUSE
+11-23 10:43:35.717  1340  1340 W WidgetManager: updateLauncherLifecycle: launcherLifecycleName = ON_PAUSE
+11-23 10:43:35.718   626   626 D Zygote  : Forked child process 6323
+11-23 10:43:35.720  1039  1208 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:43:35.727  1039  6324 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 282624
+11-23 10:43:35.727  1039  6324 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 282624
+11-23 10:43:35.730  1039  1195 I Choreographer: Skipped 30 frames!  The application may be doing too much work on its main thread.
+11-23 10:43:35.736   770  1135 I InputDispatcher: Touched window was removed: 5001743 app.lawnchair/app.lawnchair.LawnchairLauncher in display %0
+11-23 10:43:35.737   770   839 I ActivityManager: Start proc 6323:com.dtd.freefireth/u0a68 for next-top-activity {com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}
+11-23 10:43:35.739  6323  6323 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: No such file or directory
+11-23 10:43:35.739  6323  6323 E Zygote  : pkg name is 0 => com.dtd.freefireth, data dir is /data/user/0/com.dtd.freefireth
+11-23 10:43:35.745   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=36
+11-23 10:43:35.751  6323  6323 W zygote64: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: nemuhotd
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: setPresentationRotation 1 for com.dtd.freefireth:35
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: java.lang.Exception
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:638)
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1957)
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:222)
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:43:35.761   770   822 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:43:35.768   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:35.820   770   822 E ActivityManager: Sending non-protected broadcast nemu.intent.action.NEW_TASK from system 770:system/1000 pkg android
+11-23 10:43:35.820   770   822 E ActivityManager: java.lang.Throwable
+11-23 10:43:35.820   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2118)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14410)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at android.app.ContextImpl.sendBroadcastAsUser(ContextImpl.java:1509)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at android.content.ContextWrapper.sendBroadcastAsUser(ContextWrapper.java:603)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils.$r8$lambda$JRBio5N1z1PXvDB9E_DBrd2vjYw(TaskUtils.java:2179)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils$$ExternalSyntheticLambda2.run(R8$$SyntheticClass:0)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:43:35.820   770   822 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:43:35.836  6323  6323 I Zygote  : seccomp disabled by setenforce 0
+11-23 10:43:35.857  6323  6323 I .dtd.freefireth: Using CollectorTypeCMC GC.
+11-23 10:43:35.863  6323  6323 W .dtd.freefireth: Unexpected CPU variant for x86: x86_64.
+11-23 10:43:35.863  6323  6323 W .dtd.freefireth: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-23 10:43:35.863  6323  6323 V libnb   : enter native_bridge2_initialize /data/user/0/com.dtd.freefireth/code_cache arm64
+11-23 10:43:35.863  6323  6323 E libnb   : The translator implementation library has not been set.
+11-23 10:43:35.873  6323  6323 E libnb   : get_callbacks native_handle 0x1e07291572fa138d: 1 libnb:/system/lib64/libhoudini.so
+11-23 10:43:35.873  6323  6323 I libnb   : Found /system/lib64/libhoudini.so version 7
+11-23 10:43:35.869  6323  6323 I .dtd.freefireth: type=1400 audit(0.0:1501): avc:  denied  { write } for  name="property_service" dev="tmpfs" ino=664 scontext=u:r:untrusted_app_30:s0:c68,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1 app=com.dtd.freefireth
+11-23 10:43:35.905  6323  6323 I houdini : [6323] Houdini now in android app mode
+11-23 10:43:35.905  6323  6323 I houdini : [6323] Intel Bridge Technology for NetEase Mumu only, Copyright(C) Intel Corp. 2012-now.
+11-23 10:43:35.905  6323  6323 I houdini : [6323] Use permitted only under a valid commercial software license agreement - all other rights reserved.
+11-23 10:43:35.905  6323  6323 I houdini : [6323] Initialize library(version: 15.0.0.Netease_com3.0 RELEASE)... successfully.
+11-23 10:43:35.905  6323  6323 W HP      : x_initialize private_dir:/data/user/0/com.dtd.freefireth/code_cache instruction_set:arm64 getMethodShorty:0x77c01e22c700 ret:1
+11-23 10:43:35.907  6323  6323 E .dtd.freefireth: Not starting debugger since process cannot load the jdwp agent.
+11-23 10:43:35.909  6323  6323 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-23 10:43:35.910   770  1135 W ActivityTaskManager: callingPackage for (uid=2000, pid=6332) has no WPC
+11-23 10:43:35.911   770  1135 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@cc3fcaff does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-23 10:43:35.911   770  1135 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+11-23 10:43:35.912   770  1135 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+11-23 10:43:35.915   770  1135 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-23 10:43:35.918   770  1135 I ActivityTaskManager: START u0 {flg=0x10000000 cmp=com.dtd.freefireth/.FFMainActivity} with LAUNCH_SINGLE_TASK from uid 2000 (BAL_ALLOW_PERMISSION) result code=3
+11-23 10:43:35.919  1039  1164 D WindowManagerShell: onActivityRestartAttempt: topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}, wasVisible=false
+11-23 10:43:35.919  1031  1031 D TaskRestartedDuringLaunchListener: Detected activity restart during launch for task=35, wasVisible=false
+11-23 10:43:35.923   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:35.925   770  3042 I BroadcastQueue: BOOT_COMPLETED_BROADCAST_COMPLETION_LATENCY_REPORTED action:android.intent.action.BOOT_COMPLETED dispatchLatency:-1157130 completeLatency:1 dispatchRealLatency:-1157130 completeRealLatency:1 receiversSize:1 userId:0 userType:android.os.usertype.full.SYSTEM
+11-23 10:43:35.925   770  3042 I BroadcastQueue: BOOT_COMPLETED_BROADCAST_COMPLETION_LATENCY_REPORTED action:android.intent.action.BOOT_COMPLETED dispatchLatency:-1157130 completeLatency:1 dispatchRealLatency:-1157130 completeRealLatency:1 receiversSize:1 userId:0 userType:android.os.usertype.full.SYSTEM
+11-23 10:43:35.926   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:43:35.926   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:43:35.926   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:43:35.926   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@ea6a509
+11-23 10:43:35.926   770   890 E JobScheduler.Concurrency: Error executing JobStatus{734ca0c #u0a24/9024 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 READY}
+11-23 10:43:35.927   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:43:35.928  6323  6323 D CompatChangeReporter: Compat change id reported: 171979766; UID 10068; state: ENABLED
+11-23 10:43:35.933   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@78b88c5
+11-23 10:43:35.933   770   890 E JobScheduler.Concurrency: Error executing JobStatus{39e1bd1 #u0a24/9025 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 TIME=none:+23h29m14s986ms NET READY}
+11-23 10:43:35.934   770   770 E JobServiceContext: Binding died for com.android.vending but no running job on this context
+11-23 10:43:35.941  6323  6323 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:43:35.946  6323  6323 D nativeloader: Configuring clns-7 for other apk /data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk. target_sdk_version=31, uses_libraries=, library_path=/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/lib/arm64:/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.dtd.freefireth
+11-23 10:43:35.949  6323  6323 I .dtd.freefireth: AssetManager2(0x77c1ffa46b38) locale list changing from [] to [en-US]
+11-23 10:43:35.950  6323  6323 V GraphicsEnvironment: Currently set values for:
+11-23 10:43:35.950  6323  6323 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-23 10:43:35.950  6323  6323 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-23 10:43:35.951  6323  6323 V GraphicsEnvironment: com.dtd.freefireth is not listed in per-application setting
+11-23 10:43:35.951  6323  6323 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-23 10:43:36.319  6323  6323 I MultiDex: VM with version 2.1.0 has multidex support
+11-23 10:43:36.320  6323  6323 I MultiDex: Installing application
+11-23 10:43:36.320  6323  6323 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+11-23 10:43:36.322  4233  4233 W AccMsgReceiver: AccMsgReceiver: onReceive action = nemu.intent.action.NEW_TASK
+11-23 10:43:36.325   770   908 W InputDispatcher: Not sending touch gesture to 7c5ec6 ActivityRecordInputSink app.lawnchair/.LawnchairLauncher because it has config NO_INPUT_CHANNEL
+11-23 10:43:36.325   770   908 I InputDispatcher: Dropping event because no targets were found: MotionEvent
+11-23 10:43:36.332   770  1135 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.mumu.acc/.AccService
+11-23 10:43:36.334  4233  4313 W AccServiceManager: onAppLaunch: packageName = com.dtd.freefireth
+11-23 10:43:36.334  4233  4313 W TranslateGameManager: onAppLaunch: packageName = com.dtd.freefireth, hasPackageLaunchedBefore = false, supportTranslateReally = false, isLocalTranslateEnabled = false
+11-23 10:43:36.336   770   908 W InputDispatcher: Not sending touch gesture to 7c5ec6 ActivityRecordInputSink app.lawnchair/.LawnchairLauncher because it has config NO_INPUT_CHANNEL
+11-23 10:43:36.339   770   908 I InputDispatcher: Dropping event because no targets were found: MotionEvent
+11-23 10:43:36.345  6323  6323 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+11-23 10:43:36.348   770   908 W InputDispatcher: Not sending touch gesture to 7c5ec6 ActivityRecordInputSink app.lawnchair/.LawnchairLauncher because it has config NO_INPUT_CHANNEL
+11-23 10:43:36.348   770   908 I InputDispatcher: Dropping event because no targets were found: MotionEvent
+11-23 10:43:36.352  6323  6349 W Settings: Setting adb_enabled has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+11-23 10:43:36.353  6323  6323 I FirebaseCrashlytics: Initializing Firebase Crashlytics 18.0.1 for com.dtd.freefireth
+11-23 10:43:36.373   770   908 W InputDispatcher: Not sending touch gesture to 7c5ec6 ActivityRecordInputSink app.lawnchair/.LawnchairLauncher because it has config NO_INPUT_CHANNEL
+11-23 10:43:36.373   770   908 I InputDispatcher: Dropping event because no targets were found: MotionEvent
+11-23 10:43:36.387   770   908 W InputDispatcher: Not sending touch gesture to 7c5ec6 ActivityRecordInputSink app.lawnchair/.LawnchairLauncher because it has config NO_INPUT_CHANNEL
+11-23 10:43:36.387   770   908 I InputDispatcher: Dropping event because no targets were found: MotionEvent
+11-23 10:43:36.401  6357  6357 I init    : type=1400 audit(0.0:1502): avc:  denied  { transition } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:43:36.468   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:36.476  6323  6355 W .dtd.freefireth: ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[GmsCore.apk*3714305525]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]#PCL[/system/framework/com.android.location.provider.jar*2736664001]#PCL[/system_ext/framework/androidx.window.extensions.jar*596101676]#PCL[/system_ext/framework/androidx.window.sidecar.jar*4027385501]} | DLC[];PCL[])
+11-23 10:43:36.488  6323  6355 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:51 and remote module com.google.android.gms.measurement.dynamite:193
+11-23 10:43:36.492  6323  6355 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 193
+11-23 10:43:36.494  6323  6355 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+11-23 10:43:36.517  6323  6355 W System  : ClassLoader referenced unknown path: 
+11-23 10:43:36.517  6323  6355 D nativeloader: Configuring clns-8 for other apk . target_sdk_version=37, uses_libraries=, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+11-23 10:43:36.401  6357  6357 I init    : type=1400 audit(0.0:1503): avc:  denied  { entrypoint } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:43:36.401  6357  6357 I init    : type=1400 audit(0.0:1504): avc:  denied  { noatsecure } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:43:36.551  6323  6355 I .dtd.freefireth: AssetManager2(0x77c1ffa4f7d8) locale list changing from [] to [en-US]
+11-23 10:43:36.553  6323  6355 W .dtd.freefireth: ClassLoaderContext classpath element mismatch. expected=GmsCore.apk, found=/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk (DLC[];PCL[GmsCore.apk*3714305525]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]#PCL[/system/framework/com.android.location.provider.jar*2736664001]#PCL[/system_ext/framework/androidx.window.extensions.jar*596101676]#PCL[/system_ext/framework/androidx.window.sidecar.jar*4027385501]} | DLC[];PCL[/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk*3975694790]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]})
+11-23 10:43:36.401  6357  6357 I serial_console: type=1400 audit(0.0:1505): avc:  denied  { rlimitinh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:43:36.556  6323  6323 I FirebaseInitProvider: FirebaseApp initialization successful
+11-23 10:43:36.564  6323  6323 W com.facebook.i0: Please set a value for AutoLogAppEventsEnabled. Set the flag to TRUE if you want to collect app install, app launch and in-app purchase events automatically. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+11-23 10:43:36.564  6323  6323 W com.facebook.i0: You haven't set a value for AdvertiserIDCollectionEnabled. Set the flag to TRUE if you want to collect Advertiser ID for better advertising and analytics results. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+11-23 10:43:36.401  6357  6357 I serial_console: type=1400 audit(0.0:1506): avc:  denied  { siginh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:43:36.572   770  5286 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+11-23 10:43:36.576  1039  5291 V WindowManagerShell: onTransitionReady(transaction=3307124820005)
+11-23 10:43:36.576  1039  1164 V WindowManagerShell: onTransitionReady (#41) android.os.BinderProxy@5ea6811: {id=41 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:43:36.576  1039  1164 V WindowManagerShell:         {m=OPEN f=NONE leash=Surface(name=Task=35)/@0x659dce9 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},
+11-23 10:43:36.576  1039  1164 V WindowManagerShell:         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0xac83d6e sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1}
+11-23 10:43:36.576  1039  1164 V WindowManagerShell:     ]}
+11-23 10:43:36.576  1039  1164 V WindowManagerShell: Playing animation for (#41) android.os.BinderProxy@5ea6811@0
+11-23 10:43:36.576  1039  1164 V WindowManagerShell:  try firstHandler com.android.wm.shell.transition.DefaultMixedHandler@887d20a
+11-23 10:43:36.577  1039  1164 V WindowManagerShell: Mixed transition for opening an intent with a remote transition and PIP or Desktop #41
+11-23 10:43:36.577  1039  1164 V WindowManagerShell: tryAnimateOpenIntentWithRemoteAndPipOrDesktop
+11-23 10:43:36.577  1039  1164 V WindowManagerShell:  Delegate animation for (#41) to RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@2fc744d, appThread = android.app.IApplicationThread$Stub$Proxy@17b2b02, debugName = QuickstepLaunch }
+11-23 10:43:36.580  6323  6355 I .dtd.freefireth: AssetManager2(0x77c1ffa4c2b8) locale list changing from [] to [en-US]
+11-23 10:43:36.581   770   822 V WindowManager: Sent Transition (#41) createdAt=11-23 10:43:35.646 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=35 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=1 lastActiveTime=1156861 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{4af45ae Task{5b9efb0 #35 type=standard A=10068:com.dtd.freefireth}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{bcaac2d com.dtd.freefireth.FFMainActivity} launchCookies=[android.os.BinderProxy@86fdf4f] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@f392d35, appThread = android.app.IApplicationThread$Stub$Proxy@31c95ca, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 41 }
+11-23 10:43:36.581   770   822 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+11-23 10:43:36.581   770   822 V WindowManager:     info={id=41 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:43:36.581   770   822 V WindowManager:         {WCT{RemoteToken{4af45ae Task{5b9efb0 #35 type=standard A=10068:com.dtd.freefireth}}} m=OPEN f=NONE leash=Surface(name=Task=35)/@0x954c41f sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},
+11-23 10:43:36.581   770   822 V WindowManager:         {WCT{RemoteToken{9d01adf Task{b7f0c33 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x96b97a6 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1}
+11-23 10:43:36.581   770   822 V WindowManager:     ]}
+11-23 10:43:36.582  1039  1164 V WindowManagerShell:  animated by firstHandler
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: setPresentationRotation 1 for com.dtd.freefireth:35
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: java.lang.Exception
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:638)
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1957)
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:222)
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:43:36.582   770   822 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:43:36.584  6323  6355 I .dtd.freefireth: AssetManager2(0x77c1ffa50a98) locale list changing from [] to [en-US]
+11-23 10:43:36.587  6323  6367 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:43:36.587   770  1633 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:43:36.589  6323  6323 I .dtd.freefireth: AssetManager2(0x77c1ffa50138) locale list changing from [] to [en-US]
+11-23 10:43:36.589  6323  6366 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:43:36.598   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:36.598   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:36.599  6323  6368 W com.facebook.internal.c0: Apps that target Android API 30+ (Android 11+) cannot call Facebook native apps unless the package visibility needs are declared. Please follow https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988 to make the declaration.
+11-23 10:43:36.619  1031  1031 D AppLaunchAnim: App launch animation START, duration=300ms
+11-23 10:43:36.401  6357  6357 I serial_console: type=1400 audit(0.0:1507): avc:  denied  { map } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:43:36.401  6357  6357 I serial_console: type=1400 audit(0.0:1508): avc:  denied  { read execute } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:43:36.652   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=37
+11-23 10:43:36.687   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=38
+11-23 10:43:36.708   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=39
+11-23 10:43:36.741   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=40
+11-23 10:43:36.760   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=41
+11-23 10:43:36.766  6323  6367 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:43:36.782  1031  1031 D AppLaunchAnim: App launch animation END
+11-23 10:43:36.789  1039  1164 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#41) android.os.BinderProxy@5ea6811@0
+11-23 10:43:36.791   770   822 V WindowManager: Finish Transition (#41): created at 11-23 10:43:35.646 collect-started=0.034ms request-sent=9.185ms started=14.573ms ready=926.897ms sent=929.026ms finished=1144.231ms
+11-23 10:43:36.792  1039  1164 V WindowManagerShell: Track 0 became idle
+11-23 10:43:36.792  1039  1164 V WindowManagerShell: All active transition animations finished
+11-23 10:43:36.798   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:36.799   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:36.799  1031  1031 D VRI[LawnchairLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+11-23 10:43:36.802   770  3042 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:43:36.803   770  3042 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:43:36.813   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=42
+11-23 10:43:36.815  1851  1949 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.dtd.freefireth
+11-23 10:43:36.821   688   688 E SurfaceFlinger: Out of order buffers detected for RequestedLayerState{app.lawnchair/app.lawnchair.LawnchairLauncher#619 parentId=70} producedId=14 frameNumber=139 -> producedId=14 frameNumber=43
+11-23 10:43:36.851  6323  6393 I FA      : App measurement disabled via the manifest
+11-23 10:43:36.851  6323  6393 E .dtd.freefireth: No package ID 6a found for resource ID 0x6a0b0013.
+11-23 10:43:36.851  6323  6393 I FA      : App measurement initialized, version: 169000
+11-23 10:43:36.851  6323  6393 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+11-23 10:43:36.851  6323  6393 I FA      : To enable faster debug mode event logging run:
+11-23 10:43:36.851  6323  6393 I FA      :   adb shell setprop debug.firebase.analytics.app com.dtd.freefireth
+11-23 10:43:36.857   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:36.858  1924  1924 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:43:36.858  1924  1924 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:43:36.991  6323  6323 D DesktopModeFlagsUtil: Toggle override initialized to: OVERRIDE_OFF
+11-23 10:43:37.003  6323  6323 W HWUI    : Unknown dataspace 0
+11-23 10:43:37.024  6323  6323 D InsetsController: Setting requestedVisibleTypes to -10 (was -9)
+11-23 10:43:37.024   770  3042 W WindowManager: Failed looking up window session=Session{68e4b82 6323:u0a10068} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6325 com.android.server.wm.Session.updateRequestedVisibleTypes:699 android.view.IWindowSession$Stub.onTransact:1023 
+11-23 10:43:37.036  6323  6323 D InsetsController: Setting requestedVisibleTypes to -528 (was -10)
+11-23 10:43:37.037   770  1135 D CoreBackPreview: Window{e599dce u0 com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@7e7bbfc, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:43:37.052  6323  6404 E libEGL  : intercept_property_get () for (persist.graphics.egl)
+11-23 10:43:37.067  6323  6404 I EGL_emulation: EGL display initialized (version 1.4, rendererVersion=0x3, configs=6)
+11-23 10:43:37.078  6323  6404 I EGL_emulation: EGL display initialized (version 1.4, rendererVersion=0x3, configs=6)
+11-23 10:43:37.079   450   450 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+11-23 10:43:37.079  6323  6404 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.configstore@1.0::ISurfaceFlingerConfigs instance: default
+11-23 10:43:37.080  6323  6404 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-23 10:43:37.080  6323  6404 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-23 10:43:37.285   688   700 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827820427265280: UNSUPPORTED (8)
+11-23 10:43:37.286  6323  6404 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@2.0::IMapper instance: default
+11-23 10:43:37.288  6323  6404 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@2.0::IAllocator instance: default
+11-23 10:43:37.289  6323  6404 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:43:37.389  6323  6404 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:43:37.395  6323  6323 I Choreographer: Skipped 171 frames!  The application may be doing too much work on its main thread.
+11-23 10:43:37.397   770   822 W system_server: Failed to determine oat file name for dex location /data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk: Dalvik cache directory does not exist
+11-23 10:43:37.397   770   822 W ziparchive: Unable to open '/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.dm': No such file or directory
+11-23 10:43:37.399   770   822 I ActivityTaskManager: Displayed com.dtd.freefireth/.FFMainActivity for user 0: +1s751ms
+11-23 10:43:37.399  1031  1031 D BaseDepthController: setSurface:
+11-23 10:43:37.399  1031  1031 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-23 10:43:37.399  1031  1031 D BaseDepthController: 	mSurface: null
+11-23 10:43:37.408   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:37.411  1031  1031 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-23 10:43:37.411  1031  1031 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(r8-map-id-fe14f1fe842d35fbeb0a7aeefdc65d4bceb373f1280c0e06d2c6dbbe065e8669:4)
+11-23 10:43:37.411  1031  1031 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(r8-map-id-fe14f1fe842d35fbeb0a7aeefdc65d4bceb373f1280c0e06d2c6dbbe065e8669:1)
+11-23 10:43:37.411  1031  1031 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(r8-map-id-fe14f1fe842d35fbeb0a7aeefdc65d4bceb373f1280c0e06d2c6dbbe065e8669:34)
+11-23 10:43:37.411  1031  1031 D StatsLog: LAUNCHER_ONSTOP
+11-23 10:43:37.422  1924  6411 D AdvertisingIdClient: AdvertisingIdClient already created.
+11-23 10:43:37.422  1924  6411 D AdvertisingIdClient: AdvertisingIdClient is not bounded. Starting to bind it...
+11-23 10:43:37.425   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:37.428   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:43:37.428   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:43:37.429   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:43:37.432   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@6901c2c
+11-23 10:43:37.432   770   890 E JobScheduler.Concurrency: Error executing JobStatus{734ca0c #u0a24/9024 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 READY}
+11-23 10:43:37.434   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:43:37.439   770   912 I ImeTracker: com.dtd.freefireth:39f6b940: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-23 10:43:37.439   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@4f8cf18
+11-23 10:43:37.439   770   890 E JobScheduler.Concurrency: Error executing JobStatus{39e1bd1 #u0a24/9025 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 TIME=none:+23h29m13s481ms NET READY}
+11-23 10:43:37.441   770   770 E JobServiceContext: Binding died for com.android.vending but no running job on this context
+11-23 10:43:37.441  1924  6411 D AdvertisingIdClient: AdvertisingIdClient is bounded
+11-23 10:43:37.441  1924  6411 I AdvertisingIdClient: shouldSendLog 47245
+11-23 10:43:37.441  1924  6411 I AdvertisingIdClient: GetInfoInternal elapse 19ms
+11-23 10:43:37.454  6323  6404 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:43:37.462   770  1633 W WindowManager: Failed looking up window session=Session{3d09e1c 1039:u0a10038} callers=com.android.server.wm.WindowManagerService.removeClientToken:2070 com.android.server.wm.Session.remove:269 android.view.IWindowSession$Stub.onTransact:696 
+11-23 10:43:37.463  6323  6323 D InsetsController: hide(ime(), fromIme=false)
+11-23 10:43:37.463  6323  6323 I ImeTracker: com.dtd.freefireth:39f6b940: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-23 10:43:37.476  6323  6404 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:43:37.481  1039  1195 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@b8c6214
+11-23 10:43:37.482   770  3042 D CoreBackPreview: Window{fae0eba u0 Splash Screen com.dtd.freefireth}: Setting back callback null
+11-23 10:43:37.486  6323  6402 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES VMH, Cores = 2, Memory = 3932mb
+11-23 10:43:37.486  6323  6402 I Unity   : SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0x3), 0 little (mask: 0x0)
+11-23 10:43:37.486  6323  6402 I Unity   : ApplicationInfo com.dtd.freefireth version 1.98.1 build 9b364ac2-5ff5-4251-a1cb-edeba9236d88
+11-23 10:43:37.486  6323  6402 I Unity   : Built from '' branch, Version '2018.4.11f1 (0)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a'
+11-23 10:43:37.517  1851  1866 I FontLog : (REDACTED) Received query %s, URI %s
+11-23 10:43:37.517  1851  1866 I FontLog : (REDACTED) Query [%s] resolved to %s
+11-23 10:43:37.518  1851  1866 I FontLog : (REDACTED) Fetch %s end status %s
+11-23 10:43:37.524  1851  1866 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+11-23 10:43:37.530  1851  1866 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+11-23 10:43:37.583  6323  6410 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.dtd.freefireth
+11-23 10:43:37.834  6323  6402 D AudioSystem: onNewService: media.audio_policy service obtained 0x77c01faea5f0
+11-23 10:43:37.835  6323  6402 D AudioSystem: getService: checking for service media.audio_policy: 0x77c01faea5f0
+11-23 10:43:37.835   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:43:37.835   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:43:37.836   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:43:37.836  6323  6402 D AudioSystem: onNewServiceWithAdapter: media.audio_flinger service obtained 0x77c05fa99cd0
+11-23 10:43:37.837  6323  6402 D AudioSystem: getService: checking for service media.audio_flinger: 0x77c01fae9fb0
+11-23 10:43:37.840  6323  6402 D .dtd.freefireth: PlayerBase::PlayerBase()
+11-23 10:43:37.840  6323  6402 D .dtd.freefireth: TrackPlayerBase::TrackPlayerBase()
+11-23 10:43:37.840  6323  6402 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+11-23 10:43:37.841   684  5302 E ServiceUtilities: Request requires android.permission.MODIFY_PHONE_STATE or android.permission.WRITE_SECURE_SETTINGS
+11-23 10:43:37.841   684  5302 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000104) and output flags (00000006)
+11-23 10:43:37.841   684  5302 D AudioFlinger: Client defaulted notificationFrames to 512 for frameCount 2048
+11-23 10:43:37.842  6323  6402 I AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST successful; frameCount 0 -> 2048
+11-23 10:43:37.844   684  5302 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:43:37.844   684  5302 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-23 10:43:37.847   630  2056 D audio_hw_primary: tunnel_pcm_open called!
+11-23 10:43:37.858  6323  6402 E EGL_emulation: [getAttribValue] Bad attribute index in getAttribValue
+11-23 10:43:37.858  6323  6402 W EGL_emulation: eglGetConfigAttrib: unknown config attribute 0x1
+11-23 10:43:37.858  6323  6402 E EGL_emulation: tid 6402: eglGetConfigAttrib(1044): error 0x3004 (EGL_BAD_ATTRIBUTE)
+11-23 10:43:37.860  6323  6402 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:43:38.088  6323  6402 D Unity   :  GL_EXT_debug_marker GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_ETC1_RGB8_texture GL_KHR_texture_compression_astc_ldr GL_OES_surfaceless_context GL_OES_depth_texture GL_EXT_texture_compression_bptc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_compression_rgtc GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_EXT_draw_buffers_indexed GL_KHR_debug GL_EXT_geometry_shader GL_EXT_tessellation_shader GL_EXT_gpu_shader5 GL_EXT_primitive_bounding_box GL_EXT_texture_border_clamp GL_EXT_texture_cube_map_array GL_EXT_copy_image GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_
+11-23 10:43:38.089  6323  6402 D Unity   : shader_image_atomic GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_shader_io_blocks GL_EXT_shader_io_blocks GL_EXT_texture_sRGB_decode GL_KHR_robustness GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_OES_EGL_image_external_essl3 GL_EXT_robustness
+11-23 10:43:38.416  6323  6441 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:43:38.425  6323  6441 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:43:39.160   770  1664 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+11-23 10:43:39.741   684   802 W AudioFlinger: write blocked for 1781 msecs, 17 delayed writes, thread 13
+11-23 10:43:45.981  6323  6323 I UnityMain: type=1400 audit(0.0:1511): avc:  denied  { rename } for  name="il2cpp" dev="sdc3" ino=2883625 scontext=u:r:untrusted_app_30:s0:c68,c256,c512,c768 tcontext=u:object_r:media_userdir_file:s0:c68,c256,c512,c768 tclass=dir permissive=1 app=com.dtd.freefireth
+11-23 10:43:46.046   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(15)
+11-23 10:43:46.245  6323  6402 I Il2CPPSwitch: 0
+11-23 10:43:47.490  1924  1924 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:43:47.936  6323  6402 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-23 10:43:47.936  6323  6402 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=true, BT route=null
+11-23 10:43:47.955  6323  6441 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:43:48.346  6323  6402 W Unity   : UGCResourceManager.Inited
+11-23 10:43:48.346  6323  6402 W Unity   :  
+11-23 10:43:48.346  6323  6402 W Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:43:48.346  6323  6402 W Unity   : 
+11-23 10:43:48.360  6323  6402 D AppsFlyer_6.4.0: Initializing AppsFlyer SDK: (v6.4.0.119)
+11-23 10:43:48.363  6323  6402 W Unity   : DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+11-23 10:43:48.363  6323  6402 W Unity   :  
+11-23 10:43:48.363  6323  6402 W Unity   : (Filename:  Line: 543)
+11-23 10:43:48.363  6323  6402 W Unity   : 
+11-23 10:43:48.366  6323  6459 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:43:48.369  6323  6459 D nativeloader: Configuring clns-9 for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=37, uses_libraries=ALL, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+11-23 10:43:48.369  6323  6459 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-23 10:43:48.369  6323  6459 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-23 10:43:48.376  6323  6459 D nativeloader: InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libapexsupport.so:libavf.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-i686-android.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvendorsupport.so:libvndksupport.so:libvulkan.so
+11-23 10:43:48.376  6323  6459 D nativeloader: Configuring product-clns-10 for unbundled product apk /system/product/priv-app/GmsCore/GmsCore.apk. target_sdk_version=37, uses_libraries=, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64:/system/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms:/product/lib64:/system/product/lib64
+11-23 10:43:48.380  6323  6459 D nativeloader: InitVndkspLibrariesProduct: VNDK is deprecated with product
+11-23 10:43:48.381  6323  6459 I .dtd.freefireth: Waiting for a blocking GC ClassLinker
+11-23 10:43:48.392  6323  6459 I .dtd.freefireth: WaitForGcToComplete blocked ClassLinker on NativeAlloc for 10.212ms
+11-23 10:43:48.397   770  1633 W SensorService: sensor 00000000 already enabled in connection 0x77c06fa5eb90 (ignoring)
+11-23 10:43:48.400   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:48.401  6323  6340 W System  : A resource failed to call close. 
+11-23 10:43:48.401  6323  6340 W System  : A resource failed to call close. 
+11-23 10:43:48.448   770   961 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 0]
+11-23 10:43:48.466   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:48.534  6323  6402 I Unity   : obb mainPath != null, load scene
+11-23 10:43:48.690   770  1633 D SntpClient: round trip: 4ms, clock offset: 2ms
+11-23 10:43:48.958   770   908 I InputDispatcher: Canceling pointers for device 3 in PointerEventDispatcher0 with event MotionEvent
+11-23 10:43:49.511   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:43:49.511   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:43:49.511   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:43:50.378  6323  6461 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:43:50.378  6323  6461 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-23 10:43:50.378  6323  6461 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-23 10:43:50.379   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:43:51.322   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:43:51.322   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:43:51.322   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:43:51.380  6323  6402 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA101.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:43:51.380  6323  6402 E Unity   :  
+11-23 10:43:51.380  6323  6402 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:43:51.380  6323  6402 E Unity   : 
+11-23 10:43:51.384  6323  6402 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA103.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:43:51.384  6323  6402 E Unity   :  
+11-23 10:43:51.384  6323  6402 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:43:51.384  6323  6402 E Unity   : 
+11-23 10:43:51.386  6323  6402 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA104.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:43:51.386  6323  6402 E Unity   :  
+11-23 10:43:51.386  6323  6402 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:43:51.386  6323  6402 E Unity   : 
+11-23 10:43:51.388  6323  6402 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA102.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:43:51.388  6323  6402 E Unity   :  
+11-23 10:43:51.388  6323  6402 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:43:51.388  6323  6402 E Unity   : 
+11-23 10:43:51.429  6502  6502 I init    : type=1400 audit(0.0:1512): avc:  denied  { transition } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:43:51.429  6502  6502 I init    : type=1400 audit(0.0:1513): avc:  denied  { noatsecure } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:43:51.429  6502  6502 I serial_console: type=1400 audit(0.0:1514): avc:  denied  { rlimitinh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:43:51.429  6502  6502 I serial_console: type=1400 audit(0.0:1515): avc:  denied  { siginh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:43:51.790  6323  6402 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA105.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:43:51.790  6323  6402 E Unity   :  
+11-23 10:43:51.790  6323  6402 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:43:51.790  6323  6402 E Unity   : 
+11-23 10:43:52.334   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:43:52.334   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:43:52.334   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:43:53.338   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:43:53.338   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:43:53.338   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:43:53.510  6323  6460 W Choreographer: Frame time is 0.28305 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:43:54.337   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:54.393   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:43:54.393   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:43:54.393   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:43:54.428   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:54.500   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:54.570   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:54.735   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:54.905   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:55.054   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(3)
+11-23 10:43:55.064   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:55.134   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(2)
+11-23 10:43:55.195   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:55.329  6323  6460 W Choreographer: Frame time is 0.269462 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:43:55.396   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:43:55.396   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:43:55.396   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:43:56.414   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:43:56.415   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:43:56.415   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:43:57.327   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:57.463   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:57.492   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:57.516   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:43:57.517   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:43:57.517   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:43:57.970   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:58.185   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:58.550   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:58.621   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:43:58.622   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:43:58.622   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:43:58.677   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:43:58.714  6323  6460 W Choreographer: Frame time is 0.001675 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:43:59.242  6323  6460 W Choreographer: Frame time is 0.010875 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:43:59.653   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:43:59.654   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:43:59.654   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:00.150   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(1)
+11-23 10:44:00.430   770   896 D ActivityManager: freezing 1924 com.google.android.gms
+11-23 10:44:00.656   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:00.656   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:00.656   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:00.669  6323  6460 W Choreographer: Frame time is 0.174252 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:44:01.086   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(6)
+11-23 10:44:01.453   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(3)
+11-23 10:44:01.674   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:01.674   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:01.675   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:02.679   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:02.679   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:02.679   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:03.241   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:03.682   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:03.682   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:03.682   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:04.651   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(2)
+11-23 10:44:04.695   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:04.695   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:04.696   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:04.730   770  1633 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:05.361   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:05.716   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:05.717   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:05.717   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:06.749   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:06.749   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:06.749   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:07.636   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(1)
+11-23 10:44:07.785   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:07.785   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:07.785   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:08.281  6323  6460 W Choreographer: Frame time is 0.174644 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:44:08.804   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:08.804   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:08.804   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:09.452   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(3)
+11-23 10:44:09.808   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:09.808   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:09.809   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:09.938  6323  6460 W Choreographer: Frame time is 0.068239 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:44:10.241   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(4)
+11-23 10:44:10.835   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:10.835   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:10.835   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:11.845   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:11.845   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:11.845   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:12.860   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:12.861   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:12.861   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:13.076   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(5)
+11-23 10:44:13.881   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:13.881   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:13.882   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:14.146   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(3)
+11-23 10:44:14.221   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(3)
+11-23 10:44:14.694   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(13)
+11-23 10:44:14.909   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:14.910   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:14.910   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:15.552   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(4)
+11-23 10:44:15.937   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:15.937   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:15.938   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:16.772   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(1)
+11-23 10:44:16.956   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:16.956   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:16.956   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:17.297   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(3)
+11-23 10:44:17.721   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(1)
+11-23 10:44:17.956   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:17.956   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:17.957   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:18.964   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:18.964   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:18.964   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:19.205   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(3)
+11-23 10:44:19.771   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(2)
+11-23 10:44:19.965   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:19.966   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:19.966   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:20.143   770   908 W InputDispatcher: channel 'e599dce com.dtd.freefireth/com.dtd.freefireth.FFMainActivity' ~ Consumer closed input channel or an error occurred.  events=0x9
+11-23 10:44:20.143   770   908 E InputDispatcher: channel 'e599dce com.dtd.freefireth/com.dtd.freefireth.FFMainActivity' ~ Channel is unrecoverably broken and will be disposed!
+11-23 10:44:20.144   770  1633 I ActivityManager: Process com.dtd.freefireth (pid 6323) has died: fg  TOP 
+11-23 10:44:20.144   770  6046 I WindowManager: WIN DEATH: Window{e599dce u0 com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}
+11-23 10:44:20.146   770  3042 I ImeTracker: com.dtd.freefireth:e0a39dee: onRequestHide at ORIGIN_SERVER reason HIDE_REMOVE_CLIENT fromUser false
+11-23 10:44:20.146   770  3042 I ImeTracker: com.dtd.freefireth:e0a39dee: onCancelled at PHASE_SERVER_SHOULD_HIDE
+11-23 10:44:20.156   688   688 E BpTransactionCompletedListener: Failed to transact (-32)
+11-23 10:44:20.156   688   688 E BpTransactionCompletedListener: Failed to transact (-32)
+11-23 10:44:20.161   626   626 I Zygote  : Process 6323 exited cleanly (30)
+11-23 10:44:20.162   770  1633 W ActivityTaskManager: Force removing ActivityRecord{67749619 u0 com.dtd.freefireth/.FFMainActivity t35}: app died, no saved state
+11-23 10:44:20.163   770  1633 D CompatChangeReporter: Compat change id reported: 197654537; UID 10068; state: ENABLED
+11-23 10:44:20.164  1039  1164 V WindowManagerShell: Transition requested (#42): android.os.BinderProxy@cf27632 TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=35 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=1 lastActiveTime=1157778 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@febbf83} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{e0ca500 com.dtd.freefireth.FFMainActivity} launchCookies=[android.os.BinderProxy@a7937e4] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 42 }
+11-23 10:44:20.170  1031  1031 D ViewRootImpl: Skipping stats log for color mode
+11-23 10:44:20.172  1031  1031 I FEED    : 1
+11-23 10:44:20.172  1031  1031 I FEED    : 2
+11-23 10:44:20.173   770   825 W ActivityManager: setHasOverlayUi called on unknown pid: 6323
+11-23 10:44:20.173   770   825 V WindowManager: Unknown focus tokens, dropping reportFocusChanged
+11-23 10:44:20.175   688   688 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-23 10:44:20.175   770  1633 W ActivityManager: Unable to start service Intent { act=com.android.launcher3.WINDOW_OVERLAY dat=app://app.lawnchair:10018/... pkg=com.google.android.googlequicksearchbox } U=0: not found
+11-23 10:44:20.177   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:44:20.178   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:44:20.178   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:20.178   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:20.178   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:20.185   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-23 10:44:20.186   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-23 10:44:20.186  1039  1164 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=true, height=102
+11-23 10:44:20.189   770   961 D InetDiagMessage: Destroyed live tcp sockets for uids={10068} in 4ms
+11-23 10:44:20.189   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET, states=14
+11-23 10:44:20.189   770   961 D InetDiagMessage: Destroyed 0 sockets, proto=IPPROTO_TCP, family=AF_INET6, states=14
+11-23 10:44:20.189   770   961 D InetDiagMessage: Destroyed live tcp sockets for uids={20068} in 0ms
+11-23 10:44:20.189   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:44:20.189   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@8e302bb
+11-23 10:44:20.191   770   890 E JobScheduler.Concurrency: Error executing JobStatus{734ca0c #u0a24/9024 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 READY}
+11-23 10:44:20.191   770   823 D DisplayManagerService: Drop pending events for gone uid 10068
+11-23 10:44:20.191   770   822 E ActivityManager: Sending non-protected broadcast uu.intent.action.STOP_ACCELERATE from system 770:system/1000 pkg android
+11-23 10:44:20.191   770   822 E ActivityManager: java.lang.Throwable
+11-23 10:44:20.191   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2118)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14410)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at android.app.ContextImpl.sendBroadcastAsUser(ContextImpl.java:1509)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at android.content.ContextWrapper.sendBroadcastAsUser(ContextWrapper.java:603)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils.$r8$lambda$zCiVPiagCM9gvj0qkEpNf1ODT4k(TaskUtils.java:2205)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils$$ExternalSyntheticLambda5.run(R8$$SyntheticClass:0)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:44:20.191   770   822 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:44:20.196  1031  1331 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:20.196   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:44:20.196   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@907a5ee
+11-23 10:44:20.196   770   890 E JobScheduler.Concurrency: Error executing JobStatus{39e1bd1 #u0a24/9025 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 TIME=none:+23h28m30s724ms NET READY}
+11-23 10:44:20.196  1031  1031 D BaseDepthController: setSurface:
+11-23 10:44:20.196  1031  1031 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-23 10:44:20.196  1031  1031 D BaseDepthController: 	mSurface: Surface(name=app.lawnchair/app.lawnchair.LawnchairLauncher)/@0xb9de0f8
+11-23 10:44:20.197  1340  1340 W WidgetOperateReceiver: onReceive: intent = Intent { act=com.mumu.LAUNCHER_LIFECYCLE flg=0x30 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver (has extras) } action = com.mumu.LAUNCHER_LIFECYCLE
+11-23 10:44:20.198  1340  1340 W WidgetOperateReceiver: onLauncherLifecycle: launcherLifecycle = ON_RESUME
+11-23 10:44:20.198  1340  1340 W WidgetManager: updateLauncherLifecycle: launcherLifecycleName = ON_RESUME
+11-23 10:44:20.199  1340  6205 W AdBannerHover: [J] render-skip has=N src={} => σ╖▓µ╕▓µƒôσê░Σ╜ìΓåÆΦ╖│Φ┐ç
+11-23 10:44:20.203   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:44:20.203   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:44:20.205   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:44:20.205   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@2cc32fa
+11-23 10:44:20.205   770   890 E JobScheduler.Concurrency: Error executing JobStatus{734ca0c #u0a24/9024 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 READY}
+11-23 10:44:20.206   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:44:20.206   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@11a84c6
+11-23 10:44:20.206   770   890 E JobScheduler.Concurrency: Error executing JobStatus{39e1bd1 #u0a24/9025 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 TIME=none:+23h28m30s714ms NET READY}
+11-23 10:44:20.218  1031  1331 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:44:20.225  1031  6515 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:20.234  1031  6515 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:20.236  1031  1031 D RecentsView: onTaskRemoved: 35, not handling task stack changes
+11-23 10:44:20.236  1031  1031 D RecentsView: onTaskRemoved: 35, not handling task stack changes
+11-23 10:44:20.236  1031  1031 D StatsLog: LAUNCHER_ONRESUME
+11-23 10:44:20.241   684   802 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-23 10:44:20.242   684   756 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:44:20.242   684   756 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:44:20.244  1039  1215 V WindowManagerShell: onTransitionReady(transaction=3307124820051)
+11-23 10:44:20.244  1039  1164 V WindowManagerShell: onTransitionReady (#42) android.os.BinderProxy@cf27632: {id=42 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:44:20.244  1039  1164 V WindowManagerShell:         {m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x3a87139 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},
+11-23 10:44:20.244  1039  1164 V WindowManagerShell:         {m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{4fd19a5 token=android.os.Binder@91a3b9c})/@0xc4dc37e sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0}
+11-23 10:44:20.244  1039  1164 V WindowManagerShell:     ]}
+11-23 10:44:20.244  1039  1164 V WindowManagerShell: Playing animation for (#42) android.os.BinderProxy@cf27632@0
+11-23 10:44:20.244  1039  1164 V ShellRecents: RecentsTransitionHandler.startAnimation: no controller found
+11-23 10:44:20.244  1039  1164 V WindowManagerShell: Transition doesn't have explicit remote, search filters for match for {id=42 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x3a87139 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},{m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{4fd19a5 token=android.os.Binder@91a3b9c})/@0xc4dc37e sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0}]}
+11-23 10:44:20.244  1039  1164 V WindowManagerShell:  Checking filter Pair{{types=[] flags=0x0] notFlags=0x100 checks=[{atype=home independent=true modes=[OPEN,TO_FRONT] flags=NONE mustBeTask=false order=TOP topActivity=ComponentInfo{app.lawnchair/app.lawnchair.LawnchairLauncher} launchCookie=null windowingMode=undefined},{atype=standard independent=true modes=[CLOSE,TO_BACK] flags=NONE mustBeTask=false order=ANY topActivity=null launchCookie=null windowingMode=undefined},{NOT atype=undefined independent=true modes=[] flags=NONE mustBeTask=true order=ANY topActivity=null launchCookie=null windowingMode=undefined}]} RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@73808e6, appThread = android.app.IApplicationThread$Stub$Proxy@d760e27, debugName = QuickstepLaunchHome }}
+11-23 10:44:20.244  1039  1164 V WindowManagerShell:  Delegate animation for (#42) to null
+11-23 10:44:20.244  1039  1164 V WindowManagerShell: start default transition animation, info = {id=42 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[{m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x3a87139 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},{m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{4fd19a5 token=android.os.Binder@91a3b9c})/@0xc4dc37e sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0}]}
+11-23 10:44:20.247  1039  1164 V WindowManagerShell: loadAnimation: anim=android.view.animation.AnimationSet@a15e7f5 animAttr=0x10 type=CLOSE isEntrance=true
+11-23 10:44:20.248  1039  1164 V WindowManagerShell:  animated by com.android.wm.shell.transition.DefaultTransitionHandler@32b65c3
+11-23 10:44:20.248   770   822 V WindowManager: Sent Transition (#42) createdAt=11-23 10:44:20.162 via request=TransitionRequestInfo { type = CLOSE, triggerTask = TaskInfo{userId=0 taskId=35 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=1 lastActiveTime=1157778 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{4af45ae Task{5b9efb0 #35 type=standard A=10068:com.dtd.freefireth}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{bcaac2d com.dtd.freefireth.FFMainActivity} launchCookies=[android.os.BinderProxy@86fdf4f] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=true isVisible=true isVisibleRequested=true isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = null, displayChange = null, flags = 0, debugId = 42 }
+11-23 10:44:20.248   770   822 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+11-23 10:44:20.248   770   822 V WindowManager:     info={id=42 t=CLOSE f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:44:20.248   770   822 V WindowManager:         {WCT{RemoteToken{9d01adf Task{b7f0c33 #1 type=home}}} m=TO_FRONT f=SHOW_WALLPAPER|MOVE_TO_TOP leash=Surface(name=Task=1)/@0x96b97a6 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},
+11-23 10:44:20.248   770   822 V WindowManager:         {m=TO_FRONT f=IS_WALLPAPER leash=Surface(name=WallpaperWindowToken{4fd19a5 token=android.os.Binder@91a3b9c})/@0x9b3a375 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0}
+11-23 10:44:20.248   770   822 V WindowManager:     ]}
+11-23 10:44:20.249  1039  1164 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#42) android.os.BinderProxy@cf27632@0
+11-23 10:44:20.253   770   822 V WindowManager: Finish Transition (#42): created at 11-23 10:44:20.162 collect-started=0.104ms request-sent=0.885ms started=9.929ms ready=9.913ms sent=76.573ms finished=90.203ms
+11-23 10:44:20.255   684   802 D audioserver: logFgsApiEnd: FGS Logger Transaction failed, -129
+11-23 10:44:20.255  1039  1164 V WindowManagerShell: Track 0 became idle
+11-23 10:44:20.255  1039  1164 V WindowManagerShell: All active transition animations finished
+11-23 10:44:20.255   770  5651 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:44:20.259   770  1633 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:44:20.267   770   912 I ImeTracker: app.lawnchair:dacf8340: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-23 10:44:20.267  1031  1031 D InsetsController: hide(ime(), fromIme=false)
+11-23 10:44:20.267  1031  1031 I ImeTracker: app.lawnchair:dacf8340: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-23 10:44:20.696  4233  4233 W AccMsgReceiver: AccMsgReceiver: onReceive action = uu.intent.action.STOP_ACCELERATE
+11-23 10:44:20.704   770  1633 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.mumu.acc/.AccService
+11-23 10:44:20.706  4233  4313 W AccServiceManager: onAppClose: packageName = com.dtd.freefireth
+11-23 10:44:23.168   770  1664 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+11-23 10:44:24.200  1340  6205 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 3, widgetFlipperIndex = 1, preWidgetDataIndex = 2, preWidgetFlipperIndex = 0
+11-23 10:44:24.202  1340  6205 I com.mumu.store: AssetManager2(0x77c1ffa4a378) locale list changing from [] to [en-US]
+11-23 10:44:24.203  1340  6205 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+11-23 10:44:24.204   770   990 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+11-23 10:44:28.204  1340  6205 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 4, widgetFlipperIndex = 0, preWidgetDataIndex = 3, preWidgetFlipperIndex = 1
+11-23 10:44:28.206  1340  6205 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+11-23 10:44:28.207   770   990 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+11-23 10:44:32.135   770   847 D KernelCpuUidUserSysTimeReader: Removing uids 10067-10067
+11-23 10:44:32.135   770   889 I UsageStatsService: User[0] Flushing usage stats to disk
+11-23 10:44:32.154   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:32.208  1340  6205 W AdBannerWidgetManager: formatCurrentWidgetUIByData: widgetDataIndex = 0, widgetFlipperIndex = 1, preWidgetDataIndex = 4, preWidgetFlipperIndex = 0
+11-23 10:44:32.209  1340  6205 W AdBannerWidgetManager: updateAppWidget: partiallyUpdated = true
+11-23 10:44:32.210   770   990 D AppWidgetServiceImpl: Trying to notify widget update for package com.mumu.store with widget id: 2
+11-23 10:44:33.208   770   909 I InputReader: Detected input event buffer overrun for device Xiaomi Mouse.
+11-23 10:44:33.213   770   908 I InputDispatcher: Canceling pointers for device 3 in 5001743 app.lawnchair/app.lawnchair.LawnchairLauncher with event MotionEvent
+11-23 10:44:33.213   770   908 I InputDispatcher: Canceling pointers for device 3 in PointerEventDispatcher0 with event MotionEvent
+11-23 10:44:33.253  1031  1031 D StatsLog: LAUNCHER_SWIPE_DOWN_WORKSPACE_NOTISHADE_OPEN
+11-23 10:44:33.268  1031  1338 W HWUI    : Image decoding logging dropped!
+11-23 10:44:33.268   770  1633 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@cc3fcaff does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-23 10:44:33.269   770  1633 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_RESIZEABLE_ACTIVITY_OVERRIDES
+11-23 10:44:33.269   770  1633 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_MIN_ASPECT_RATIO_OVERRIDE
+11-23 10:44:33.271   770  1633 E CellBroadcastUtils: getDefaultCellBroadcastReceiverPackageName: no package found
+11-23 10:44:33.288  1031  1338 W HWUI    : Image decoding logging dropped!
+11-23 10:44:33.308  1031  2691 I IPCThreadState: oneway function results for code 31 on binder at 0x77c05faa10e0 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-23 10:44:33.285  6529  6529 I init    : type=1400 audit(0.0:1516): avc:  denied  { entrypoint } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:44:33.327   770  1633 I ActivityTaskManager: START u0 {act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dtd.freefireth/.FFMainActivity bnds=[663,165][785,247]} with LAUNCH_SINGLE_TASK from uid 10018 (sr=240099666) (BAL_ALLOW_VISIBLE_WINDOW) result code=0
+11-23 10:44:33.329   770  5651 D CoreBackPreview: Window{6523b2f u0 NotificationShade}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@cb7b6b2, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:44:33.330  1039  1164 V WindowManagerShell: Transition requested (#43): android.os.BinderProxy@634c456 TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=36 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=1 lastActiveTime=1214531 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{android.window.IWindowContainerToken$Stub$Proxy@8cdfcd7} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{80859c4 com.dtd.freefireth.FFMainActivity} launchCookies=[android.os.BinderProxy@88020ad] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@b50cfe2, appThread = android.app.IApplicationThread$Stub$Proxy@b8b8f73, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 43 }
+11-23 10:44:33.330  1039  1164 D ShellSplitScreen: logExit: no-op, mLoggerSessionId is null
+11-23 10:44:33.331  1039  1164 V WindowManagerShell: RemoteTransition directly requested for (#43) android.os.BinderProxy@634c456: RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@b50cfe2, appThread = android.app.IApplicationThread$Stub$Proxy@b8b8f73, debugName = QuickstepLaunch }
+11-23 10:44:33.313  6529  6529 I serial_console: type=1400 audit(0.0:1517): avc:  denied  { map } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:44:33.342  1031  1031 D StatsLog: LAUNCHER_APP_LAUNCH_TAP
+11-23 10:44:33.342  1031  1031 I Choreographer: Skipped 38 frames!  The application may be doing too much work on its main thread.
+11-23 10:44:33.348   770   825 V GrammaticalInflectionUtils: AttributionSource: android.content.AttributionSource@cc3fcaff does not have READ_SYSTEM_GRAMMATICAL_GENDER permission.
+11-23 10:44:33.354   626   626 D Zygote  : Forked child process 6531
+11-23 10:44:33.357   770   839 I ActivityManager: Start proc 6531:com.dtd.freefireth/u0a68 for next-top-activity {com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}
+11-23 10:44:33.373   688   688 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: setPresentationRotation 1 for com.dtd.freefireth:36
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: java.lang.Exception
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:638)
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1957)
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:222)
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:44:33.388   770   822 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:44:33.396  1039  1164 D WindowManagerShell: setLauncherKeepClearAreaHeight: visible=false, height=102
+11-23 10:44:33.403   770  1633 D CoreBackPreview: Window{fc11980 u0 Splash Screen com.dtd.freefireth}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@37627b, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:44:33.408  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:33.317  6529  6529 I serial_console: type=1400 audit(0.0:1518): avc:  denied  { read execute } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:44:33.411  1031  1031 W SplitSelectStateCtor: Missing session instanceIds
+11-23 10:44:33.411  1031  1031 D StatsLog: LAUNCHER_SPLIT_SELECTION_EXIT_INTERRUPTED
+11-23 10:44:33.427  6531  6531 W nativebridge: Failed to bind-mount /system/etc/cpuinfo.arm64.txt as /proc/cpuinfo: No such file or directory
+11-23 10:44:33.427  6531  6531 E Zygote  : pkg name is 0 => com.dtd.freefireth, data dir is /data/user/0/com.dtd.freefireth
+11-23 10:44:33.430  1039  1208 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:44:33.433   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:33.434  6531  6531 W zygote64: Thread Pool max thread count is 0. Cannot cache binder as linkToDeath cannot be implemented. serviceName: nemuhotd
+11-23 10:44:33.435  1340  1340 W WidgetOperateReceiver: onReceive: intent = Intent { act=com.mumu.LAUNCHER_LIFECYCLE flg=0x30 pkg=com.mumu.store cmp=com.mumu.store/.widget.receiver.WidgetOperateReceiver (has extras) } action = com.mumu.LAUNCHER_LIFECYCLE
+11-23 10:44:33.435  1340  1340 W WidgetOperateReceiver: onLauncherLifecycle: launcherLifecycle = ON_PAUSE
+11-23 10:44:33.435  1340  1340 W WidgetManager: updateLauncherLifecycle: launcherLifecycleName = ON_PAUSE
+11-23 10:44:33.436  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:33.450  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 282624
+11-23 10:44:33.457   770   826 W OptProp : Cannot read opt property android.window.PROPERTY_COMPAT_ALLOW_ORIENTATION_OVERRIDE
+11-23 10:44:33.475  1039  1208 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:44:33.518   770   822 E ActivityManager: Sending non-protected broadcast nemu.intent.action.NEW_TASK from system 770:system/1000 pkg android
+11-23 10:44:33.518   770   822 E ActivityManager: java.lang.Throwable
+11-23 10:44:33.518   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.checkBroadcastFromSystem(BroadcastController.java:2118)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLockedTraced(BroadcastController.java:1635)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentLocked(BroadcastController.java:807)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at com.android.server.am.BroadcastController.broadcastIntentWithFeature(BroadcastController.java:740)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at com.android.server.am.ActivityManagerService.broadcastIntentWithFeature(ActivityManagerService.java:14410)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at android.app.ContextImpl.sendBroadcastAsUser(ContextImpl.java:1509)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at android.content.ContextWrapper.sendBroadcastAsUser(ContextWrapper.java:603)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils.$r8$lambda$JRBio5N1z1PXvDB9E_DBrd2vjYw(TaskUtils.java:2179)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at com.android.server.wm.TaskUtils$$ExternalSyntheticLambda2.run(R8$$SyntheticClass:0)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at android.os.Handler.handleCallback(Handler.java:991)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at android.os.Handler.dispatchMessage(Handler.java:102)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:44:33.518   770   822 E ActivityManager: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:44:33.519  1039  6537 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 282624
+11-23 10:44:33.528  1039  1208 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:33.528  1039  6537 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 282624
+11-23 10:44:33.534   770  1626 I InputDispatcher: Touched window was removed: 5001743 app.lawnchair/app.lawnchair.LawnchairLauncher in display %0
+11-23 10:44:33.534   770   822 W Looper  : Slow dispatch took 107ms android.fg h=com.android.server.mumu.wm.TaskHandler c=com.android.server.wm.TaskUtils$$ExternalSyntheticLambda2@d29b32d m=0
+11-23 10:44:33.534   770   822 V WindowManager: Sent Transition (#43) createdAt=11-23 10:44:33.269 via request=TransitionRequestInfo { type = OPEN, triggerTask = TaskInfo{userId=0 taskId=36 effectiveUid=10068 displayId=0 isRunning=true baseIntent=Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10200000 cmp=com.dtd.freefireth/.FFMainActivity } baseActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} topActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} origActivity=null realActivity=ComponentInfo{com.dtd.freefireth/com.dtd.freefireth.FFMainActivity} numActivities=1 lastActiveTime=1214531 supportsMultiWindow=true resizeMode=1 isResizeable=true minWidth=-1 minHeight=-1 defaultMinSize=220 token=WCT{RemoteToken{9b92d81 Task{11408b #36 type=standard A=10068:com.dtd.freefireth}}} topActivityType=1 pictureInPictureParams=null shouldDockBigOverlays=false launchIntoPipHostTaskId=-1 lastParentTaskIdBeforePip=-1 displayCutoutSafeInsets=Rect(0, 0 - 0, 0) topActivityInfo=ActivityInfo{61e8d7c com.dtd.freefireth.FFMainActivity} launchCookies=[android.os.BinderProxy@27bde26] positionInParent=Point(0, 0) parentTaskId=-1 isFocused=false isVisible=false isVisibleRequested=false isTopActivityNoDisplay=false isSleeping=false locusId=null displayAreaFeatureId=1 isTopActivityTransparent=false isActivityStackTransparent=false lastNonFullscreenBounds=Rect(227, 153 - 734, 420) capturedLink=null capturedLinkTimestamp=0 requestedVisibleTypes=-9 topActivityRequestOpenInBrowserEducationTimestamp=0 appCompatTaskInfo=AppCompatTaskInfo { topActivityInSizeCompat=false eligibleForLetterboxEducation= false isLetterboxEducationEnabled= false isLetterboxDoubleTapEnabled= false eligibleForUserAspectRatioButton= false topActivityBoundsLetterboxed= false isFromLetterboxDoubleTap= false topActivityLetterboxVerticalPosition= -1 topActivityLetterboxHorizontalPosition= -1 topActivityLetterboxWidth=-1 topActivityLetterboxHeight=-1 topActivityLetterboxAppWidth=-1 topActivityLetterboxAppHeight=-1 isUserFullscreenOverrideEnabled=false isSystemFullscreenOverrideEnabled=false hasMinAspectRatioOverride=false topActivityLetterboxBounds=null cameraCompatTaskInfo=CameraCompatTaskInfo { freeformCameraCompatMode=inactive}} topActivityMainWindowFrame=null}, pipChange = null, remoteTransition = RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@1273062, appThread = android.app.IApplicationThread$Stub$Proxy@c39a5f3, debugName = QuickstepLaunch }, displayChange = null, flags = 0, debugId = 43 }
+11-23 10:44:33.534   770   822 V WindowManager:     startWCT=WindowContainerTransaction { changes= {} hops= [] errorCallbackToken=null taskFragmentOrganizer=null }
+11-23 10:44:33.535   770   822 V WindowManager:     info={id=43 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:44:33.535   770   822 V WindowManager:         {WCT{RemoteToken{9b92d81 Task{11408b #36 type=standard A=10068:com.dtd.freefireth}}} m=OPEN f=NONE leash=Surface(name=Task=36)/@0x3a778f1 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},
+11-23 10:44:33.535   770   822 V WindowManager:         {WCT{RemoteToken{9d01adf Task{b7f0c33 #1 type=home}}} m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x96b97a6 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1}
+11-23 10:44:33.535   770   822 V WindowManager:     ]}
+11-23 10:44:33.543  1039  6530 V WindowManagerShell: onTransitionReady(transaction=3307124820104)
+11-23 10:44:33.545  1039  1208 D HWUI    : HOOK FAILED! Expected 4 got = 3
+11-23 10:44:33.546  1039  1195 I Choreographer: Skipped 71 frames!  The application may be doing too much work on its main thread.
+11-23 10:44:33.559  1039  1164 V WindowManagerShell: onTransitionReady (#43) android.os.BinderProxy@634c456: {id=43 t=OPEN f=0x0 trk=0 r=[0@Point(0, 0)] c=[
+11-23 10:44:33.559  1039  1164 V WindowManagerShell:         {m=OPEN f=NONE leash=Surface(name=Task=36)/@0xcba2581 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1},
+11-23 10:44:33.559  1039  1164 V WindowManagerShell:         {m=TO_BACK f=SHOW_WALLPAPER leash=Surface(name=Task=1)/@0x5757626 sb=Rect(0, 0 - 960, 540) eb=Rect(0, 0 - 960, 540) epz=Point(960, 540) d=0 taskParent=-1}
+11-23 10:44:33.559  1039  1164 V WindowManagerShell:     ]}
+11-23 10:44:33.559  1039  1164 V WindowManagerShell: Playing animation for (#43) android.os.BinderProxy@634c456@0
+11-23 10:44:33.559  1039  1164 V WindowManagerShell:  try firstHandler com.android.wm.shell.transition.DefaultMixedHandler@887d20a
+11-23 10:44:33.559  1039  1164 V WindowManagerShell: Mixed transition for opening an intent with a remote transition and PIP or Desktop #43
+11-23 10:44:33.559  1039  1164 V WindowManagerShell: tryAnimateOpenIntentWithRemoteAndPipOrDesktop
+11-23 10:44:33.559  1039  1164 V WindowManagerShell:  Delegate animation for (#43) to RemoteTransition { remoteTransition = android.window.IRemoteTransition$Stub$Proxy@b50cfe2, appThread = android.app.IApplicationThread$Stub$Proxy@b8b8f73, debugName = QuickstepLaunch }
+11-23 10:44:33.561  1039  1164 V WindowManagerShell:  animated by firstHandler
+11-23 10:44:33.561  1039  6538 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:33.579  1039  6538 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:33.598  6531  6531 I Zygote  : seccomp disabled by setenforce 0
+11-23 10:44:33.603  1031  1031 D AppLaunchAnim: App launch animation START, duration=300ms
+11-23 10:44:33.622  6531  6531 I .dtd.freefireth: Using CollectorTypeCMC GC.
+11-23 10:44:33.624  6531  6531 W .dtd.freefireth: Unexpected CPU variant for x86: x86_64.
+11-23 10:44:33.624  6531  6531 W .dtd.freefireth: Known variants: atom, sandybridge, silvermont, goldmont, goldmont-plus, goldmont-without-sha-xsaves, tremont, kabylake, alderlake, default
+11-23 10:44:33.624  6531  6531 V libnb   : enter native_bridge2_initialize /data/user/0/com.dtd.freefireth/code_cache arm64
+11-23 10:44:33.625  6531  6531 E libnb   : The translator implementation library has not been set.
+11-23 10:44:33.636  6531  6531 E libnb   : get_callbacks native_handle 0xef4100b78a032747: 1 libnb:/system/lib64/libhoudini.so
+11-23 10:44:33.636  6531  6531 I libnb   : Found /system/lib64/libhoudini.so version 7
+11-23 10:44:33.649  6531  6531 I houdini : [6531] Houdini now in android app mode
+11-23 10:44:33.649  6531  6531 I houdini : [6531] Intel Bridge Technology for NetEase Mumu only, Copyright(C) Intel Corp. 2012-now.
+11-23 10:44:33.649  6531  6531 I houdini : [6531] Use permitted only under a valid commercial software license agreement - all other rights reserved.
+11-23 10:44:33.649  6531  6531 I houdini : [6531] Initialize library(version: 15.0.0.Netease_com3.0 RELEASE)... successfully.
+11-23 10:44:33.649  6531  6531 W HP      : x_initialize private_dir:/data/user/0/com.dtd.freefireth/code_cache instruction_set:arm64 getMethodShorty:0x77c01e22c700 ret:1
+11-23 10:44:33.655  1039  1039 D DeviceEntryIconViewBinder: Initializing device entry fgIconView
+11-23 10:44:33.655  1039  1039 I Choreographer: Skipped 139 frames!  The application may be doing too much work on its main thread.
+11-23 10:44:33.656  6531  6531 E .dtd.freefireth: Not starting debugger since process cannot load the jdwp agent.
+11-23 10:44:33.658  6531  6531 D nativeloader: Load libframework-connectivity-tiramisu-jni.so using APEX ns com_android_tethering for caller /apex/com.android.tethering/javalib/framework-connectivity-t.jar: ok
+11-23 10:44:33.633  6531  6531 I .dtd.freefireth: type=1400 audit(0.0:1519): avc:  denied  { write } for  name="property_service" dev="tmpfs" ino=664 scontext=u:r:untrusted_app_30:s0:c68,c256,c512,c768 tcontext=u:object_r:property_socket:s0 tclass=sock_file permissive=1 app=com.dtd.freefireth
+11-23 10:44:33.681  1031  1031 I Choreographer: Skipped 35 frames!  The application may be doing too much work on its main thread.
+11-23 10:44:33.633  6531  6531 I .dtd.freefireth: type=1400 audit(0.0:1520): avc:  denied  { connectto } for  path="/dev/socket/property_service" scontext=u:r:untrusted_app_30:s0:c68,c256,c512,c768 tcontext=u:r:init:s0 tclass=unix_stream_socket permissive=1 app=com.dtd.freefireth
+11-23 10:44:33.737   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:33.747   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:44:33.748   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:44:33.757   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:44:33.757   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@ec56786
+11-23 10:44:33.757   770   890 E JobScheduler.Concurrency: Error executing JobStatus{734ca0c #u0a24/9024 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 READY}
+11-23 10:44:33.759   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:44:33.759   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@d0ac19d
+11-23 10:44:33.760   770   890 E JobScheduler.Concurrency: Error executing JobStatus{39e1bd1 #u0a24/9025 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 TIME=none:+23h28m17s160ms NET READY}
+11-23 10:44:33.763  6531  6531 D CompatChangeReporter: Compat change id reported: 171979766; UID 10068; state: ENABLED
+11-23 10:44:33.787  1031  1031 D AppLaunchAnim: App launch animation END
+11-23 10:44:33.790   770  2379 D CompatChangeReporter: Compat change id reported: 170503758; UID 10068; state: ENABLED
+11-23 10:44:33.792  6531  6531 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:44:33.799  6531  6531 D nativeloader: Configuring clns-7 for other apk /data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk. target_sdk_version=31, uses_libraries=, library_path=/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/lib/arm64:/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk!/lib/arm64-v8a, permitted_path=/data:/mnt/expand:/data/user/0/com.dtd.freefireth
+11-23 10:44:33.802  1039  1164 V WindowManagerShell: Transition animation finished (aborted=false), notifying core (#43) android.os.BinderProxy@634c456@0
+11-23 10:44:33.809  6531  6531 I .dtd.freefireth: AssetManager2(0x77c1ffa46b38) locale list changing from [] to [en-US]
+11-23 10:44:33.810   770   822 V WindowManager: Finish Transition (#43): created at 11-23 10:44:33.269 collect-started=0.045ms request-sent=56.732ms started=99.51ms ready=204.29ms sent=246.775ms finished=539.908ms
+11-23 10:44:33.811  1039  1164 V WindowManagerShell: Track 0 became idle
+11-23 10:44:33.811  1039  1164 V WindowManagerShell: All active transition animations finished
+11-23 10:44:33.816  6531  6531 V GraphicsEnvironment: Currently set values for:
+11-23 10:44:33.816  6531  6531 V GraphicsEnvironment:   angle_gl_driver_selection_pkgs=[]
+11-23 10:44:33.816  6531  6531 V GraphicsEnvironment:   angle_gl_driver_selection_values=[]
+11-23 10:44:33.816  6531  6531 V GraphicsEnvironment: com.dtd.freefireth is not listed in per-application setting
+11-23 10:44:33.816  6531  6531 V GraphicsEnvironment: Neither updatable production driver nor prerelease driver is supported.
+11-23 10:44:33.906  1031  1031 D VRI[LawnchairLauncher]: visibilityChanged oldVisibility=true newVisibility=false
+11-23 10:44:34.007   770  2379 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:44:34.029  4233  4233 W AccMsgReceiver: AccMsgReceiver: onReceive action = nemu.intent.action.NEW_TASK
+11-23 10:44:34.054   770  2379 W ActivityManager: Foreground service started from background can not have location/camera/microphone access: service com.mumu.acc/.AccService
+11-23 10:44:34.063  4233  4313 W AccServiceManager: onAppLaunch: packageName = com.dtd.freefireth
+11-23 10:44:34.063  4233  4313 W TranslateGameManager: onAppLaunch: packageName = com.dtd.freefireth, hasPackageLaunchedBefore = false, supportTranslateReally = false, isLocalTranslateEnabled = false
+11-23 10:44:34.081  1039  1039 I Choreographer: Skipped 180 frames!  The application may be doing too much work on its main thread.
+11-23 10:44:34.129   770  2379 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:44:34.130   770  2379 W UserManagerService: Requested status bar icon for non-badged user 0
+11-23 10:44:34.163   770  2379 D SystemServerTiming: getUserSwitchability-0
+11-23 10:44:34.163   770  5651 D SystemServerTiming: getUserSwitchability-0
+11-23 10:44:34.163   770  5651 D SystemServerTiming: TM.isInCall
+11-23 10:44:34.178   770  2379 D SystemServerTiming: TM.isInCall
+11-23 10:44:34.183   770  2379 D SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH
+11-23 10:44:34.183   770  2379 D SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED
+11-23 10:44:34.183   770  2379 D SystemServerTiming: isUserUnlocked-USER_SYSTEM
+11-23 10:44:34.184   770  5651 D SystemServerTiming: hasUserRestriction-DISALLOW_USER_SWITCH
+11-23 10:44:34.184   770  5651 D SystemServerTiming: getInt-ALLOW_USER_SWITCHING_WHEN_SYSTEM_USER_LOCKED
+11-23 10:44:34.184   770  5651 D SystemServerTiming: isUserUnlocked-USER_SYSTEM
+11-23 10:44:34.261  1039  1039 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+11-23 10:44:34.262  1039  1039 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+11-23 10:44:34.267  1039  1039 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+11-23 10:44:34.267  1039  1039 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+11-23 10:44:34.268  1039  1039 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+11-23 10:44:34.268  1039  1039 D BiometricsRepositoryImpl: currentUser authFlags changed, new value: AuthenticationFlags(userId=0, flag=0)
+11-23 10:44:34.277  6531  6531 I MultiDex: VM with version 2.1.0 has multidex support
+11-23 10:44:34.277  6531  6531 I MultiDex: Installing application
+11-23 10:44:34.277  6531  6531 I MultiDex: VM has multidex support, MultiDex support library is disabled.
+11-23 10:44:34.281  6531  6531 I FirebaseApp: Device unlocked: initializing all Firebase APIs for app [DEFAULT]
+11-23 10:44:34.286  6531  6531 I FirebaseCrashlytics: Initializing Firebase Crashlytics 18.0.1 for com.dtd.freefireth
+11-23 10:44:34.312   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:34.316  1039  1039 D DeviceEntryIconViewBinder: Updating device entry icon image state ForegroundIconViewModel(type=UNLOCK, useAodVariant=false, tint=-3087105, padding=48)
+11-23 10:44:34.321  6531  6561 W Settings: Setting adb_enabled has moved from android.provider.Settings.Secure to android.provider.Settings.Global.
+11-23 10:44:34.331  6531  6531 I FirebaseInitProvider: FirebaseApp initialization successful
+11-23 10:44:34.332  1039  1206 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+11-23 10:44:34.334  6531  6567 W .dtd.freefireth: ClassLoaderContext classpath size mismatch. expected=1, found=0 (DLC[];PCL[GmsCore.apk*3714305525]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]#PCL[/system/framework/com.android.location.provider.jar*2736664001]#PCL[/system_ext/framework/androidx.window.extensions.jar*596101676]#PCL[/system_ext/framework/androidx.window.sidecar.jar*4027385501]} | DLC[];PCL[])
+11-23 10:44:34.336  6531  6567 I DynamiteModule: Considering local module com.google.android.gms.measurement.dynamite:51 and remote module com.google.android.gms.measurement.dynamite:193
+11-23 10:44:34.337  6531  6567 I DynamiteModule: Selected remote version of com.google.android.gms.measurement.dynamite, version >= 193
+11-23 10:44:34.338  6531  6567 V DynamiteModule: Dynamite loader version >= 2, using loadModule2NoCrashUtils
+11-23 10:44:34.353  6531  6531 W com.facebook.i0: Please set a value for AutoLogAppEventsEnabled. Set the flag to TRUE if you want to collect app install, app launch and in-app purchase events automatically. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+11-23 10:44:34.353  6531  6531 W com.facebook.i0: You haven't set a value for AdvertiserIDCollectionEnabled. Set the flag to TRUE if you want to collect Advertiser ID for better advertising and analytics results. To request user consent before collecting data, set the flag value to FALSE, then change to TRUE once user consent is received. Learn more: https://developers.facebook.com/docs/app-events/getting-started-app-events-android#disable-auto-events.
+11-23 10:44:34.359  6531  6572 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:44:34.363  6531  6574 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:44:34.366  6531  6567 W System  : ClassLoader referenced unknown path: 
+11-23 10:44:34.366  6531  6567 D nativeloader: Configuring clns-8 for other apk . target_sdk_version=37, uses_libraries=, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+11-23 10:44:34.367   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:34.367   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:34.367  6531  6575 W com.facebook.internal.c0: Apps that target Android API 30+ (Android 11+) cannot call Facebook native apps unless the package visibility needs are declared. Please follow https://developers.facebook.com/docs/android/troubleshooting/#faq_267321845055988 to make the declaration.
+11-23 10:44:34.368  6531  6573 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: setPresentationRotation 1 for com.dtd.freefireth:36
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: java.lang.Exception
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.tab.TaskTab.setPresentationRotation(TaskTab.java:52)
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.getTopTaskOnDisplay(TaskUtils.java:638)
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.updateTaskTabRotation(TaskUtils.java:1957)
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.TaskUtils.notifyOpen(TaskUtils.java:222)
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: 	at com.android.server.wm.WmBridge.notifyOpen(WmBridge.java:496)
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: 	at com.android.server.mumu.wm.TaskHandler.handleMessage(TaskHandler.java:32)
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: 	at android.os.Handler.dispatchMessage(Handler.java:109)
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loopOnce(Looper.java:232)
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: 	at android.os.Looper.loop(Looper.java:317)
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: 	at android.os.HandlerThread.run(HandlerThread.java:85)
+11-23 10:44:34.370   770   822 E [MUMU]TaskTab: 	at com.android.server.ServiceThread.run(ServiceThread.java:49)
+11-23 10:44:34.377  1039  1219 I QAWController: Re-creating the QAW client to avoid stale.
+11-23 10:44:34.397  1039  1223 I QAWController: Re-creating the QAW client to avoid stale.
+11-23 10:44:34.403  6531  6531 I .dtd.freefireth: AssetManager2(0x77c1ffa4c8f8) locale list changing from [] to [en-US]
+11-23 10:44:34.411  1039  1206 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+11-23 10:44:34.414  1039  1206 D ControlsListingControllerImpl: Subscribing callback, service count: 0
+11-23 10:44:34.441  1039  1206 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+11-23 10:44:34.441  1039  1206 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+11-23 10:44:34.446  1039  1206 E QuickAccessWalletKeyguardQuickAffordanceConfig: Wallet card retrieval error, message: "null"
+11-23 10:44:34.488  6531  6567 I .dtd.freefireth: AssetManager2(0x77c1ffa4e838) locale list changing from [] to [en-US]
+11-23 10:44:34.491  6531  6567 W .dtd.freefireth: ClassLoaderContext classpath element mismatch. expected=GmsCore.apk, found=/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk (DLC[];PCL[GmsCore.apk*3714305525]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]#PCL[/system/framework/com.android.location.provider.jar*2736664001]#PCL[/system_ext/framework/androidx.window.extensions.jar*596101676]#PCL[/system_ext/framework/androidx.window.sidecar.jar*4027385501]} | DLC[];PCL[/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk*3975694790]{PCL[/system/framework/org.apache.http.legacy.jar*478463717]})
+11-23 10:44:34.495  6531  6567 I .dtd.freefireth: AssetManager2(0x77c1ffa4d898) locale list changing from [] to [en-US]
+11-23 10:44:34.496  6531  6567 I .dtd.freefireth: AssetManager2(0x77c1ffa4ded8) locale list changing from [] to [en-US]
+11-23 10:44:34.496  6531  6574 W u       : Starting with v13 of the SDK, a client token must be embedded in your client code before making Graph API calls. Visit https://developers.facebook.com/docs/android/getting-started#client-token to learn how to implement this change.
+11-23 10:44:34.529   770  5651 D ActivityManager: sync unfroze 1924 com.google.android.gms for 4
+11-23 10:44:34.535   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:34.535   770  5651 W ProcessStats: Tracking association SourceState{5795435 com.dtd.freefireth/10068 BTop #1451} whose proc state 2 is better than process ProcessState{55a260c com.google.android.gms/10025 pkg=com.google.android.gms} proc state 15 (29 skipped)
+11-23 10:44:34.542  1851  1949 I PhenotypeResourceReader: unable to find any Phenotype resource metadata for com.dtd.freefireth
+11-23 10:44:34.545  6531  6599 I FA      : App measurement disabled via the manifest
+11-23 10:44:34.545  6531  6599 E .dtd.freefireth: No package ID 6a found for resource ID 0x6a0b0013.
+11-23 10:44:34.545  6531  6599 I FA      : App measurement initialized, version: 169000
+11-23 10:44:34.545  6531  6599 I FA      : To enable debug logging run: adb shell setprop log.tag.FA VERBOSE
+11-23 10:44:34.545  6531  6599 I FA      : To enable faster debug mode event logging run:
+11-23 10:44:34.545  6531  6599 I FA      :   adb shell setprop debug.firebase.analytics.app com.dtd.freefireth
+11-23 10:44:34.549   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:34.550  1924  1924 D BoundBrokerSvc: onBind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:44:34.550  1924  1924 D BoundBrokerSvc: Loading bound service for intent: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:44:34.707  6531  6531 D DesktopModeFlagsUtil: Toggle override initialized to: OVERRIDE_OFF
+11-23 10:44:34.737  6531  6531 W HWUI    : Unknown dataspace 0
+11-23 10:44:34.739  6531  6531 D InsetsController: Setting requestedVisibleTypes to -10 (was -9)
+11-23 10:44:34.740   770  2379 W WindowManager: Failed looking up window session=Session{283b9a3 6531:u0a10068} callers=com.android.server.wm.WindowManagerService.windowForClientLocked:6325 com.android.server.wm.Session.updateRequestedVisibleTypes:699 android.view.IWindowSession$Stub.onTransact:1023 
+11-23 10:44:34.751  6531  6531 D InsetsController: Setting requestedVisibleTypes to -528 (was -10)
+11-23 10:44:34.752   770  2379 D CoreBackPreview: Window{e0e4cff u0 com.dtd.freefireth/com.dtd.freefireth.FFMainActivity}: Setting back callback OnBackInvokedCallbackInfo{mCallback=android.window.IOnBackInvokedCallback$Stub$Proxy@9691115, mPriority=0, mIsAnimationCallback=false, mOverrideBehavior=0}
+11-23 10:44:34.760  6531  6612 E libEGL  : intercept_property_get () for (persist.graphics.egl)
+11-23 10:44:34.773  6531  6612 I EGL_emulation: EGL display initialized (version 1.4, rendererVersion=0x3, configs=6)
+11-23 10:44:34.782  6531  6612 I EGL_emulation: EGL display initialized (version 1.4, rendererVersion=0x3, configs=6)
+11-23 10:44:34.783   450   450 I hwservicemanager: getTransport: Cannot find entry android.hardware.configstore@1.0::ISurfaceFlingerConfigs/default in either framework or device VINTF manifest.
+11-23 10:44:34.783  6531  6612 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.configstore@1.0::ISurfaceFlingerConfigs instance: default
+11-23 10:44:34.783  6531  6612 W HWUI    : Failed to choose config with EGL_SWAP_BEHAVIOR_PRESERVED, retrying without...
+11-23 10:44:34.783  6531  6612 W HWUI    : Failed to initialize 101010-2 format, error = EGL_SUCCESS
+11-23 10:44:34.990   688  1502 E HWComposer: getSupportedContentTypes: getSupportedContentTypes failed for display 4619827820427265280: UNSUPPORTED (8)
+11-23 10:44:34.990  6531  6612 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.mapper@2.0::IMapper instance: default
+11-23 10:44:34.991  6531  6612 E HidlServiceManagement: getService: Potential race detected, descriptor: android.hardware.graphics.allocator@2.0::IAllocator instance: default
+11-23 10:44:34.992  6531  6612 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:35.091  6531  6612 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:35.099  1031  1031 D BaseDepthController: setSurface:
+11-23 10:44:35.099  1031  1031 D BaseDepthController: 	mWaitingOnSurfaceValidity: false
+11-23 10:44:35.099  1031  1031 D BaseDepthController: 	mSurface: null
+11-23 10:44:35.100  1031  1031 D StateManager: goToState - fromState: Normal, toState: Normal, partial trace:
+11-23 10:44:35.100  1031  1031 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(r8-map-id-fe14f1fe842d35fbeb0a7aeefdc65d4bceb373f1280c0e06d2c6dbbe065e8669:4)
+11-23 10:44:35.100  1031  1031 D StateManager: 	at com.android.launcher3.statemanager.StateManager.moveToRestState(r8-map-id-fe14f1fe842d35fbeb0a7aeefdc65d4bceb373f1280c0e06d2c6dbbe065e8669:1)
+11-23 10:44:35.100  1031  1031 D StateManager: 	at com.android.launcher3.statemanager.StatefulActivity.onStop(r8-map-id-fe14f1fe842d35fbeb0a7aeefdc65d4bceb373f1280c0e06d2c6dbbe065e8669:34)
+11-23 10:44:35.100  1031  1031 D StatsLog: LAUNCHER_ONSTOP
+11-23 10:44:35.103   770   822 W system_server: Failed to determine oat file name for dex location /data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.apk: Dalvik cache directory does not exist
+11-23 10:44:35.103   770   822 W ziparchive: Unable to open '/data/app/~~AdZHGFlucVdYXz1MJ0gaEw==/com.dtd.freefireth-hzXlNalq0aMrJiIhM6hgYQ==/base.dm': No such file or directory
+11-23 10:44:35.109   770   822 I ActivityTaskManager: Displayed com.dtd.freefireth/.FFMainActivity for user 0: +1s826ms
+11-23 10:44:35.112   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:35.119  6531  6531 I Choreographer: Skipped 176 frames!  The application may be doing too much work on its main thread.
+11-23 10:44:35.120   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:44:35.120   770   890 W JobScheduler.Concurrency: Had fewer than 16 in existence
+11-23 10:44:35.124  1924  6618 D AdvertisingIdClient: AdvertisingIdClient already created.
+11-23 10:44:35.124  1924  6618 D AdvertisingIdClient: AdvertisingIdClient is not bounded. Starting to bind it...
+11-23 10:44:35.125   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:35.126   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:44:35.133  6531  6612 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:35.141   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@bf16985
+11-23 10:44:35.142   770   890 E JobScheduler.Concurrency: Error executing JobStatus{734ca0c #u0a24/9024 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 READY}
+11-23 10:44:35.144  1924  6618 D AdvertisingIdClient: AdvertisingIdClient is bounded
+11-23 10:44:35.145  1924  6618 I AdvertisingIdClient: shouldSendLog 47245
+11-23 10:44:35.145  1924  6618 I AdvertisingIdClient: GetInfoInternal elapse 21ms
+11-23 10:44:35.157   770   890 W ActivityManager: Unable to launch app com.android.vending/10024 for service Intent { cmp=com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain }: user 0 is stopped
+11-23 10:44:35.157   770   890 W ActivityManager: Unbind failed: could not find connection for android.app.LoadedApk$ServiceDispatcher$InnerConnection@816f1e7
+11-23 10:44:35.157   770   890 E JobScheduler.Concurrency: Error executing JobStatus{39e1bd1 #u0a24/9025 com.android.vending/com.google.android.finsky.scheduler.process.mainimpl.PhoneskyJobServiceMain u=0 s=10024 TIME=none:+23h28m15s763ms NET READY}
+11-23 10:44:35.159   770   770 E JobServiceContext: Binding died for com.android.vending but no running job on this context
+11-23 10:44:35.159   770  5651 W WindowManager: Failed looking up window session=Session{3d09e1c 1039:u0a10038} callers=com.android.server.wm.WindowManagerService.removeClientToken:2070 com.android.server.wm.Session.remove:269 android.view.IWindowSession$Stub.onTransact:696 
+11-23 10:44:35.160  1039  1195 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=android.view.ViewRootImpl$$ExternalSyntheticLambda13@4b07b13
+11-23 10:44:35.160   770  5651 D CoreBackPreview: Window{fc11980 u0 Splash Screen com.dtd.freefireth}: Setting back callback null
+11-23 10:44:35.218  1851  2047 I FontLog : (REDACTED) Received query %s, URI %s
+11-23 10:44:35.218  1851  2047 I FontLog : (REDACTED) Query [%s] resolved to %s
+11-23 10:44:35.219  1851  2047 I FontLog : (REDACTED) Fetch %s end status %s
+11-23 10:44:35.220  1851  2047 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+11-23 10:44:35.221  1851  2047 I FontLog : (REDACTED) Pulling font file for id = %d, cache size = %d
+11-23 10:44:36.828   770  1664 E TaskPersister: File error accessing recents directory (directory doesn't exist?).
+11-23 10:44:37.845   770   838 D ActivityManager: sync unfroze 1689 com.android.keychain for 10
+11-23 10:44:37.846   770   838 D ActivityManager: sync unfroze 1786 com.android.localtransport for 10
+11-23 10:44:38.289  6628  6628 I init    : type=1400 audit(0.0:1521): avc:  denied  { transition } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:44:38.293  6628  6628 I init    : type=1400 audit(0.0:1522): avc:  denied  { entrypoint } for  path="/system/xbin/serial_console" dev="sda6" ino=4065 scontext=u:r:su:s0 tcontext=u:object_r:system_file:s0 tclass=file permissive=1
+11-23 10:44:38.293  6628  6628 I init    : type=1400 audit(0.0:1523): avc:  denied  { noatsecure } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:44:38.293  6628  6628 I serial_console: type=1400 audit(0.0:1524): avc:  denied  { rlimitinh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:44:38.293  6628  6628 I serial_console: type=1400 audit(0.0:1525): avc:  denied  { siginh } for  scontext=u:r:init:s0 tcontext=u:r:su:s0 tclass=process permissive=1
+11-23 10:44:43.309  6629  6629 I serial_console: type=1400 audit(0.0:1530): avc:  denied  { read write } for  name="ttyS1" dev="tmpfs" ino=675 scontext=u:r:su:s0 tcontext=u:object_r:serial_device:s0 tclass=chr_file permissive=1
+11-23 10:44:43.317  6629  6629 I serial_console: type=1400 audit(0.0:1531): avc:  denied  { open } for  path="/dev/ttyS1" dev="tmpfs" ino=675 scontext=u:r:su:s0 tcontext=u:object_r:serial_device:s0 tclass=chr_file permissive=1
+11-23 10:44:45.187  1924  1924 D BoundBrokerSvc: onUnbind: Intent { act=com.google.android.gms.measurement.START pkg=com.google.android.gms }
+11-23 10:44:47.024  1039  1039 I Choreographer: Skipped 38 frames!  The application may be doing too much work on its main thread.
+11-23 10:44:47.291  1039  1039 I Choreographer: Skipped 120 frames!  The application may be doing too much work on its main thread.
+11-23 10:44:47.401   688   688 I BpBinder: onLastStrongRef automatically unlinking death recipients: 
+11-23 10:44:47.418  1039  1039 I Choreographer: Skipped 60 frames!  The application may be doing too much work on its main thread.
+11-23 10:44:47.457  1039  1039 W WindowOnBackDispatcher: sendCancelIfRunning: isInProgress=false callback=com.android.systemui.back.domain.interactor.BackActionInteractor$callback$2@17a1418
+11-23 10:44:47.458   770  4140 D CoreBackPreview: Window{6523b2f u0 NotificationShade}: Setting back callback null
+11-23 10:44:47.458  1031  2691 I IPCThreadState: oneway function results for code 31 on binder at 0x77c05faa10e0 will be dropped but finished with status UNKNOWN_TRANSACTION
+11-23 10:44:47.646  1039  1039 I Choreographer: Skipped 88 frames!  The application may be doing too much work on its main thread.
+11-23 10:44:47.683   770   912 I ImeTracker: com.dtd.freefireth:2d6801b7: onRequestHide at ORIGIN_SERVER reason HIDE_UNSPECIFIED_WINDOW fromUser false
+11-23 10:44:47.685  6531  6531 D InsetsController: hide(ime(), fromIme=false)
+11-23 10:44:47.685  6531  6531 I ImeTracker: com.dtd.freefireth:2d6801b7: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+11-23 10:44:47.725  1039  1206 D ControlsListingControllerImpl: Unsubscribing callback
+11-23 10:44:47.728  1039  1206 D ControlsListingControllerImpl: Unsubscribing callback
+11-23 10:44:47.728  1039  1206 D ControlsListingControllerImpl: Unsubscribing callback
+11-23 10:44:47.736  6531  6610 I Unity   : SystemInfo CPU = ARM64 FP ASIMD AES VMH, Cores = 2, Memory = 3932mb
+11-23 10:44:47.737  6531  6610 I Unity   : SystemInfo ARM big.LITTLE configuration: 2 big (mask: 0x3), 0 little (mask: 0x0)
+11-23 10:44:47.738  6531  6610 I Unity   : ApplicationInfo com.dtd.freefireth version 1.98.1 build 9b364ac2-5ff5-4251-a1cb-edeba9236d88
+11-23 10:44:47.738  6531  6610 I Unity   : Built from '' branch, Version '2018.4.11f1 (0)', Build type 'Release', Scripting Backend 'il2cpp', CPU 'arm64-v8a'
+11-23 10:44:47.762   770   826 W Choreographer: Frame time is 0.176663 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:44:47.764   770   826 W Choreographer: Frame time is 0.087164 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:44:47.831  6531  6645 W InteractionJankMonitor: Initializing without READ_DEVICE_CONFIG permission. enabled=false, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.dtd.freefireth
+11-23 10:44:48.066  6531  6610 D AudioSystem: onNewService: media.audio_policy service obtained 0x77c01fae9970
+11-23 10:44:48.067  6531  6610 D AudioSystem: getService: checking for service media.audio_policy: 0x77c01fae9970
+11-23 10:44:48.067   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:48.067   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:48.068   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:48.068  6531  6610 D AudioSystem: onNewServiceWithAdapter: media.audio_flinger service obtained 0x77c05fa9cb50
+11-23 10:44:48.069  6531  6610 D AudioSystem: getService: checking for service media.audio_flinger: 0x77c01fae9f60
+11-23 10:44:48.072  6531  6610 D .dtd.freefireth: PlayerBase::PlayerBase()
+11-23 10:44:48.072  6531  6610 D .dtd.freefireth: TrackPlayerBase::TrackPlayerBase()
+11-23 10:44:48.072  6531  6610 I libOpenSLES: Emulating old channel mask behavior (ignoring positional mask 0x3, using default mask 0x3 based on channel count of 2)
+11-23 10:44:48.073   684  5302 E ServiceUtilities: Request requires android.permission.MODIFY_PHONE_STATE or android.permission.WRITE_SECURE_SETTINGS
+11-23 10:44:48.073   684  5302 W AudioFlinger: createTrack_l(): mismatch between requested flags (00000104) and output flags (00000006)
+11-23 10:44:48.073   684  5302 D AudioFlinger: Client defaulted notificationFrames to 512 for frameCount 2048
+11-23 10:44:48.075  6531  6610 I AudioTrack: createTrack_l(0): AUDIO_OUTPUT_FLAG_FAST successful; frameCount 0 -> 2048
+11-23 10:44:48.078   684  5302 I APM::AudioPolicyEngine: getDevicesForStrategyInt no device found for strategy 7
+11-23 10:44:48.079   684  5302 D audioserver: logFgsApiBegin: FGS Logger Transaction failed, -129
+11-23 10:44:48.082   630  2056 D audio_hw_primary: tunnel_pcm_open called!
+11-23 10:44:48.091  6531  6610 E EGL_emulation: [getAttribValue] Bad attribute index in getAttribValue
+11-23 10:44:48.091  6531  6610 W EGL_emulation: eglGetConfigAttrib: unknown config attribute 0x1
+11-23 10:44:48.091  6531  6610 E EGL_emulation: tid 6610: eglGetConfigAttrib(1044): error 0x3004 (EGL_BAD_ATTRIBUTE)
+11-23 10:44:48.092  6531  6610 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:48.312  6531  6610 D Unity   :  GL_EXT_debug_marker GL_OES_EGL_sync GL_OES_EGL_image GL_OES_EGL_image_external GL_OES_depth24 GL_OES_depth32 GL_OES_element_index_uint GL_OES_texture_float GL_OES_texture_float_linear GL_OES_compressed_ETC1_RGB8_texture GL_KHR_texture_compression_astc_ldr GL_OES_surfaceless_context GL_OES_depth_texture GL_EXT_texture_compression_bptc GL_EXT_texture_compression_s3tc GL_EXT_texture_compression_s3tc_srgb GL_EXT_texture_compression_rgtc GL_OES_texture_half_float GL_OES_texture_half_float_linear GL_OES_packed_depth_stencil GL_OES_vertex_half_float GL_OES_texture_npot GL_OES_rgb8_rgba8 GL_EXT_multisampled_render_to_texture GL_EXT_color_buffer_float GL_EXT_color_buffer_half_float GL_EXT_texture_format_BGRA8888 GL_EXT_draw_buffers_indexed GL_KHR_debug GL_EXT_geometry_shader GL_EXT_tessellation_shader GL_EXT_gpu_shader5 GL_EXT_primitive_bounding_box GL_EXT_texture_border_clamp GL_EXT_texture_cube_map_array GL_EXT_copy_image GL_OES_sample_shading GL_OES_sample_variables GL_OES_shader_multisample_interpolation GL_OES_
+11-23 10:44:48.312  6531  6610 D Unity   : shader_image_atomic GL_OES_texture_stencil8 GL_OES_texture_storage_multisample_2d_array GL_OES_shader_io_blocks GL_EXT_shader_io_blocks GL_EXT_texture_sRGB_decode GL_KHR_robustness GL_EXT_draw_elements_base_vertex GL_OES_draw_elements_base_vertex GL_OES_EGL_image_external_essl3 GL_EXT_robustness
+11-23 10:44:48.613  6531  6673 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:48.624  6531  6673 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:48.794   684   802 W AudioFlinger: write blocked for 613 msecs, 18 delayed writes, thread 13
+11-23 10:44:51.089  6531  6531 I UnityMain: type=1400 audit(0.0:1532): avc:  denied  { rename } for  name="il2cpp" dev="sdc3" ino=2883625 scontext=u:r:untrusted_app_30:s0:c68,c256,c512,c768 tcontext=u:object_r:media_userdir_file:s0:c68,c256,c512,c768 tclass=dir permissive=1 app=com.dtd.freefireth
+11-23 10:44:51.141   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(7)
+11-23 10:44:51.331  6531  6610 I Il2CPPSwitch: 0
+11-23 10:44:52.946  6531  6610 V MediaRouter: Selecting route: RouteInfo{ name=Phone, description=null, status=null, category=RouteCategory{ name=System types=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO  groupable=false }, supportedTypes=ROUTE_TYPE_LIVE_AUDIO ROUTE_TYPE_LIVE_VIDEO , presentationDisplay=null }
+11-23 10:44:52.946  6531  6610 I MediaRouter: Skip setBluetoothA2dpOn(): types=8388615, isPlaybackActive()=true, BT route=null
+11-23 10:44:52.960  6531  6673 D gralloc_kona: gralloc_alloc: Creating ashmem region of size 2076672
+11-23 10:44:53.210   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(10)
+11-23 10:44:53.303  6531  6610 W Unity   : UGCResourceManager.Inited
+11-23 10:44:53.303  6531  6610 W Unity   :  
+11-23 10:44:53.303  6531  6610 W Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:44:53.303  6531  6610 W Unity   : 
+11-23 10:44:53.315  6531  6610 D AppsFlyer_6.4.0: Initializing AppsFlyer SDK: (v6.4.0.119)
+11-23 10:44:53.316  6531  6610 W Unity   : DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+11-23 10:44:53.316  6531  6610 W Unity   :  
+11-23 10:44:53.316  6531  6610 W Unity   : (Filename:  Line: 543)
+11-23 10:44:53.316  6531  6610 W Unity   : 
+11-23 10:44:53.336  6531  6679 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:44:53.345  6531  6679 D nativeloader: Configuring clns-9 for other apk /system/framework/com.android.location.provider.jar. target_sdk_version=37, uses_libraries=ALL, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms
+11-23 10:44:53.345  6531  6679 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-23 10:44:53.345  6531  6679 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-23 10:44:53.347  6531  6679 D nativeloader: InitLlndkLibrariesProduct: libEGL.so:libGLESv1_CM.so:libGLESv2.so:libGLESv3.so:libRS.so:libandroid_net.so:libapexsupport.so:libavf.so:libbinder_ndk.so:libc.so:libcgrouprc.so:libclang_rt.asan-i686-android.so:libclang_rt.asan-x86_64-android.so:libcom.android.tethering.connectivity_native.so:libdl.so:libft2.so:liblog.so:libm.so:libmediandk.so:libnativewindow.so:libneuralnetworks.so:libselinux.so:libsync.so:libvendorsupport.so:libvndksupport.so:libvulkan.so
+11-23 10:44:53.347  6531  6679 D nativeloader: Configuring product-clns-10 for unbundled product apk /system/product/priv-app/GmsCore/GmsCore.apk. target_sdk_version=37, uses_libraries=, library_path=/system/product/priv-app/GmsCore/lib/x86_64:/system/product/priv-app/GmsCore/GmsCore.apk!/lib/x86_64:/product/lib64:/system/product/lib64:/system/lib64, permitted_path=/data:/mnt/expand:/data/user/0/com.google.android.gms:/product/lib64:/system/product/lib64
+11-23 10:44:53.351  6531  6679 D nativeloader: InitVndkspLibrariesProduct: VNDK is deprecated with product
+11-23 10:44:53.368   770  2379 W SensorService: sensor 00000000 already enabled in connection 0x77c06facdc10 (ignoring)
+11-23 10:44:53.369   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:53.401   770   961 D ConnectivityService: NetReassign [no changes] [c 0] [a 0] [i 1]
+11-23 10:44:53.419   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:53.422  6531  6679 I .dtd.freefireth: Waiting for a blocking GC ClassLinker
+11-23 10:44:53.452  6531  6679 I .dtd.freefireth: WaitForGcToComplete blocked ClassLinker on NativeAlloc for 29.482ms
+11-23 10:44:53.460  6531  6544 W System  : A resource failed to call close. 
+11-23 10:44:53.460  6531  6544 W System  : A resource failed to call close. 
+11-23 10:44:53.469  6531  6610 I Unity   : obb mainPath != null, load scene
+11-23 10:44:53.936   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:53.937   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:53.937   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:54.665  6531  6679 D ApplicationLoaders: Returning zygote-cached class loader: /system/framework/org.apache.http.legacy.jar
+11-23 10:44:54.665  6531  6679 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.extensions.jar
+11-23 10:44:54.665  6531  6679 D ApplicationLoaders: Returning zygote-cached class loader: /system_ext/framework/androidx.window.sidecar.jar
+11-23 10:44:54.667   770  1002 D BackgroundInstallControlService: Package event received: 0
+11-23 10:44:55.439   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:55.439   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:55.439   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:55.447  6531  6610 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA103.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:44:55.447  6531  6610 E Unity   :  
+11-23 10:44:55.447  6531  6610 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:44:55.447  6531  6610 E Unity   : 
+11-23 10:44:55.452  6531  6610 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA101.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:44:55.452  6531  6610 E Unity   :  
+11-23 10:44:55.452  6531  6610 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:44:55.452  6531  6610 E Unity   : 
+11-23 10:44:55.454  6531  6610 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA104.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:44:55.454  6531  6610 E Unity   :  
+11-23 10:44:55.454  6531  6610 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:44:55.454  6531  6610 E Unity   : 
+11-23 10:44:55.456  6531  6610 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA102.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:44:55.456  6531  6610 E Unity   :  
+11-23 10:44:55.456  6531  6610 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:44:55.456  6531  6610 E Unity   : 
+11-23 10:44:55.742   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:55.801   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:55.852  6531  6610 E Unity   : [NetworkTexture] Create Texture2D Failed , url:https://cdn.wildflamestudio.com/common/OB55/CSH/patchupdate/idnbgiuabA105.ff_extend,tex2d.width8, tex2d.height8
+11-23 10:44:55.852  6531  6610 E Unity   :  
+11-23 10:44:55.852  6531  6610 E Unity   : (Filename: .\Runtime/Export/Debug.bindings.h Line: 45)
+11-23 10:44:55.852  6531  6610 E Unity   : 
+11-23 10:44:55.883   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:56.175   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:56.443   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:56.444   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:56.444   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:56.530   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:57.094   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:57.261   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:57.471   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:57.495   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:57.496   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:57.496   684   693 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:57.587   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:57.782   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:57.854   770   896 D ActivityManager: freezing 1689 com.android.keychain
+11-23 10:44:57.855   770   896 D ActivityManager: freezing 1786 com.android.localtransport
+11-23 10:44:57.943   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:58.136   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:58.247   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(2)
+11-23 10:44:58.303   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:58.485   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:58.504   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:58.504   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:58.504   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:44:58.638   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:44:58.972   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(2)
+11-23 10:44:59.506   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:44:59.506   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:44:59.506   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:45:00.056  6531  6681 W Choreographer: Frame time is 0.352287 ms in the future!  Check that graphics HAL is generating vsync timestamps using the correct timebase.
+11-23 10:45:00.180  1039  1050 I ndroid.systemui: Background concurrent mark compact GC freed 12MB AllocSpace bytes, 0(0B) LOS objects, 49% free, 14MB/29MB, paused 319us,2.197ms total 132.210ms
+11-23 10:45:00.195  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.195  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.195  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.195  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.195  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.195  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.196  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.196  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.196  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.196  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.196  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.196  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.196  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.196  1039  1053 W System  : A resource failed to call HardwareBuffer.close. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.217  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call HardwareBuffer.close. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call HardwareBuffer.close. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.218  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.219  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.220  1039  1053 W System  : A resource failed to call release. 
+11-23 10:45:00.529   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:45:00.529   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:45:00.529   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:45:01.553   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:45:01.553   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:45:01.554   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:45:02.562   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:45:02.562   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:45:02.562   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:45:03.570   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:45:03.570   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:45:03.571   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:45:04.125   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:45:04.371   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:45:04.454   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(1)
+11-23 10:45:04.614   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:45:04.614   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:45:04.614   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:45:04.706   770   896 D ActivityManager: freezing 1924 com.google.android.gms
+11-23 10:45:04.965   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:45:05.123   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:45:05.282   770  4140 D FileUtils: Rounded bytes from 4124016640 to 8000000000
+11-23 10:45:05.520   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(3)
+11-23 10:45:05.628   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:45:05.628   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:45:05.628   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:45:05.820   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(3)
+11-23 10:45:06.453   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(10)
+11-23 10:45:06.653   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:45:06.654   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:45:06.654   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:45:07.663   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:45:07.664   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:45:07.664   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:45:08.683   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:45:08.683   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:45:08.684   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:45:08.992   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(5)
+11-23 10:45:09.705   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:45:09.705   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:45:09.705   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:45:10.219   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(1)
+11-23 10:45:10.726   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP, 00000080) address 
+11-23 10:45:10.727   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_HEADPHONES, 00000100) address 
+11-23 10:45:10.727   684  5302 W APM::HwModule: getDeviceDescriptor: could not find HW module for device  (AUDIO_DEVICE_OUT_BLUETOOTH_A2DP_SPEAKER, 00000200) address 
+11-23 10:45:10.915   684   802 D AudioFlinger: mixer(0x73d6559f0760) throttle end: throttle time(1)
